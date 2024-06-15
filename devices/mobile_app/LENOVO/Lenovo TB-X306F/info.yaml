@@ -2,10 +2,10 @@ entry_type: device
 has_configuration_url: false
 has_suggested_area: false
 has_via_device: false
-manufacturer_name: Oculus
-manufacturer_raw: Oculus
-model_name: Quest
-model_raw: Quest
+manufacturer_name: LENOVO
+manufacturer_raw: LENOVO
+model_name: Lenovo TB-X306F
+model_raw: Lenovo TB-X306F
 versions:
-- software: '32'
+- software: '30'
 - software: '29'

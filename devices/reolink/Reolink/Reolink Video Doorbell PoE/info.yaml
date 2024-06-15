@@ -9,3 +9,5 @@ model_raw: Reolink Video Doorbell PoE
 versions:
 - hardware: DB_566128M5MP_P
   software: v3.0.0.2555_23080702
+- hardware: DB_566128M5MP_P
+  software: v3.0.0.2033_23041302

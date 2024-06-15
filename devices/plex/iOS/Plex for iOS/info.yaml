@@ -10,3 +10,5 @@ versions:
 - software: '8.23'
 - software: '8.18'
 - software: '8.21'
+- software: '8.34'
+- software: '8.35'
