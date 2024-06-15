@@ -1,5 +1,7 @@
 # Device collection
 
+_This is experimental and may change at any time._
+
 Each device is stored in: `devices/<integration>/<device manufacturer>/<device model>/`
 
 The integration, manufacturer and model are the data reported in Home Assistant.
