@@ -9,3 +9,5 @@ model_raw: Plex for Android (TV)
 versions:
 - software: 9.26.1.2783
 - software: 9.20.1.979
+- software: 10.16.0.758
+- software: 10.13.0.466

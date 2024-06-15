@@ -4,7 +4,7 @@ has_suggested_area: false
 has_via_device: true
 manufacturer_name: LUMI
 manufacturer_raw: LUMI
-model_name: lumi.sensor_magnet.aq2
-model_raw: lumi.sensor_magnet.aq2
+model_name: lumi.sensor_motion.aq2
+model_raw: lumi.sensor_motion.aq2
 versions:
 - {}
