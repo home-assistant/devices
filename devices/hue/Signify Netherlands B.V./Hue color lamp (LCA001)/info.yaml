@@ -1,11 +1,10 @@
 entry_type: device
 has_configuration_url: false
-has_suggested_area: false
-has_via_device: false
+has_suggested_area: true
+has_via_device: true
 manufacturer_name: Signify Netherlands B.V.
 manufacturer_raw: Signify Netherlands B.V.
-model_name: BSB002
-model_raw: BSB002
+model_name: Hue color lamp (LCA001)
+model_raw: Hue color lamp (LCA001)
 versions:
-- software: 1.64.1964117020
-- software: 1.65.1965017030
+- software: 1.116.3

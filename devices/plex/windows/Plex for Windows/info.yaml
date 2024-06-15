@@ -1,0 +1,15 @@
+entry_type: device
+has_configuration_url: false
+has_suggested_area: false
+has_via_device: true
+manufacturer_name: windows
+manufacturer_raw: windows
+model_name: Plex for Windows
+model_raw: Plex for Windows
+versions:
+- software: 1.77.3.3966-a5ddb215
+- software: 1.49.1.3146-73559c78
+- software: 1.73.1.3905-c1a43e18
+- software: 1.75.0.3920-8b50876d
+- software: 1.79.1.3984-879339ed
+- software: 1.87.2.87-87488d5a
