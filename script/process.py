@@ -138,7 +138,7 @@ def process_row(row):
         ("has_configuration_url", "has_configuration_url"),
         ("entry_type", "entry_type"),
     ):
-        if not info[info_key]:
+        if not info[info_key] and row[row_key]:
             info[info_key] = row[row_key]
             changed = True
 
