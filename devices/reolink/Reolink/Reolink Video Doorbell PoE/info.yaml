@@ -1,0 +1,11 @@
+entry_type: device
+has_configuration_url: true
+has_suggested_area: false
+has_via_device: false
+manufacturer_name: Reolink
+manufacturer_raw: Reolink
+model_name: Reolink Video Doorbell PoE
+model_raw: Reolink Video Doorbell PoE
+versions:
+- hardware: DB_566128M5MP_P
+  software: v3.0.0.2555_23080702

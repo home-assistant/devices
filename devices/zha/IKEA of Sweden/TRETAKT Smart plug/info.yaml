@@ -1,0 +1,10 @@
+entry_type: device
+has_configuration_url: false
+has_suggested_area: false
+has_via_device: false
+manufacturer_name: IKEA of Sweden
+manufacturer_raw: IKEA of Sweden
+model_name: TRETAKT Smart plug
+model_raw: TRETAKT Smart plug
+versions:
+- software: '0x02040004'

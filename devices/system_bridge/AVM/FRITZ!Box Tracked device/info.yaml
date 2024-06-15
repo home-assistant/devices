@@ -1,0 +1,10 @@
+entry_type: device
+has_configuration_url: true
+has_suggested_area: false
+has_via_device: true
+manufacturer_name: AVM
+manufacturer_raw: AVM
+model_name: FRITZ!Box Tracked device
+model_raw: FRITZ!Box Tracked device
+versions:
+- software: 4.1.10

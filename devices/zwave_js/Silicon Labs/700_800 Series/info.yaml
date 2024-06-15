@@ -1,0 +1,12 @@
+entry_type: device
+has_configuration_url: false
+has_suggested_area: false
+has_via_device: false
+manufacturer_name: Silicon Labs
+manufacturer_raw: Silicon Labs
+model_name: 700/800 Series
+model_raw: 700/800 Series
+versions:
+- software: 7.17.2
+- software: 7.15.1
+- software: 7.18.1

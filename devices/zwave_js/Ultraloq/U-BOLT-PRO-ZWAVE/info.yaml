@@ -1,0 +1,10 @@
+entry_type: device
+has_configuration_url: false
+has_suggested_area: false
+has_via_device: true
+manufacturer_name: Ultraloq
+manufacturer_raw: Ultraloq
+model_name: U-BOLT-PRO-ZWAVE
+model_raw: U-BOLT-PRO-ZWAVE
+versions:
+- software: 1.5.3

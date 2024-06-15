@@ -1,0 +1,11 @@
+entry_type: device
+has_configuration_url: false
+has_suggested_area: false
+has_via_device: false
+manufacturer_name: Sengled
+manufacturer_raw: Sengled
+model_name: W41-N15A
+model_raw: W41-N15A
+versions:
+- hardware: V1
+  software: V1.0.0.5

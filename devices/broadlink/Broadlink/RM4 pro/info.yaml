@@ -1,0 +1,11 @@
+entry_type: device
+has_configuration_url: false
+has_suggested_area: false
+has_via_device: false
+manufacturer_name: Broadlink
+manufacturer_raw: Broadlink
+model_name: RM4 pro
+model_raw: RM4 pro
+versions:
+- software: '62093'
+- software: '52079'

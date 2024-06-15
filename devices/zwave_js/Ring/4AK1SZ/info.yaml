@@ -1,0 +1,10 @@
+entry_type: device
+has_configuration_url: false
+has_suggested_area: false
+has_via_device: true
+manufacturer_name: Ring
+manufacturer_raw: Ring
+model_name: 4AK1SZ
+model_raw: 4AK1SZ
+versions:
+- software: 1.18.0

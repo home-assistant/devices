@@ -1,0 +1,10 @@
+entry_type: device
+has_configuration_url: false
+has_suggested_area: true
+has_via_device: true
+manufacturer_name: GE
+manufacturer_raw: GE
+model_name: 14284 / ZW4201
+model_raw: 14284 / ZW4201
+versions:
+- software: '5.21'

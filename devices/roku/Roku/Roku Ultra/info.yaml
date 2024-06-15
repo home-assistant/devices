@@ -1,0 +1,11 @@
+entry_type: device
+has_configuration_url: false
+has_suggested_area: true
+has_via_device: false
+manufacturer_name: Roku
+manufacturer_raw: Roku
+model_name: Roku Ultra
+model_raw: Roku Ultra
+versions:
+- hardware: 4660RW
+  software: 13.0.0

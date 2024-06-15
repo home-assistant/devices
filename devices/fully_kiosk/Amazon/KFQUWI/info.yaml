@@ -1,0 +1,10 @@
+entry_type: device
+has_configuration_url: true
+has_suggested_area: false
+has_via_device: false
+manufacturer_name: Amazon
+manufacturer_raw: Amazon
+model_name: KFQUWI
+model_raw: KFQUWI
+versions:
+- software: 1.55.3-play

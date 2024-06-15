@@ -1,0 +1,11 @@
+entry_type: device
+has_configuration_url: true
+has_suggested_area: false
+has_via_device: false
+manufacturer_name: Grandstream
+manufacturer_raw: Grandstream
+model_name: HT801
+model_raw: HT801
+versions:
+- software: 1.0.51.1
+- software: 1.0.43.11

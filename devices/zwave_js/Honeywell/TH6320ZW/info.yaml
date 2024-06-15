@@ -1,0 +1,10 @@
+entry_type: device
+has_configuration_url: false
+has_suggested_area: false
+has_via_device: true
+manufacturer_name: Honeywell
+manufacturer_raw: Honeywell
+model_name: TH6320ZW
+model_raw: TH6320ZW
+versions:
+- software: '1.3'

@@ -1,0 +1,10 @@
+entry_type: device
+has_configuration_url: false
+has_suggested_area: true
+has_via_device: true
+manufacturer_name: Signify Netherlands B.V.
+manufacturer_raw: Signify Netherlands B.V.
+model_name: Signe gradient table (915005987001)
+model_raw: Signe gradient table (915005987001)
+versions:
+- software: 1.116.3

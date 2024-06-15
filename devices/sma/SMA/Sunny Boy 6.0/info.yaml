@@ -1,0 +1,10 @@
+entry_type: device
+has_configuration_url: true
+has_suggested_area: false
+has_via_device: false
+manufacturer_name: SMA
+manufacturer_raw: SMA
+model_name: Sunny Boy 6.0
+model_raw: Sunny Boy 6.0
+versions:
+- software: 4.1.15.R
