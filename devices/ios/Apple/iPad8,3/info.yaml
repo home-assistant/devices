@@ -1,0 +1,10 @@
+entry_type: device
+has_configuration_url: false
+has_suggested_area: false
+has_via_device: false
+manufacturer_name: Apple
+manufacturer_raw: Apple
+model_name: iPad8,3
+model_raw: iPad8,3
+versions:
+- software: 13.2.2

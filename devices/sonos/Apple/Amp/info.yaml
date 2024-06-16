@@ -1,0 +1,10 @@
+entry_type: device
+has_configuration_url: true
+has_suggested_area: false
+has_via_device: false
+manufacturer_name: Apple
+manufacturer_raw: Apple
+model_name: Amp
+model_raw: Amp
+versions:
+- {}

@@ -1,0 +1,10 @@
+entry_type: device
+has_configuration_url: true
+has_suggested_area: false
+has_via_device: true
+manufacturer_name: 'WDC     '
+manufacturer_raw: 'WDC     '
+model_name: WD100EFAX-68LHPN0
+model_raw: WD100EFAX-68LHPN0
+versions:
+- software: 83.H0A83

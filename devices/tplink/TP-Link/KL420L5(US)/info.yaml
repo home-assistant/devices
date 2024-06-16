@@ -1,0 +1,11 @@
+entry_type: device
+has_configuration_url: false
+has_suggested_area: false
+has_via_device: false
+manufacturer_name: TP-Link
+manufacturer_raw: TP-Link
+model_name: KL420L5(US)
+model_raw: KL420L5(US)
+versions:
+- hardware: '1.0'
+  software: 1.0.2 Build 211009 Rel.164949

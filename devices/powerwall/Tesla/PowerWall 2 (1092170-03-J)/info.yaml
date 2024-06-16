@@ -1,0 +1,10 @@
+entry_type: device
+has_configuration_url: true
+has_suggested_area: false
+has_via_device: true
+manufacturer_name: Tesla
+manufacturer_raw: Tesla
+model_name: PowerWall 2 (1092170-03-J)
+model_raw: PowerWall 2 (1092170-03-J)
+versions:
+- software: 23.28.2 27626f98

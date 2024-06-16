@@ -1,0 +1,10 @@
+entry_type: device
+has_configuration_url: false
+has_suggested_area: false
+has_via_device: false
+manufacturer_name: Samsung
+manufacturer_raw: Samsung
+model_name: QN82Q60RAFXZA
+model_raw: QN82Q60RAFXZA
+versions:
+- {}

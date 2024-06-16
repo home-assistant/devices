@@ -1,0 +1,11 @@
+entry_type: device
+has_configuration_url: false
+has_suggested_area: false
+has_via_device: false
+manufacturer_name: TP-Link
+manufacturer_raw: TP-Link
+model_name: TP15
+model_raw: TP15
+versions:
+- hardware: '1.0'
+  software: 1.0.3 Build 230112 Rel.124621

@@ -8,3 +8,5 @@ model_name: One
 model_raw: One
 versions:
 - software: '16.2'
+- software: 16.1.1
+- software: '15.3'

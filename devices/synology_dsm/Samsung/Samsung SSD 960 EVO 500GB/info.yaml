@@ -1,0 +1,10 @@
+entry_type: device
+has_configuration_url: true
+has_suggested_area: false
+has_via_device: true
+manufacturer_name: Samsung
+manufacturer_raw: Samsung
+model_name: Samsung SSD 960 EVO 500GB
+model_raw: Samsung SSD 960 EVO 500GB
+versions:
+- software: 3B7QCXE7
