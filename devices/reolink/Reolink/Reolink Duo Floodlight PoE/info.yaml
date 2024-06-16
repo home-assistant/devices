@@ -2,6 +2,7 @@ entry_type: device
 has_configuration_url: true
 has_suggested_area: false
 has_via_device: false
+is_via_device: false
 manufacturer_name: Reolink
 manufacturer_raw: Reolink
 model_name: Reolink Duo Floodlight PoE
@@ -9,4 +10,3 @@ model_raw: Reolink Duo Floodlight PoE
 versions:
 - hardware: IPC_529B17B8MP
   software: v3.0.0.1889_23031702
-is_via_device: false

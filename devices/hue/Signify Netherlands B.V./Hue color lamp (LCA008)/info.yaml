@@ -2,6 +2,7 @@ entry_type: device
 has_configuration_url: false
 has_suggested_area: true
 has_via_device: true
+is_via_device: false
 manufacturer_name: Signify Netherlands B.V.
 manufacturer_raw: Signify Netherlands B.V.
 model_name: Hue color lamp (LCA008)
@@ -9,4 +10,3 @@ model_raw: Hue color lamp (LCA008)
 versions:
 - software: 1.104.2
 - software: 1.116.3
-is_via_device: false

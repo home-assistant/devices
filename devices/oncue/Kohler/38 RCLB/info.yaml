@@ -2,6 +2,7 @@ entry_type: device
 has_configuration_url: false
 has_suggested_area: false
 has_via_device: false
+is_via_device: false
 manufacturer_name: Kohler
 manufacturer_raw: Kohler
 model_name: 38 RCLB
@@ -9,4 +10,3 @@ model_raw: 38 RCLB
 versions:
 - hardware: '604'
   software: 3.4.5
-is_via_device: false

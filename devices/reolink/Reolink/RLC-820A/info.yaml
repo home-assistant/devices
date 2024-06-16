@@ -2,6 +2,7 @@ entry_type: device
 has_configuration_url: true
 has_suggested_area: false
 has_via_device: false
+is_via_device: false
 manufacturer_name: Reolink
 manufacturer_raw: Reolink
 model_name: RLC-820A
@@ -9,4 +10,3 @@ model_raw: RLC-820A
 versions:
 - hardware: IPC_523128M8MP
   software: v3.1.0.956_22041501
-is_via_device: false

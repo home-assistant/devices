@@ -2,10 +2,10 @@ entry_type: device
 has_configuration_url: true
 has_suggested_area: false
 has_via_device: false
+is_via_device: false
 manufacturer_name: SlimProto Player
 manufacturer_raw: SlimProto Player
 model_name: SqueezeESP32
 model_raw: SqueezeESP32
 versions:
 - hardware: v1.0-1670-16
-is_via_device: false

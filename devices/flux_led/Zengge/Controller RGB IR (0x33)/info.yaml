@@ -2,6 +2,7 @@ entry_type: device
 has_configuration_url: false
 has_suggested_area: false
 has_via_device: false
+is_via_device: false
 manufacturer_name: Zengge
 manufacturer_raw: Zengge
 model_name: Controller RGB IR (0x33)
@@ -9,4 +10,3 @@ model_raw: Controller RGB IR (0x33)
 versions:
 - hardware: AK001-ZJ210
   software: '6.37'
-is_via_device: false

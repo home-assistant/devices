@@ -2,10 +2,10 @@ entry_type: device
 has_configuration_url: false
 has_suggested_area: false
 has_via_device: false
+is_via_device: false
 manufacturer_name: EATON
 manufacturer_raw: EATON
 model_name: 5P 1550
 model_raw: 5P 1550
 versions:
 - software: 03.18.0035
-is_via_device: false

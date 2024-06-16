@@ -2,10 +2,10 @@ entry_type: device
 has_configuration_url: true
 has_suggested_area: true
 has_via_device: true
+is_via_device: false
 manufacturer_name: Monte Carlo
 manufacturer_raw: Monte Carlo
 model_name: MCSMRC
 model_raw: MCSMRC
 versions:
 - software: v3.5
-is_via_device: false

@@ -81,6 +81,9 @@ def validate_device(path):
 
     info = yaml.safe_load((path / "info.yaml").read_text())
 
+    if list(info) != sorted(info):
+        report.errors["info.yaml"].append("Keys are not sorted")
+
     try:
         INFO_YAML(info)
     except vol.Invalid as err:

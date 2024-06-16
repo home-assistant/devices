@@ -2,10 +2,10 @@ entry_type: device
 has_configuration_url: false
 has_suggested_area: false
 has_via_device: false
+is_via_device: false
 manufacturer_name: Tuya
 manufacturer_raw: Tuya
 model_name: YuHao dcFan (uoebyc4b8it0eh09)
 model_raw: YuHao dcFan (uoebyc4b8it0eh09)
 versions:
 - {}
-is_via_device: false

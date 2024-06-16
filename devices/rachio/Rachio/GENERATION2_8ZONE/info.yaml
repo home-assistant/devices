@@ -2,10 +2,10 @@ entry_type: device
 has_configuration_url: true
 has_suggested_area: false
 has_via_device: false
+is_via_device: false
 manufacturer_name: Rachio
 manufacturer_raw: Rachio
 model_name: GENERATION2_8ZONE
 model_raw: GENERATION2_8ZONE
 versions:
 - {}
-is_via_device: false

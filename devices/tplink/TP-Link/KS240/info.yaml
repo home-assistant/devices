@@ -2,6 +2,7 @@ entry_type: device
 has_configuration_url: false
 has_suggested_area: false
 has_via_device: true
+is_via_device: false
 manufacturer_name: TP-Link
 manufacturer_raw: TP-Link
 model_name: KS240
@@ -9,4 +10,3 @@ model_raw: KS240
 versions:
 - hardware: '1.0'
   software: 1.0.4 Build 230721 Rel.184322
-is_via_device: false

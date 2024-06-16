@@ -2,6 +2,7 @@ entry_type: device
 has_configuration_url: false
 has_suggested_area: false
 has_via_device: true
+is_via_device: false
 manufacturer_name: IKEA of Sweden
 manufacturer_raw: IKEA of Sweden
 model_name: STARKVIND Air purifier table
@@ -9,4 +10,3 @@ model_raw: STARKVIND Air purifier table
 versions:
 - software: '0x00010033'
 - software: '0x00011001'
-is_via_device: false

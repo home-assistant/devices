@@ -2,10 +2,10 @@ entry_type: device
 has_configuration_url: true
 has_suggested_area: false
 has_via_device: false
+is_via_device: false
 manufacturer_name: Nanoleaf
 manufacturer_raw: Nanoleaf
 model_name: NL22
 model_raw: NL22
 versions:
 - software: 5.2.2
-is_via_device: false

@@ -2,6 +2,7 @@ entry_type: device
 has_configuration_url: true
 has_suggested_area: false
 has_via_device: true
+is_via_device: false
 manufacturer_name: Synology
 manufacturer_raw: Synology
 model_name: DS920+
@@ -10,4 +11,3 @@ versions:
 - software: DSM 6.2.4-25556 Update 7
 - software: 9.2.0-9289
 - software: 9.0.2-8061
-is_via_device: false

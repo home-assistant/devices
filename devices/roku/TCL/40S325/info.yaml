@@ -2,6 +2,7 @@ entry_type: device
 has_configuration_url: false
 has_suggested_area: true
 has_via_device: false
+is_via_device: false
 manufacturer_name: TCL
 manufacturer_raw: TCL
 model_name: 40S325
@@ -9,4 +10,3 @@ model_raw: 40S325
 versions:
 - hardware: 8113X
   software: 13.0.0
-is_via_device: false

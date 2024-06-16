@@ -2,10 +2,10 @@ entry_type: device
 has_configuration_url: false
 has_suggested_area: false
 has_via_device: true
+is_via_device: false
 manufacturer_name: Leviton
 manufacturer_raw: Leviton
 model_name: DZPD3
 model_raw: DZPD3
 versions:
 - software: '1.20'
-is_via_device: false

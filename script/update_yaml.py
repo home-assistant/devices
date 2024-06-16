@@ -22,7 +22,7 @@ def update():
                 info = yaml.safe_load(info_path.read_text())
                 for new_key, default_value in NEW_KEYS.items():
                     info.setdefault(new_key, default_value)
-                info_path.write_text(yaml.dump(info, sort_keys=False))
+                info_path.write_text(yaml.dump(info))
 
 
 if __name__ == "__main__":

@@ -2,6 +2,7 @@ entry_type: device
 has_configuration_url: false
 has_suggested_area: false
 has_via_device: true
+is_via_device: false
 manufacturer_name: Tizen
 manufacturer_raw: Tizen
 model_name: Plex for Samsung
@@ -10,4 +11,3 @@ versions:
 - software: 5.74.0
 - software: 5.59.3
 - software: 5.81.1
-is_via_device: false

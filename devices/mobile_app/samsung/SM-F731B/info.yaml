@@ -2,10 +2,10 @@ entry_type: device
 has_configuration_url: false
 has_suggested_area: false
 has_via_device: false
+is_via_device: false
 manufacturer_name: samsung
 manufacturer_raw: samsung
 model_name: SM-F731B
 model_raw: SM-F731B
 versions:
 - software: '34'
-is_via_device: false

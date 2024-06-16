@@ -2,10 +2,10 @@ entry_type: device
 has_configuration_url: false
 has_suggested_area: false
 has_via_device: true
+is_via_device: false
 manufacturer_name: Aeotec Ltd.
 manufacturer_raw: Aeotec Ltd.
 model_name: ZW175
 model_raw: ZW175
 versions:
 - software: '1.2'
-is_via_device: false

@@ -2,10 +2,10 @@ entry_type: device
 has_configuration_url: false
 has_suggested_area: false
 has_via_device: true
+is_via_device: false
 manufacturer_name: Zooz
 manufacturer_raw: Zooz
 model_name: ZEN04
 model_raw: ZEN04
 versions:
 - software: 1.30.1
-is_via_device: false

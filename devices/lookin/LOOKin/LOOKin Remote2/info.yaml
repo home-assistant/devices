@@ -2,6 +2,7 @@ entry_type: device
 has_configuration_url: true
 has_suggested_area: false
 has_via_device: false
+is_via_device: false
 manufacturer_name: LOOKin
 manufacturer_raw: LOOKin
 model_name: LOOKin Remote2
@@ -9,4 +10,3 @@ model_raw: LOOKin Remote2
 versions:
 - software: 2.43.0104
 - software: 2.43.0067
-is_via_device: false

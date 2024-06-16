@@ -2,6 +2,7 @@ entry_type: device
 has_configuration_url: false
 has_suggested_area: false
 has_via_device: true
+is_via_device: false
 manufacturer_name: Android
 manufacturer_raw: Android
 model_name: Plex for Android (TV)
@@ -11,4 +12,3 @@ versions:
 - software: 9.20.1.979
 - software: 10.16.0.758
 - software: 10.13.0.466
-is_via_device: false

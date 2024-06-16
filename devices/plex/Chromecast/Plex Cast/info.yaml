@@ -2,10 +2,10 @@ entry_type: device
 has_configuration_url: false
 has_suggested_area: false
 has_via_device: true
+is_via_device: false
 manufacturer_name: Chromecast
 manufacturer_raw: Chromecast
 model_name: Plex Cast
 model_raw: Plex Cast
 versions:
 - software: 4.54.1
-is_via_device: false

@@ -2,10 +2,10 @@ entry_type: device
 has_configuration_url: true
 has_suggested_area: true
 has_via_device: true
+is_via_device: false
 manufacturer_name: Hinkley
 manufacturer_raw: Hinkley
 model_name: '900172'
 model_raw: '900172'
 versions:
 - software: v3.5
-is_via_device: false

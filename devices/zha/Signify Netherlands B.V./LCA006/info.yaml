@@ -2,10 +2,10 @@ entry_type: device
 has_configuration_url: false
 has_suggested_area: false
 has_via_device: false
+is_via_device: false
 manufacturer_name: Signify Netherlands B.V.
 manufacturer_raw: Signify Netherlands B.V.
 model_name: LCA006
 model_raw: LCA006
 versions:
 - software: '0x01001f0a'
-is_via_device: false

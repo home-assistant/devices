@@ -2,10 +2,10 @@ entry_type: device
 has_configuration_url: false
 has_suggested_area: false
 has_via_device: true
+is_via_device: false
 manufacturer_name: Shelly Europe Ltd.
 manufacturer_raw: Shelly Europe Ltd.
 model_name: QNPL-001X16
 model_raw: QNPL-001X16
 versions:
 - software: 10.11.0
-is_via_device: false

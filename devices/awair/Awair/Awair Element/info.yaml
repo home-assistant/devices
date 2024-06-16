@@ -2,10 +2,10 @@ entry_type: device
 has_configuration_url: false
 has_suggested_area: false
 has_via_device: true
+is_via_device: false
 manufacturer_name: Awair
 manufacturer_raw: Awair
 model_name: Awair Element
 model_raw: Awair Element
 versions:
 - software: 1.4.1
-is_via_device: false

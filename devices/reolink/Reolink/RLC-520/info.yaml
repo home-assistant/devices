@@ -2,6 +2,7 @@ entry_type: device
 has_configuration_url: true
 has_suggested_area: false
 has_via_device: false
+is_via_device: false
 manufacturer_name: Reolink
 manufacturer_raw: Reolink
 model_name: RLC-520
@@ -9,4 +10,3 @@ model_raw: RLC-520
 versions:
 - hardware: IPC_51516M5M
   software: v3.0.0.136_20121112
-is_via_device: false

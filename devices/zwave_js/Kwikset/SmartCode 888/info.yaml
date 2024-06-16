@@ -2,10 +2,10 @@ entry_type: device
 has_configuration_url: false
 has_suggested_area: true
 has_via_device: true
+is_via_device: false
 manufacturer_name: Kwikset
 manufacturer_raw: Kwikset
 model_name: SmartCode 888
 model_raw: SmartCode 888
 versions:
 - software: '4.79'
-is_via_device: false

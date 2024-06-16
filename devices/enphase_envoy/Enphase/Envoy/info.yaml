@@ -2,6 +2,7 @@ entry_type: device
 has_configuration_url: false
 has_suggested_area: false
 has_via_device: false
+is_via_device: false
 manufacturer_name: Enphase
 manufacturer_raw: Enphase
 model_name: Envoy
@@ -13,4 +14,3 @@ versions:
   software: 5.0.62
 - hardware: 800-00069-r05
   software: 3.9.36
-is_via_device: false
