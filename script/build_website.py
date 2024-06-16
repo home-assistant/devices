@@ -41,6 +41,8 @@ def build():
 
 [_Access this data as JSON_]({WEBSITE_BASE_PATH}integrations.json)
 
+[_Contribute devices_](https://github.com/home-assistant/devices-experiment?tab=readme-ov-file#adding-new-devices)
+
 {"\n".join(index_markdown)}
 """)
     )
