@@ -1,0 +1,12 @@
+entry_type: device
+has_configuration_url: true
+has_suggested_area: false
+has_via_device: false
+is_via_device: false
+manufacturer_name: Shelly
+manufacturer_raw: Shelly
+model_name: Shelly 2
+model_raw: Shelly 2
+versions:
+- hardware: gen1 (SHSW-21)
+  software: 20230913-112145/v1.14.0-gcb84623

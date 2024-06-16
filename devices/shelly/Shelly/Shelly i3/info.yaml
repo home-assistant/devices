@@ -1,0 +1,12 @@
+entry_type: device
+has_configuration_url: true
+has_suggested_area: false
+has_via_device: false
+is_via_device: false
+manufacturer_name: Shelly
+manufacturer_raw: Shelly
+model_name: Shelly i3
+model_raw: Shelly i3
+versions:
+- hardware: gen1 (SHIX3-1)
+  software: 20230913-114336/v1.14.0-gcb84623
