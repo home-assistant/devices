@@ -65,6 +65,7 @@ DEVICE_SCHEMA = vol.Schema(
         "has_suggested_area": bool,
         "has_configuration_url": bool,
         "entry_type": str_or_none,
+        "is_via_device": bool,
     }
 )
 
@@ -137,8 +138,9 @@ def process_row(row):
         ("has_suggested_area", "has_suggested_area"),
         ("has_configuration_url", "has_configuration_url"),
         ("entry_type", "entry_type"),
+        ("is_via_device", "is_via_device"),
     ):
-        if not info[info_key] and row[row_key]:
+        if not info.get(info_key) and row[row_key]:
             info[info_key] = row[row_key]
             changed = True
 
