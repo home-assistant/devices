@@ -1,0 +1,10 @@
+entry_type: device
+has_configuration_url: false
+has_suggested_area: false
+has_via_device: false
+manufacturer_name: CPS
+manufacturer_raw: CPS
+model_name: PR3000RT2U
+model_raw: PR3000RT2U
+versions:
+- {}

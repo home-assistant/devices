@@ -1,0 +1,10 @@
+entry_type: device
+has_configuration_url: true
+has_suggested_area: false
+has_via_device: false
+manufacturer_name: Sonos
+manufacturer_raw: Sonos
+model_name: Port
+model_raw: Port
+versions:
+- software: '16.2'

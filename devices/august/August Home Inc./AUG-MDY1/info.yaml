@@ -8,3 +8,7 @@ model_name: AUG-MDY1
 model_raw: AUG-MDY1
 versions:
 - software: 2.2.5
+- software: 2.7.0-2.0.5
+- software: 2.0.5
+- software: 4.3.0-2.0.5
+- software: 2.8.0-2.0.5

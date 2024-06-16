@@ -1,0 +1,10 @@
+entry_type: device
+has_configuration_url: true
+has_suggested_area: false
+has_via_device: false
+manufacturer_name: Sense Labs, Inc.
+manufacturer_raw: Sense Labs, Inc.
+model_name: Sense
+model_raw: Sense
+versions:
+- {}

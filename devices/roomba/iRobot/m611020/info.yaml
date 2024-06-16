@@ -1,0 +1,10 @@
+entry_type: device
+has_configuration_url: false
+has_suggested_area: false
+has_via_device: false
+manufacturer_name: iRobot
+manufacturer_raw: iRobot
+model_name: m611020
+model_raw: m611020
+versions:
+- software: sanmarino+22.29.6+2022-12-01-82f3372a65c+Firmware-Build+2321

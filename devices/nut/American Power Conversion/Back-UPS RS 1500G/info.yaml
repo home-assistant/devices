@@ -1,0 +1,10 @@
+entry_type: device
+has_configuration_url: false
+has_suggested_area: false
+has_via_device: false
+manufacturer_name: American Power Conversion
+manufacturer_raw: American Power Conversion
+model_name: Back-UPS RS 1500G
+model_raw: Back-UPS RS 1500G
+versions:
+- software: 865.L9 .D

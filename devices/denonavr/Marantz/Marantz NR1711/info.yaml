@@ -1,0 +1,10 @@
+entry_type: device
+has_configuration_url: true
+has_suggested_area: false
+has_via_device: false
+manufacturer_name: Marantz
+manufacturer_raw: Marantz
+model_name: Marantz NR1711
+model_raw: Marantz NR1711
+versions:
+- hardware: avr-x-2016

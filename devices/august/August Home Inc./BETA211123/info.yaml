@@ -1,0 +1,10 @@
+entry_type: device
+has_configuration_url: true
+has_suggested_area: true
+has_via_device: false
+manufacturer_name: August Home Inc.
+manufacturer_raw: August Home Inc.
+model_name: BETA211123
+model_raw: BETA211123
+versions:
+- software: 1.3.16

@@ -1,0 +1,10 @@
+entry_type: device
+has_configuration_url: true
+has_suggested_area: false
+has_via_device: false
+manufacturer_name: Flume, Inc.
+manufacturer_raw: Flume, Inc.
+model_name: Flume Smart Water Monitor
+model_raw: Flume Smart Water Monitor
+versions:
+- {}

@@ -1,0 +1,10 @@
+entry_type: device
+has_configuration_url: false
+has_suggested_area: false
+has_via_device: false
+manufacturer_name: iRobot
+manufacturer_raw: iRobot
+model_name: s955020
+model_raw: s955020
+versions:
+- software: soho+22.29.10+2023-10-09-2b3f87f75e8+Firmware-Build+4863

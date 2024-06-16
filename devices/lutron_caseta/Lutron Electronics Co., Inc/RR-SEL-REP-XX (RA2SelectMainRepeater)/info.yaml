@@ -1,0 +1,10 @@
+entry_type: device
+has_configuration_url: true
+has_suggested_area: false
+has_via_device: true
+manufacturer_name: Lutron Electronics Co., Inc
+manufacturer_raw: Lutron Electronics Co., Inc
+model_name: RR-SEL-REP-XX (RA2SelectMainRepeater)
+model_raw: RR-SEL-REP-XX (RA2SelectMainRepeater)
+versions:
+- {}

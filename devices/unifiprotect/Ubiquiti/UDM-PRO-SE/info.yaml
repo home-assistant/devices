@@ -1,0 +1,11 @@
+entry_type: device
+has_configuration_url: true
+has_suggested_area: false
+has_via_device: false
+manufacturer_name: Ubiquiti
+manufacturer_raw: Ubiquiti
+model_name: UDM-PRO-SE
+model_raw: UDM-PRO-SE
+versions:
+- hardware: '26'
+  software: 4.0.33

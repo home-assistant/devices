@@ -8,3 +8,4 @@ model_name: Roam
 model_raw: Roam
 versions:
 - software: '16.2'
+- software: 16.1.1

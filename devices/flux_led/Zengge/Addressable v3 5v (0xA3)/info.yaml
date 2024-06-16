@@ -1,0 +1,11 @@
+entry_type: device
+has_configuration_url: false
+has_suggested_area: false
+has_via_device: false
+manufacturer_name: Zengge
+manufacturer_raw: Zengge
+model_name: Addressable v3 5v (0xA3)
+model_raw: Addressable v3 5v (0xA3)
+versions:
+- hardware: AK001-ZJ2148
+  software: '1.27'
