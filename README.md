@@ -2,6 +2,8 @@
 
 _This is experimental and may change at any time._
 
+This collection is automatically published at https://home-assistant.github.io/devices/.
+
 Each device is stored in: `devices/<integration>/<device manufacturer>/<device model>/`
 
 The integration, manufacturer and model are the data reported in Home Assistant.

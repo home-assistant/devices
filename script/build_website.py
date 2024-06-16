@@ -14,7 +14,7 @@ import yaml
 ROOT_DIR = pathlib.Path(__file__).parent.parent.resolve()
 DEVICES_DIR = ROOT_DIR / "devices"
 BUILD_DIR = ROOT_DIR / "build/website"
-WEBSITE_BASE_PATH = "https://home-assistant.github.io/devices-experiment/"
+WEBSITE_BASE_PATH = "https://home-assistant.github.io/devices/"
 
 INTEGRATIONS_INFO = httpx.get("https://www.home-assistant.io/integrations.json").json()
 
@@ -44,7 +44,7 @@ _Total devices: {device_count}_
 
 [_Access this data as JSON_]({WEBSITE_BASE_PATH}integrations.json)
 
-[_Contribute devices_](https://github.com/home-assistant/devices-experiment?tab=readme-ov-file#adding-new-devices)
+[_Contribute devices_](https://github.com/home-assistant/devices?tab=readme-ov-file#adding-new-devices)
 
 {"\n".join(index_markdown)}
 """)
