@@ -8,3 +8,4 @@ model_name: SHSG10000
 model_raw: SHSG10000
 versions:
 - software: 1.2.1
+is_via_device: false

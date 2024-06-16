@@ -8,3 +8,4 @@ model_name: SM-P610
 model_raw: SM-P610
 versions:
 - software: '33'
+is_via_device: false

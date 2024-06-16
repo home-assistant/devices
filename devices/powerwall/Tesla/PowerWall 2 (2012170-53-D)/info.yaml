@@ -8,3 +8,4 @@ model_name: PowerWall 2 (2012170-53-D)
 model_raw: PowerWall 2 (2012170-53-D)
 versions:
 - software: 23.28.2 27626f98
+is_via_device: false

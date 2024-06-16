@@ -8,3 +8,4 @@ model_name: HUSBZB-1
 model_raw: HUSBZB-1
 versions:
 - software: '4.32'
+is_via_device: false

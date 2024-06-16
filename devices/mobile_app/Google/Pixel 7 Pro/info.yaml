@@ -8,3 +8,4 @@ model_name: Pixel 7 Pro
 model_raw: Pixel 7 Pro
 versions:
 - software: '34'
+is_via_device: false

@@ -8,3 +8,4 @@ model_name: ZEN20
 model_raw: ZEN20
 versions:
 - software: 3.0.1
+is_via_device: false

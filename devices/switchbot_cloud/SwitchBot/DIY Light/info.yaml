@@ -8,3 +8,4 @@ model_name: DIY Light
 model_raw: DIY Light
 versions:
 - {}
+is_via_device: false

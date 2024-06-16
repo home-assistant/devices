@@ -8,3 +8,4 @@ model_name: Smart TV Pro
 model_raw: Smart TV Pro
 versions:
 - {}
+is_via_device: false

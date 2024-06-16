@@ -8,3 +8,4 @@ model_name: ZW164
 model_raw: ZW164
 versions:
 - software: '1.9'
+is_via_device: false

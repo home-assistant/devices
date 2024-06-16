@@ -8,3 +8,4 @@ model_name: ZW090
 model_raw: ZW090
 versions:
 - software: '1.1'
+is_via_device: false

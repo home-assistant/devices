@@ -9,3 +9,4 @@ model_raw: RX-V685
 versions:
 - software: '2.13'
 - software: '2.07'
+is_via_device: false

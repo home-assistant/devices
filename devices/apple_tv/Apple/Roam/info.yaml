@@ -8,3 +8,4 @@ model_name: Roam
 model_raw: Roam
 versions:
 - {}
+is_via_device: false

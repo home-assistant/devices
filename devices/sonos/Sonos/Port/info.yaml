@@ -8,3 +8,4 @@ model_name: Port
 model_raw: Port
 versions:
 - software: '16.2'
+is_via_device: false

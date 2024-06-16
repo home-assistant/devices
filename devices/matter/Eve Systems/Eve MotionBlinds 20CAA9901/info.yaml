@@ -9,3 +9,4 @@ model_raw: Eve MotionBlinds 20CAA9901
 versions:
 - hardware: '1.1'
   software: 3.2.1
+is_via_device: false

@@ -11,3 +11,4 @@ versions:
   software: 5104761X04
 - hardware: io:HorizontalAwningIOComponent
   software: 5071665X10
+is_via_device: false

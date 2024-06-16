@@ -8,3 +8,4 @@ model_name: One
 model_raw: One
 versions:
 - software: '16.2'
+is_via_device: false

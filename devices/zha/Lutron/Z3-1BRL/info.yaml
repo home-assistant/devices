@@ -8,3 +8,4 @@ model_name: Z3-1BRL
 model_raw: Z3-1BRL
 versions:
 - software: '0x00000c08'
+is_via_device: false

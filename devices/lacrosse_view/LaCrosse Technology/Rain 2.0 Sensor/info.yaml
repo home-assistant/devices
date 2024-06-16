@@ -8,3 +8,4 @@ model_name: Rain 2.0 Sensor
 model_raw: Rain 2.0 Sensor
 versions:
 - {}
+is_via_device: false

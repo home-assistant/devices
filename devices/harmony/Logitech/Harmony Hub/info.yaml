@@ -9,3 +9,4 @@ model_raw: Harmony Hub
 versions:
 - software: 4.15.330
 - software: 10.0.215
+is_via_device: false

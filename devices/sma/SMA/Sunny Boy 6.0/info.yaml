@@ -8,3 +8,4 @@ model_name: Sunny Boy 6.0
 model_raw: Sunny Boy 6.0
 versions:
 - software: 4.1.15.R
+is_via_device: false

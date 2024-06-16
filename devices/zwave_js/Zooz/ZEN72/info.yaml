@@ -8,3 +8,4 @@ model_name: ZEN72
 model_raw: ZEN72
 versions:
 - software: 10.40.2
+is_via_device: false

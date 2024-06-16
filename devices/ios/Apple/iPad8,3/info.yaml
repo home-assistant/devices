@@ -8,3 +8,4 @@ model_name: iPad8,3
 model_raw: iPad8,3
 versions:
 - software: 13.2.2
+is_via_device: false

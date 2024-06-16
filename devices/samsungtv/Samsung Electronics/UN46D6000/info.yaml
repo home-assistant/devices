@@ -8,3 +8,4 @@ model_name: UN46D6000
 model_raw: UN46D6000
 versions:
 - {}
+is_via_device: false

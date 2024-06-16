@@ -9,3 +9,4 @@ model_raw: Amp
 versions:
 - software: '16.1'
 - software: 16.1.1
+is_via_device: false

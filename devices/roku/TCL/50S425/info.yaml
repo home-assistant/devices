@@ -9,3 +9,4 @@ model_raw: 50S425
 versions:
 - hardware: C105X
   software: 13.0.0
+is_via_device: false

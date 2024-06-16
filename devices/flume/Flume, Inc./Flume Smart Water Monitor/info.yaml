@@ -8,3 +8,4 @@ model_name: Flume Smart Water Monitor
 model_raw: Flume Smart Water Monitor
 versions:
 - {}
+is_via_device: false

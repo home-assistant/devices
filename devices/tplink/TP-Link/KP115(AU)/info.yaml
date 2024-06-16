@@ -11,3 +11,4 @@ versions:
   software: 1.0.7 Build 200825 Rel.091621
 - hardware: '1.0'
   software: 1.0.17 Build 210506 Rel.075231
+is_via_device: false

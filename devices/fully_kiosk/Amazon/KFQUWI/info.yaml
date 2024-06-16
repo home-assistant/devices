@@ -8,3 +8,4 @@ model_name: KFQUWI
 model_raw: KFQUWI
 versions:
 - software: 1.55.3-play
+is_via_device: false

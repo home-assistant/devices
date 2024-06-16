@@ -8,3 +8,4 @@ model_name: GENERATION3_16ZONE
 model_raw: GENERATION3_16ZONE
 versions:
 - {}
+is_via_device: false

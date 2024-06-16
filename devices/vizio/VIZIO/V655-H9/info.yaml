@@ -8,3 +8,4 @@ model_name: V655-H9
 model_raw: V655-H9
 versions:
 - {}
+is_via_device: false

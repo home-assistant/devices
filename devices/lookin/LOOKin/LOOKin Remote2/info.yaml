@@ -9,3 +9,4 @@ model_raw: LOOKin Remote2
 versions:
 - software: 2.43.0104
 - software: 2.43.0067
+is_via_device: false

@@ -9,3 +9,4 @@ model_raw: HomePod Mini
 versions:
 - software: '17.5'
 - software: '17.4'
+is_via_device: false

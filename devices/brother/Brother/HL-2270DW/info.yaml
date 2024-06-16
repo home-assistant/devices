@@ -8,3 +8,4 @@ model_name: HL-2270DW
 model_raw: HL-2270DW
 versions:
 - software: '1.19'
+is_via_device: false

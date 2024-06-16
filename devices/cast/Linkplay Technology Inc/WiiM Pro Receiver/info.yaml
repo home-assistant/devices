@@ -8,3 +8,4 @@ model_name: WiiM Pro Receiver
 model_raw: WiiM Pro Receiver
 versions:
 - {}
+is_via_device: false

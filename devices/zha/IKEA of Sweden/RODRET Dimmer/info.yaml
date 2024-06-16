@@ -8,3 +8,4 @@ model_name: RODRET Dimmer
 model_raw: RODRET Dimmer
 versions:
 - software: '0x01000047'
+is_via_device: false

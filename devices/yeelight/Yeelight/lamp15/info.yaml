@@ -8,3 +8,4 @@ model_name: lamp15
 model_raw: lamp15
 versions:
 - software: '38'
+is_via_device: false

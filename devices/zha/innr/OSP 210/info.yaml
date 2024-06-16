@@ -8,3 +8,4 @@ model_name: OSP 210
 model_raw: OSP 210
 versions:
 - software: '0x11003674'
+is_via_device: false

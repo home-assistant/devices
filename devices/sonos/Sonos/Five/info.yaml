@@ -8,3 +8,4 @@ model_name: Five
 model_raw: Five
 versions:
 - software: '16.2'
+is_via_device: false

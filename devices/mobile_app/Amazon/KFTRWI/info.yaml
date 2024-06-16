@@ -8,3 +8,4 @@ model_name: KFTRWI
 model_raw: KFTRWI
 versions:
 - software: '28'
+is_via_device: false

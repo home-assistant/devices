@@ -9,3 +9,4 @@ model_raw: RM4 pro
 versions:
 - software: '62093'
 - software: '52079'
+is_via_device: false

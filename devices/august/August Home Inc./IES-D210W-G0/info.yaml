@@ -8,3 +8,4 @@ model_name: IES-D210W-G0
 model_raw: IES-D210W-G0
 versions:
 - software: 3.0.10-2.0.8
+is_via_device: false

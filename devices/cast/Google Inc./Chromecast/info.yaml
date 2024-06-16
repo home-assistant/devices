@@ -8,3 +8,4 @@ model_name: Chromecast
 model_raw: Chromecast
 versions:
 - {}
+is_via_device: false

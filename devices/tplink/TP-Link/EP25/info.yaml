@@ -9,3 +9,4 @@ model_raw: EP25
 versions:
 - hardware: '2.6'
   software: 1.0.2 Build 231108 Rel.163012
+is_via_device: false

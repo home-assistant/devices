@@ -8,3 +8,4 @@ model_name: iPad4,4
 model_raw: iPad4,4
 versions:
 - software: 12.5.7
+is_via_device: false

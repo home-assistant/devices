@@ -9,3 +9,4 @@ model_raw: skyplus
 versions:
 - hardware: esp32
   software: SKY40144
+is_via_device: false

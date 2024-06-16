@@ -9,3 +9,4 @@ model_raw: KP200(US)
 versions:
 - hardware: '3.0'
   software: 1.0.3 Build 221021 Rel.183354
+is_via_device: false

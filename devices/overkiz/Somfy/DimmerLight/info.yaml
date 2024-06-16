@@ -9,3 +9,4 @@ model_raw: DimmerLight
 versions:
 - hardware: io:DimmableLightIOComponent
   software: 5109156A09
+is_via_device: false

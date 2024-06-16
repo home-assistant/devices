@@ -8,3 +8,4 @@ model_name: ZEN14
 model_raw: ZEN14
 versions:
 - software: 1.20.1
+is_via_device: false

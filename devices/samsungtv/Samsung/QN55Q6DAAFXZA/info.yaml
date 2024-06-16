@@ -8,3 +8,4 @@ model_name: QN55Q6DAAFXZA
 model_raw: QN55Q6DAAFXZA
 versions:
 - {}
+is_via_device: false

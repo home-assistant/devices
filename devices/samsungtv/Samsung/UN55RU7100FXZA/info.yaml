@@ -8,3 +8,4 @@ model_name: UN55RU7100FXZA
 model_raw: UN55RU7100FXZA
 versions:
 - {}
+is_via_device: false

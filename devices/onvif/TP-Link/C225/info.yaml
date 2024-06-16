@@ -9,3 +9,4 @@ model_raw: C225
 versions:
 - hardware: '1.0'
   software: 1.0.28 Build 231214 Rel.69164n
+is_via_device: false

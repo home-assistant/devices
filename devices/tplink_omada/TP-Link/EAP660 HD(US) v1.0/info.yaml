@@ -8,3 +8,4 @@ model_name: EAP660 HD(US) v1.0
 model_raw: EAP660 HD(US) v1.0
 versions:
 - {}
+is_via_device: false

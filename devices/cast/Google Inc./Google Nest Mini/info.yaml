@@ -8,3 +8,4 @@ model_name: Google Nest Mini
 model_raw: Google Nest Mini
 versions:
 - {}
+is_via_device: false

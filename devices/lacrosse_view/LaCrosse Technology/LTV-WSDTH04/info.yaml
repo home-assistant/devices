@@ -8,3 +8,4 @@ model_name: LTV-WSDTH04
 model_raw: LTV-WSDTH04
 versions:
 - {}
+is_via_device: false

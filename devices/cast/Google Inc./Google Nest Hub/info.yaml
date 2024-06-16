@@ -8,3 +8,4 @@ model_name: Google Nest Hub
 model_raw: Google Nest Hub
 versions:
 - {}
+is_via_device: false

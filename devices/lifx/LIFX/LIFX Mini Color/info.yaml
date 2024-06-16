@@ -8,3 +8,4 @@ model_name: LIFX Mini Color
 model_raw: LIFX Mini Color
 versions:
 - software: '3.90'
+is_via_device: false

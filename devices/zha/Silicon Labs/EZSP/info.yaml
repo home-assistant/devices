@@ -8,3 +8,4 @@ model_name: EZSP
 model_raw: EZSP
 versions:
 - software: 7.3.1.0 build 176
+is_via_device: false

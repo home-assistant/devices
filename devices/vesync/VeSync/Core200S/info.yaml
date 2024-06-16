@@ -8,3 +8,4 @@ model_name: Core200S
 model_raw: Core200S
 versions:
 - {}
+is_via_device: false

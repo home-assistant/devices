@@ -8,3 +8,4 @@ model_name: FRITZ!DECT 210
 model_raw: FRITZ!DECT 210
 versions:
 - software: '04.25'
+is_via_device: false

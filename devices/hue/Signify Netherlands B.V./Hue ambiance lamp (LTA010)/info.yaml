@@ -8,3 +8,4 @@ model_name: Hue ambiance lamp (LTA010)
 model_raw: Hue ambiance lamp (LTA010)
 versions:
 - software: 1.116.3
+is_via_device: false

@@ -8,3 +8,4 @@ model_name: H214104
 model_raw: H214104
 versions:
 - software: '10.9'
+is_via_device: false

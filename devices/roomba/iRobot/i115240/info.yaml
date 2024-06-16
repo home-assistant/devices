@@ -8,3 +8,4 @@ model_name: i115240
 model_raw: i115240
 versions:
 - software: daredevil+2.6.0+daredevil-release+163
+is_via_device: false

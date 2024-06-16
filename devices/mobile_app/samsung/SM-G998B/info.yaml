@@ -8,3 +8,4 @@ model_name: SM-G998B
 model_raw: SM-G998B
 versions:
 - software: '34'
+is_via_device: false

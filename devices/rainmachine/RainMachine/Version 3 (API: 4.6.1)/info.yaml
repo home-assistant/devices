@@ -8,3 +8,4 @@ model_name: 'Version 3 (API: 4.6.1)'
 model_raw: 'Version 3 (API: 4.6.1)'
 versions:
 - software: 4.0.1144
+is_via_device: false

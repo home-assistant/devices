@@ -9,3 +9,4 @@ model_raw: KP105(AU)
 versions:
 - hardware: '1.0'
   software: 1.0.2 Build 200915 Rel.150823
+is_via_device: false

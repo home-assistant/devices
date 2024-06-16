@@ -8,3 +8,4 @@ model_name: O-1PPT
 model_raw: O-1PPT
 versions:
 - software: 3.1.1
+is_via_device: false

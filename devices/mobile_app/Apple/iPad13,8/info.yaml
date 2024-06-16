@@ -9,3 +9,4 @@ model_raw: iPad13,8
 versions:
 - software: 15.6.1
 - software: 17.5.1
+is_via_device: false

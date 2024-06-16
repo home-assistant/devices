@@ -8,3 +8,4 @@ model_name: TRADFRI bulb E12 CWS opal 600lm
 model_raw: TRADFRI bulb E12 CWS opal 600lm
 versions:
 - software: '0x13009572'
+is_via_device: false

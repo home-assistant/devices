@@ -8,3 +8,4 @@ model_name: Back-UPS RS 1500G
 model_raw: Back-UPS RS 1500G
 versions:
 - software: 865.L9 .D
+is_via_device: false

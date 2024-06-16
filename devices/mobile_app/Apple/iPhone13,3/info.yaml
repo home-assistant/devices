@@ -8,3 +8,4 @@ model_name: iPhone13,3
 model_raw: iPhone13,3
 versions:
 - software: 17.1.1
+is_via_device: false

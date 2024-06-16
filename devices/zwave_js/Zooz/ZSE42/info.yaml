@@ -9,3 +9,4 @@ model_raw: ZSE42
 versions:
 - software: 1.50.1
 - software: 1.40.1
+is_via_device: false

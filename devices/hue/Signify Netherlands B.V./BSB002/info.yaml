@@ -9,3 +9,4 @@ model_raw: BSB002
 versions:
 - software: 1.64.1964117020
 - software: 1.65.1965017030
+is_via_device: false

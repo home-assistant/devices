@@ -8,3 +8,4 @@ model_name: DEEBOT N8 PRO
 model_raw: DEEBOT N8 PRO
 versions:
 - {}
+is_via_device: false

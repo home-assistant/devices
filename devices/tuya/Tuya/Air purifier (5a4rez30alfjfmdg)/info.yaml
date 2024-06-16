@@ -8,3 +8,4 @@ model_name: Air purifier (5a4rez30alfjfmdg)
 model_raw: Air purifier (5a4rez30alfjfmdg)
 versions:
 - {}
+is_via_device: false

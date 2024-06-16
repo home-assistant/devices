@@ -8,3 +8,4 @@ model_name: Redmi Note 9S
 model_raw: Redmi Note 9S
 versions:
 - software: '31'
+is_via_device: false

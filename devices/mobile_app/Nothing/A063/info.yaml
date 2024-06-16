@@ -8,3 +8,4 @@ model_name: A063
 model_raw: A063
 versions:
 - software: '34'
+is_via_device: false

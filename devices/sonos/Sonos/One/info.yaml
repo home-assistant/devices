@@ -10,3 +10,4 @@ versions:
 - software: '16.2'
 - software: 16.1.1
 - software: '15.3'
+is_via_device: false

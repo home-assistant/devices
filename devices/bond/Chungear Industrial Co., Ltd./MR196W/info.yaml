@@ -8,3 +8,4 @@ model_name: MR196W
 model_raw: MR196W
 versions:
 - software: v3.5-beta
+is_via_device: false

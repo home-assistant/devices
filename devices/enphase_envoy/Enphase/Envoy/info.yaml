@@ -13,3 +13,4 @@ versions:
   software: 5.0.62
 - hardware: 800-00069-r05
   software: 3.9.36
+is_via_device: false

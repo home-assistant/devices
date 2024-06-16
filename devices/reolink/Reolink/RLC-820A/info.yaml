@@ -9,3 +9,4 @@ model_raw: RLC-820A
 versions:
 - hardware: IPC_523128M8MP
   software: v3.1.0.956_22041501
+is_via_device: false

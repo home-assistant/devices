@@ -8,3 +8,4 @@ model_name: HWE-WTR
 model_raw: HWE-WTR
 versions:
 - software: '3.01'
+is_via_device: false

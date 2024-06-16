@@ -8,3 +8,4 @@ model_name: DZPD3
 model_raw: DZPD3
 versions:
 - software: '1.20'
+is_via_device: false

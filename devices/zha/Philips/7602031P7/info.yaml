@@ -8,3 +8,4 @@ model_name: 7602031P7
 model_raw: 7602031P7
 versions:
 - software: '0x01002002'
+is_via_device: false

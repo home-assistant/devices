@@ -9,3 +9,4 @@ model_raw: 40S325
 versions:
 - hardware: 8113X
   software: 13.0.0
+is_via_device: false

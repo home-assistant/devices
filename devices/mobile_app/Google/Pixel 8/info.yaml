@@ -8,3 +8,4 @@ model_name: Pixel 8
 model_raw: Pixel 8
 versions:
 - software: '34'
+is_via_device: false

@@ -8,3 +8,4 @@ model_name: XL1050
 model_raw: XL1050
 versions:
 - software: 5.10.1
+is_via_device: false

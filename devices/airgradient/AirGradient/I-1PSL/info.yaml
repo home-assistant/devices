@@ -8,3 +8,4 @@ model_name: I-1PSL
 model_raw: I-1PSL
 versions:
 - software: 3.0.9
+is_via_device: false

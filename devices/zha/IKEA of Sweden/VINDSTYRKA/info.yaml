@@ -9,3 +9,4 @@ model_raw: VINDSTYRKA
 versions:
 - software: '0x00010010'
 - software: '0x01000011'
+is_via_device: false

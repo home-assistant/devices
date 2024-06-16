@@ -8,3 +8,4 @@ model_name: Hue motion sensor (SML001)
 model_raw: Hue motion sensor (SML001)
 versions:
 - software: 1.1.27575
+is_via_device: false

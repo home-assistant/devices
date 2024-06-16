@@ -8,3 +8,4 @@ model_name: roborock.vacuum.a08
 model_raw: roborock.vacuum.a08
 versions:
 - software: 02.13.68
+is_via_device: false

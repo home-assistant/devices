@@ -9,3 +9,4 @@ model_raw: lumi.motion.ac02
 versions:
 - software: '0x00000006'
 - {}
+is_via_device: false

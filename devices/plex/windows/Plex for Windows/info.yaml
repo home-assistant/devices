@@ -13,3 +13,4 @@ versions:
 - software: 1.75.0.3920-8b50876d
 - software: 1.79.1.3984-879339ed
 - software: 1.87.2.87-87488d5a
+is_via_device: false

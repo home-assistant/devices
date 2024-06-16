@@ -8,3 +8,4 @@ model_name: Hue color lamp (LCA001)
 model_raw: Hue color lamp (LCA001)
 versions:
 - software: 1.116.3
+is_via_device: false

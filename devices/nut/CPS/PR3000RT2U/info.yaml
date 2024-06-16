@@ -8,3 +8,4 @@ model_name: PR3000RT2U
 model_raw: PR3000RT2U
 versions:
 - {}
+is_via_device: false

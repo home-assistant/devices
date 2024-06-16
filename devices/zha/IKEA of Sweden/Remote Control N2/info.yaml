@@ -8,3 +8,4 @@ model_name: Remote Control N2
 model_raw: Remote Control N2
 versions:
 - software: '0x02040005'
+is_via_device: false

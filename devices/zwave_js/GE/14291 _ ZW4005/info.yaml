@@ -8,3 +8,4 @@ model_name: 14291 / ZW4005
 model_raw: 14291 / ZW4005
 versions:
 - software: '5.24'
+is_via_device: false

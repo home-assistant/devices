@@ -8,3 +8,4 @@ model_name: SYMFONISK sound remote gen2
 model_raw: SYMFONISK sound remote gen2
 versions:
 - software: '0x01000035'
+is_via_device: false

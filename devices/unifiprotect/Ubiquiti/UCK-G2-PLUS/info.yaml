@@ -8,3 +8,4 @@ model_name: UCK-G2-PLUS
 model_raw: UCK-G2-PLUS
 versions:
 - software: 4.0.21
+is_via_device: false

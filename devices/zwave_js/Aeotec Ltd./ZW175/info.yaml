@@ -8,3 +8,4 @@ model_name: ZW175
 model_raw: ZW175
 versions:
 - software: '1.2'
+is_via_device: false

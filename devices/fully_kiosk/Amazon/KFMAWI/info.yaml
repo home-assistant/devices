@@ -8,3 +8,4 @@ model_name: KFMAWI
 model_raw: KFMAWI
 versions:
 - software: 1.48.2
+is_via_device: false

@@ -8,3 +8,4 @@ model_name: F467L
 model_raw: F467L
 versions:
 - software: v3.5
+is_via_device: false

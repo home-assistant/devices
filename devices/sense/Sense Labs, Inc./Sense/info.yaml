@@ -8,3 +8,4 @@ model_name: Sense
 model_raw: Sense
 versions:
 - {}
+is_via_device: false

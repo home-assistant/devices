@@ -8,3 +8,4 @@ model_name: 14284 / ZW4201
 model_raw: 14284 / ZW4201
 versions:
 - software: '5.21'
+is_via_device: false

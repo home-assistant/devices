@@ -8,3 +8,4 @@ model_name: FF-ZWAVE5-ECO
 model_raw: FF-ZWAVE5-ECO
 versions:
 - software: '11.2'
+is_via_device: false

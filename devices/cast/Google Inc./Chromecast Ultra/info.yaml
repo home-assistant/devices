@@ -8,3 +8,4 @@ model_name: Chromecast Ultra
 model_raw: Chromecast Ultra
 versions:
 - {}
+is_via_device: false

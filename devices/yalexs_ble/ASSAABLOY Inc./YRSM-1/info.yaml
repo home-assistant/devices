@@ -8,3 +8,4 @@ model_name: YRSM-1
 model_raw: YRSM-1
 versions:
 - software: 2.0.8
+is_via_device: false

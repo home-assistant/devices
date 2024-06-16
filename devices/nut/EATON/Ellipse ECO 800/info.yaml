@@ -8,3 +8,4 @@ model_name: Ellipse ECO 800
 model_raw: Ellipse ECO 800
 versions:
 - software: '02'
+is_via_device: false

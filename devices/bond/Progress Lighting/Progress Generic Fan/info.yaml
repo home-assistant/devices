@@ -9,3 +9,4 @@ model_raw: Progress Generic Fan
 versions:
 - software: v3.5
 - software: v2.13.0
+is_via_device: false

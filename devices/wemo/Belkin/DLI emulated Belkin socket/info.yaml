@@ -8,3 +8,4 @@ model_name: DLI emulated Belkin socket
 model_raw: DLI emulated Belkin socket
 versions:
 - {}
+is_via_device: false

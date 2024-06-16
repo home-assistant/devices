@@ -9,3 +9,4 @@ model_raw: KL420L5(US)
 versions:
 - hardware: '1.0'
   software: 1.0.2 Build 211009 Rel.164949
+is_via_device: false

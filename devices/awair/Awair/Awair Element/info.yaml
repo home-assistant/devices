@@ -8,3 +8,4 @@ model_name: Awair Element
 model_raw: Awair Element
 versions:
 - software: 1.4.1
+is_via_device: false

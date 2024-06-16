@@ -9,3 +9,4 @@ model_raw: Roku Ultra
 versions:
 - hardware: 4660RW
   software: 13.0.0
+is_via_device: false

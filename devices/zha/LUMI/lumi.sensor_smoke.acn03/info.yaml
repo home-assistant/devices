@@ -9,3 +9,4 @@ model_raw: lumi.sensor_smoke.acn03
 versions:
 - software: '0x00000011'
 - software: '0x00000013'
+is_via_device: false

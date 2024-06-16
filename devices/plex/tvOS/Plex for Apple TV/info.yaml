@@ -8,3 +8,4 @@ model_name: Plex for Apple TV
 model_raw: Plex for Apple TV
 versions:
 - software: '8.34'
+is_via_device: false

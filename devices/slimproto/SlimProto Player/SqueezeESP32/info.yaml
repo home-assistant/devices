@@ -8,3 +8,4 @@ model_name: SqueezeESP32
 model_raw: SqueezeESP32
 versions:
 - hardware: v1.0-1670-16
+is_via_device: false

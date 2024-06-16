@@ -8,3 +8,4 @@ model_name: RR-SEL-REP-XX (RA2SelectMainRepeater)
 model_raw: RR-SEL-REP-XX (RA2SelectMainRepeater)
 versions:
 - {}
+is_via_device: false

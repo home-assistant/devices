@@ -8,3 +8,4 @@ model_name: OR1500LCDRM1Ua
 model_raw: OR1500LCDRM1Ua
 versions:
 - {}
+is_via_device: false

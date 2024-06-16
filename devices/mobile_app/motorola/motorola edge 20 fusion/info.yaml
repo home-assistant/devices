@@ -8,3 +8,4 @@ model_name: motorola edge 20 fusion
 model_raw: motorola edge 20 fusion
 versions:
 - software: '31'
+is_via_device: false

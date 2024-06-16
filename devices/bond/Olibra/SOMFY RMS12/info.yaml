@@ -8,3 +8,4 @@ model_name: SOMFY RMS12
 model_raw: SOMFY RMS12
 versions:
 - {}
+is_via_device: false

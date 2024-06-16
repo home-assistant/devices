@@ -8,3 +8,4 @@ model_name: HL-L2325DW
 model_raw: HL-L2325DW
 versions:
 - software: '1.58'
+is_via_device: false

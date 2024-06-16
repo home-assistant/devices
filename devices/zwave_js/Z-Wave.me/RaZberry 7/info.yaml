@@ -8,3 +8,4 @@ model_name: RaZberry 7
 model_raw: RaZberry 7
 versions:
 - software: '7.36'
+is_via_device: false

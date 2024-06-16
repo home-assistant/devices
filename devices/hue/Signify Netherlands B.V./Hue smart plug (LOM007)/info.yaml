@@ -8,3 +8,4 @@ model_name: Hue smart plug (LOM007)
 model_raw: Hue smart plug (LOM007)
 versions:
 - software: 1.116.3
+is_via_device: false

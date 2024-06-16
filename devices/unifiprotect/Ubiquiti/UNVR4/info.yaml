@@ -8,3 +8,4 @@ model_name: UNVR4
 model_raw: UNVR4
 versions:
 - software: 4.0.33
+is_via_device: false

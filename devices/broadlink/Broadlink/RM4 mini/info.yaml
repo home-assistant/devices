@@ -8,3 +8,4 @@ model_name: RM4 mini
 model_raw: RM4 mini
 versions:
 - software: '62092'
+is_via_device: false

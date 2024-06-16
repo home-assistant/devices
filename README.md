@@ -24,10 +24,20 @@ You can also process it yourself and open a PR. To do that, put the output in th
     "mqtt",
     "esphome"
   ],
-  ignore_entry_type=["service"]
+  ignore_entry_type=["service"],
+  via_devices=[]
 ) %}
+{% for state in states -%}
+{% set dev_id = device_id(state.entity_id) -%}
+{% if dev_id -%}
+{% set via_device = device_attr(dev_id, 'via_device_id') -%}
+{% if via_device and via_device not in ns.via_devices -%}
+{% set ns.via_devices = ns.via_devices + [via_device] -%}
+{% endif -%}
+{% endif -%}
+{% endfor -%}
 
-integration,manufacturer,model,sw_version,hw_version,has_via_device,has_suggested_area,has_configuration_url,entry_type
+integration,manufacturer,model,sw_version,hw_version,has_via_device,has_suggested_area,has_configuration_url,entry_type,is_via_device
 {% for state in states -%}
 {% set dev_id = device_id(state.entity_id) -%}
 {% if dev_id not in ns.devices -%}
@@ -49,7 +59,8 @@ integration,manufacturer,model,sw_version,hw_version,has_via_device,has_suggeste
 {{- device_attr(dev_id, 'via_device_id') != None }},
 {{- device_attr(dev_id, 'suggested_area') != None }},
 {{- device_attr(dev_id, 'configuration_url') != None }},
-{{- device_attr(dev_id, 'entry_type') }}
+{{- device_attr(dev_id, 'entry_type') }},
+{{- dev_id in ns.via_devices }}
 {% endif -%}
 {% endif -%}
 {% endfor %}

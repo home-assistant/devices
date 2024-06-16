@@ -7,3 +7,4 @@ has_suggested_area: false
 has_configuration_url: false
 has_via_device: false
 entry_type: ""
+is_via_device: false

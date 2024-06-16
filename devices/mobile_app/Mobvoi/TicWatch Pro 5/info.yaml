@@ -8,3 +8,4 @@ model_name: TicWatch Pro 5
 model_raw: TicWatch Pro 5
 versions:
 - software: '30'
+is_via_device: false

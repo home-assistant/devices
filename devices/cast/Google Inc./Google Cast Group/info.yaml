@@ -8,3 +8,4 @@ model_name: Google Cast Group
 model_raw: Google Cast Group
 versions:
 - {}
+is_via_device: false

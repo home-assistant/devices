@@ -8,3 +8,4 @@ model_name: BADRING Water Leakage Sensor
 model_raw: BADRING Water Leakage Sensor
 versions:
 - software: '0x01000007'
+is_via_device: false

@@ -8,3 +8,4 @@ model_name: A1
 model_raw: A1
 versions:
 - {}
+is_via_device: false

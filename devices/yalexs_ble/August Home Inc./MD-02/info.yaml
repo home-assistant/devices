@@ -8,3 +8,4 @@ model_name: MD-02
 model_raw: MD-02
 versions:
 - software: 2.1.18
+is_via_device: false

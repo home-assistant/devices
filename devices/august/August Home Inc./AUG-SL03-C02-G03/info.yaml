@@ -9,3 +9,4 @@ model_raw: AUG-SL03-C02-G03
 versions:
 - software: 2.0.6
 - software: 1.59.0-2.0.6
+is_via_device: false

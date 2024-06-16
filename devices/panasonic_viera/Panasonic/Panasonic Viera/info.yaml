@@ -8,3 +8,4 @@ model_name: Panasonic Viera
 model_raw: Panasonic Viera
 versions:
 - {}
+is_via_device: false

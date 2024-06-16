@@ -9,3 +9,4 @@ model_raw: 38 RCLB
 versions:
 - hardware: '604'
   software: 3.4.5
+is_via_device: false

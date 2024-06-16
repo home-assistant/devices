@@ -8,3 +8,4 @@ model_name: XK03H
 model_raw: XK03H
 versions:
 - {}
+is_via_device: false

@@ -9,3 +9,4 @@ model_raw: Lenovo TB-X306F
 versions:
 - software: '30'
 - software: '29'
+is_via_device: false

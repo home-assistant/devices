@@ -8,3 +8,4 @@ model_name: Amp
 model_raw: Amp
 versions:
 - {}
+is_via_device: false

@@ -8,3 +8,4 @@ model_name: QN85QN85BDFXZA
 model_raw: QN85QN85BDFXZA
 versions:
 - {}
+is_via_device: false

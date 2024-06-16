@@ -8,3 +8,4 @@ model_name: gld1
 model_raw: gld1
 versions:
 - {}
+is_via_device: false

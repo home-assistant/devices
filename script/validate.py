@@ -27,6 +27,7 @@ INFO_YAML = vol.Schema(
                 vol.Optional("software"): str,
             }
         ],
+        vol.Optional("is_via_device"): bool,
     }
 )
 

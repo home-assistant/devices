@@ -8,3 +8,4 @@ model_name: SM-N960F
 model_raw: SM-N960F
 versions:
 - software: '29'
+is_via_device: false

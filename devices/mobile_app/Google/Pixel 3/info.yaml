@@ -8,3 +8,4 @@ model_name: Pixel 3
 model_raw: Pixel 3
 versions:
 - software: '31'
+is_via_device: false

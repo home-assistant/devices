@@ -8,3 +8,4 @@ model_name: roborock.vacuum.a27
 model_raw: roborock.vacuum.a27
 versions:
 - software: 02.58.40
+is_via_device: false

@@ -8,3 +8,4 @@ model_name: DHI-NVR5208-8P-4KS2E
 model_raw: DHI-NVR5208-8P-4KS2E
 versions:
 - software: 4.002.0000000.6.R, Build Date 2022-11-15
+is_via_device: false

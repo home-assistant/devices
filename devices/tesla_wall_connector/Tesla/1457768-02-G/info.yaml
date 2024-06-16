@@ -8,3 +8,4 @@ model_name: 1457768-02-G
 model_raw: 1457768-02-G
 versions:
 - software: 24.12.51+g7855f626d7fb3
+is_via_device: false

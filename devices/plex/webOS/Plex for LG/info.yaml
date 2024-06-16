@@ -8,3 +8,4 @@ model_name: Plex for LG
 model_raw: Plex for LG
 versions:
 - software: 5.62.0
+is_via_device: false

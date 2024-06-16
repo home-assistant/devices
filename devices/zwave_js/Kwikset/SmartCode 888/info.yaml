@@ -8,3 +8,4 @@ model_name: SmartCode 888
 model_raw: SmartCode 888
 versions:
 - software: '4.79'
+is_via_device: false

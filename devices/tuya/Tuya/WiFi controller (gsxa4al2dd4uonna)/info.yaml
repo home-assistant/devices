@@ -8,3 +8,4 @@ model_name: WiFi controller (gsxa4al2dd4uonna)
 model_raw: WiFi controller (gsxa4al2dd4uonna)
 versions:
 - {}
+is_via_device: false

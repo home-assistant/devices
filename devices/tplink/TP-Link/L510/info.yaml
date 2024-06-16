@@ -9,3 +9,4 @@ model_raw: L510
 versions:
 - hardware: '3.0'
   software: 1.1.2 Build 231120 Rel.201048
+is_via_device: false

@@ -12,3 +12,4 @@ versions:
 - software: '8.21'
 - software: '8.34'
 - software: '8.35'
+is_via_device: false

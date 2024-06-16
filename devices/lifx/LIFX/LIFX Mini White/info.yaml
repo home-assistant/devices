@@ -8,3 +8,4 @@ model_name: LIFX Mini White
 model_raw: LIFX Mini White
 versions:
 - software: '3.90'
+is_via_device: false

@@ -8,3 +8,4 @@ model_name: YRD450-N-BLE-619
 model_raw: YRD450-N-BLE-619
 versions:
 - software: 1.0.19
+is_via_device: false

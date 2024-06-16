@@ -8,3 +8,4 @@ model_name: Plex for Mac
 model_raw: Plex for Mac
 versions:
 - software: 1.87.2.87-87488d5a
+is_via_device: false

@@ -11,3 +11,4 @@ versions:
 - software: 9.20.1.979
 - software: 10.16.0.758
 - software: 10.13.0.466
+is_via_device: false

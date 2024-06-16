@@ -9,3 +9,4 @@ model_raw: P125M
 versions:
 - hardware: '1.0'
   software: 1.2.2 Build 240305 Rel.093138
+is_via_device: false

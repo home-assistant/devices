@@ -8,3 +8,4 @@ model_name: Hue color candle (LCT012)
 model_raw: Hue color candle (LCT012)
 versions:
 - software: 1.116.3
+is_via_device: false
