@@ -125,9 +125,7 @@ def build_device(device_path, integration_index_json, integration_index_markdown
     (device_path / "info.json").write_text(json.dumps(info, indent=2))
 
     integration_index_json[info["manufacturer_raw"]][info["model_raw"]] = model_index
-    integration_index_markdown.append(
-        f"- [{info["manufacturer_name"]} {info["model_name"]}]({device_url})"
-    )
+    integration_index_markdown.append(f"- [{info["model_name"]}]({device_url})")
 
 
 def rewrite_markdown(text, prefix):
