@@ -23,13 +23,14 @@ def build():
     shutil.rmtree(BUILD_DIR, ignore_errors=True)
     shutil.copytree(DEVICES_DIR, BUILD_DIR)
 
+    device_count = 0
     index_json = []
     index_markdown = []
 
     for integration in sorted(
         BUILD_DIR.iterdir(), key=lambda x: INTEGRATIONS_INFO[x.name]["title"].lower()
     ):
-        build_integration(integration)
+        device_count += build_integration(integration)
         index_json.append(integration.name)
         title = INTEGRATIONS_INFO[integration.name]["title"]
         index_markdown.append(f"- [{title}]({WEBSITE_BASE_PATH}{integration.name}/)")
@@ -38,6 +39,8 @@ def build():
     (BUILD_DIR / "index.html").write_text(
         mistune.html(f"""
 # Integrations
+
+_Total devices: {device_count}_
 
 [_Access this data as JSON_]({WEBSITE_BASE_PATH}integrations.json)
 
@@ -52,10 +55,12 @@ def build_integration(integration_path):
     """Process an integration."""
     index_json = defaultdict(dict)
     index_markdown = []
+    device_count = 0
 
     for manufacturer in sorted(integration_path.iterdir()):
         for model in sorted(manufacturer.iterdir()):
             build_device(model, index_json, index_markdown)
+            device_count += 1
 
     (integration_path / "index.json").write_text(json.dumps(index_json, indent=2))
     (integration_path / "index.html").write_text(
@@ -67,6 +72,8 @@ def build_integration(integration_path):
 {"\n".join(index_markdown)}
 """)
     )
+
+    return device_count
 
 
 def build_device(device_path, integration_index_json, integration_index_markdown):
