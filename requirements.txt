@@ -1,3 +1,6 @@
 voluptuous
 PyYAML
 httpx
+humanmark
+# required for humanmark
+setuptools
