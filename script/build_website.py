@@ -26,7 +26,9 @@ def build():
     index_json = []
     index_markdown = []
 
-    for integration in BUILD_DIR.iterdir():
+    for integration in sorted(
+        BUILD_DIR.iterdir(), key=lambda x: INTEGRATIONS_INFO[x.name]["title"].lower()
+    ):
         build_integration(integration)
         index_json.append(integration.name)
         title = INTEGRATIONS_INFO[integration.name]["title"]
@@ -49,8 +51,8 @@ def build_integration(integration_path):
     index_json = defaultdict(dict)
     index_markdown = []
 
-    for manufacturer in integration_path.iterdir():
-        for model in manufacturer.iterdir():
+    for manufacturer in sorted(integration_path.iterdir()):
+        for model in sorted(manufacturer.iterdir()):
             build_device(model, index_json, index_markdown)
 
     (integration_path / "index.json").write_text(json.dumps(index_json, indent=2))
@@ -125,7 +127,9 @@ def build_device(device_path, integration_index_json, integration_index_markdown
     (device_path / "info.json").write_text(json.dumps(info, indent=2))
 
     integration_index_json[info["manufacturer_raw"]][info["model_raw"]] = model_index
-    integration_index_markdown.append(f"- [{info["model_name"]}]({device_url})")
+    integration_index_markdown.append(
+        f"- [{info["manufacturer_name"]} {info["model_name"]}]({device_url})"
+    )
 
 
 def rewrite_markdown(text, prefix):
