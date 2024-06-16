@@ -37,6 +37,8 @@ def build():
         mistune.html(f"""
 # Integrations
 
+[_Access this data as JSON_]({WEBSITE_BASE_PATH}index.json)
+
 {"\n".join(index_markdown)}
 """)
     )
@@ -55,6 +57,8 @@ def build_integration(integration_path):
     (integration_path / "index.html").write_text(
         mistune.html(f"""
 # {INTEGRATIONS_INFO[integration_path.name]["title"]}
+
+[_Access this data as JSON_]({WEBSITE_BASE_PATH}/{integration_path.name}/index.json)
 
 {"\n".join(index_markdown)}
 """)
@@ -103,6 +107,8 @@ def build_device(device_path, integration_index_json, integration_index_markdown
     (device_path / "index.html").write_text(
         mistune.html(f"""
 # {info["manufacturer_name"]} {info["model_name"]}
+
+[_Access this data as JSON_]({device_url}/info.json)
 
 {readme}
 

@@ -10,8 +10,9 @@ The integration, manufacturer and model are the data reported in Home Assistant.
 
 Paste the below template to the template developer tool to generate data from your Home Assistant instance.
 
-Put the output in the `to_process` folder and run the `script/process.py` script.
+To get the data into the repo, paste the output in a GitHub issue or share the file with me on Discord (@balloob).
 
+You can also process it yourself and open a PR. To do that, put the output in the `to_process` folder and run the `script/process.py` script.
 
 ```jinja2
 {% set ns = namespace(
