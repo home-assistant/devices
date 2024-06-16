@@ -8,3 +8,4 @@ model_name: AK-R1
 model_raw: AK-R1
 versions:
 - software: 2.27.0
+is_via_device: false

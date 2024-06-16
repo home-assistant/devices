@@ -9,3 +9,4 @@ model_raw: HS300(US)
 versions:
 - hardware: '2.0'
   software: 1.0.12 Build 220121 Rel.175814
+is_via_device: false

@@ -8,3 +8,4 @@ model_name: TEST200228
 model_raw: TEST200228
 versions:
 - software: 2.0.0-1.0.16
+is_via_device: false

@@ -8,3 +8,4 @@ model_name: eTRV0103
 model_raw: eTRV0103
 versions:
 - software: '0x00000014'
+is_via_device: false

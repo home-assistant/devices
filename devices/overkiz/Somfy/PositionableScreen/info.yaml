@@ -11,3 +11,4 @@ versions:
   software: 5118126A10
 - hardware: io:VerticalExteriorAwningIOComponent
   software: 5104761X04
+is_via_device: false

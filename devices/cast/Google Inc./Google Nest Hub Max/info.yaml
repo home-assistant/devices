@@ -8,3 +8,4 @@ model_name: Google Nest Hub Max
 model_raw: Google Nest Hub Max
 versions:
 - {}
+is_via_device: false

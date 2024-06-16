@@ -8,3 +8,4 @@ model_name: U-BOLT-PRO-ZWAVE
 model_raw: U-BOLT-PRO-ZWAVE
 versions:
 - software: 1.5.3
+is_via_device: false

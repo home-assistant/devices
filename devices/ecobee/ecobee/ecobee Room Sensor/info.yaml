@@ -8,3 +8,4 @@ model_name: ecobee Room Sensor
 model_raw: ecobee Room Sensor
 versions:
 - {}
+is_via_device: false

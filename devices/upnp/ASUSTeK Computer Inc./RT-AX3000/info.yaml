@@ -8,3 +8,4 @@ model_name: RT-AX3000
 model_raw: RT-AX3000
 versions:
 - {}
+is_via_device: false

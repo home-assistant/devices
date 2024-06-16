@@ -8,3 +8,4 @@ model_name: Hyperion-NG
 model_raw: Hyperion-NG
 versions:
 - {}
+is_via_device: false

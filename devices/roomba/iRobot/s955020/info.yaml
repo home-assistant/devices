@@ -8,3 +8,4 @@ model_name: s955020
 model_raw: s955020
 versions:
 - software: soho+22.29.10+2023-10-09-2b3f87f75e8+Firmware-Build+4863
+is_via_device: false

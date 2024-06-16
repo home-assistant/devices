@@ -8,3 +8,4 @@ model_name: FRITZ!Box 7590 AX
 model_raw: FRITZ!Box 7590 AX
 versions:
 - software: '7.81'
+is_via_device: false

@@ -9,3 +9,4 @@ model_raw: RLC-510A
 versions:
 - hardware: IPC_MS1NA45MP
   software: v3.0.0.2417_23070500
+is_via_device: false

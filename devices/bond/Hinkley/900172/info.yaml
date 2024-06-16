@@ -8,3 +8,4 @@ model_name: '900172'
 model_raw: '900172'
 versions:
 - software: v3.5
+is_via_device: false

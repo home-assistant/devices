@@ -8,3 +8,4 @@ model_name: RWL020
 model_raw: RWL020
 versions:
 - software: '0x420045b6'
+is_via_device: false

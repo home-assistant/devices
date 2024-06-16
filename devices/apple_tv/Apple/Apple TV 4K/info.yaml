@@ -8,3 +8,4 @@ model_name: Apple TV 4K
 model_raw: Apple TV 4K
 versions:
 - software: 17.5.1
+is_via_device: false

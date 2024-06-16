@@ -10,3 +10,4 @@ versions:
 - software: v3.5-beta
 - software: v3.5
 - software: v2.15.8.2
+is_via_device: false

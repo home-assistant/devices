@@ -8,3 +8,4 @@ model_name: A3a
 model_raw: A3a
 versions:
 - {}
+is_via_device: false

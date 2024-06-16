@@ -8,3 +8,4 @@ model_name: SM-A528B
 model_raw: SM-A528B
 versions:
 - software: '34'
+is_via_device: false

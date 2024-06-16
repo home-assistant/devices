@@ -8,3 +8,4 @@ model_name: 27.0.1-production.1af7b6d
 model_raw: 27.0.1-production.1af7b6d
 versions:
 - {}
+is_via_device: false

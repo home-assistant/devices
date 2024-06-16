@@ -10,3 +10,4 @@ versions:
 - software: 5.74.0
 - software: 5.59.3
 - software: 5.81.1
+is_via_device: false

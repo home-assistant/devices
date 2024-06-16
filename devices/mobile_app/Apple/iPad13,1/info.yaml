@@ -8,3 +8,4 @@ model_name: iPad13,1
 model_raw: iPad13,1
 versions:
 - software: 17.4.1
+is_via_device: false

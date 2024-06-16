@@ -8,3 +8,4 @@ model_name: Beam
 model_raw: Beam
 versions:
 - software: '16.2'
+is_via_device: false

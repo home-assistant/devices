@@ -8,3 +8,4 @@ model_name: MCSMRC
 model_raw: MCSMRC
 versions:
 - software: v3.5
+is_via_device: false

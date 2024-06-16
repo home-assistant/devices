@@ -8,3 +8,4 @@ model_name: LZW31-SN
 model_raw: LZW31-SN
 versions:
 - software: '1.57'
+is_via_device: false

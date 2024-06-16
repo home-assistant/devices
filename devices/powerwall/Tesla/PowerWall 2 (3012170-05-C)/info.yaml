@@ -9,3 +9,4 @@ model_raw: PowerWall 2 (3012170-05-C)
 versions:
 - software: 24.4.0 0fe780c9
 - software: 24.12.3 1feaff3a
+is_via_device: false

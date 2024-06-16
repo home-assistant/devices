@@ -8,3 +8,4 @@ model_name: V505-H9
 model_raw: V505-H9
 versions:
 - {}
+is_via_device: false

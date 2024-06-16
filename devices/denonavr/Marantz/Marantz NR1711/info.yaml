@@ -8,3 +8,4 @@ model_name: Marantz NR1711
 model_raw: Marantz NR1711
 versions:
 - hardware: avr-x-2016
+is_via_device: false

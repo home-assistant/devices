@@ -9,3 +9,4 @@ model_raw: iPhone12,5
 versions:
 - software: 13.2.3
 - software: 13.1.3
+is_via_device: false

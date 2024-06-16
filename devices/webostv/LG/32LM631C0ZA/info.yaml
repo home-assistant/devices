@@ -8,3 +8,4 @@ model_name: 32LM631C0ZA
 model_raw: 32LM631C0ZA
 versions:
 - software: 05.40.20
+is_via_device: false

@@ -8,3 +8,4 @@ model_name: TS0601
 model_raw: TS0601
 versions:
 - {}
+is_via_device: false

@@ -8,3 +8,4 @@ model_name: iPhone
 model_raw: iPhone
 versions:
 - software: iOS
+is_via_device: false

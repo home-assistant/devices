@@ -8,3 +8,4 @@ model_name: Google Pixel Watch
 model_raw: Google Pixel Watch
 versions:
 - software: '30'
+is_via_device: false

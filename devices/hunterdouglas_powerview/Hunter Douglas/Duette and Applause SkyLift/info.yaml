@@ -8,3 +8,4 @@ model_name: Duette and Applause SkyLift
 model_raw: Duette and Applause SkyLift
 versions:
 - software: 1.8.1944
+is_via_device: false

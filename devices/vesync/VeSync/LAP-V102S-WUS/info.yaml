@@ -8,3 +8,4 @@ model_name: LAP-V102S-WUS
 model_raw: LAP-V102S-WUS
 versions:
 - {}
+is_via_device: false

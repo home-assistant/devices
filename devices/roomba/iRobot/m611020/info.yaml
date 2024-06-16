@@ -8,3 +8,4 @@ model_name: m611020
 model_raw: m611020
 versions:
 - software: sanmarino+22.29.6+2022-12-01-82f3372a65c+Firmware-Build+2321
+is_via_device: false

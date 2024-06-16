@@ -9,3 +9,4 @@ model_raw: Controller RGB IR (0x33)
 versions:
 - hardware: AK001-ZJ210
   software: '6.37'
+is_via_device: false

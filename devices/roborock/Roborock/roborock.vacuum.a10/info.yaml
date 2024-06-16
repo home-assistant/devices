@@ -8,3 +8,4 @@ model_name: roborock.vacuum.a10
 model_raw: roborock.vacuum.a10
 versions:
 - software: 02.62.46
+is_via_device: false

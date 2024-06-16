@@ -9,3 +9,4 @@ model_raw: MacBookPro18,1
 versions:
 - software: 14.5.0
 - software: 14.4.1
+is_via_device: false

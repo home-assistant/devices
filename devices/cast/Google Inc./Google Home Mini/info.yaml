@@ -8,3 +8,4 @@ model_name: Google Home Mini
 model_raw: Google Home Mini
 versions:
 - {}
+is_via_device: false

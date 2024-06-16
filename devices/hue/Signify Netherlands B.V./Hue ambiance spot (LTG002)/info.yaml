@@ -8,3 +8,4 @@ model_name: Hue ambiance spot (LTG002)
 model_raw: Hue ambiance spot (LTG002)
 versions:
 - software: 1.116.3
+is_via_device: false

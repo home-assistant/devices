@@ -10,3 +10,4 @@ versions:
 - software: 2.8.0-2.0.5
 - software: 2.7.0-2.0.5
 - software: 2.0.5
+is_via_device: false

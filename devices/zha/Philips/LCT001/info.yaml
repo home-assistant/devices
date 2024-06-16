@@ -8,3 +8,4 @@ model_name: LCT001
 model_raw: LCT001
 versions:
 - software: '0x420052b1'
+is_via_device: false

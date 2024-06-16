@@ -9,3 +9,4 @@ model_raw: KP401(US)
 versions:
 - hardware: '1.0'
   software: 1.0.0 Build 201221 Rel.090515
+is_via_device: false

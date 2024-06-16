@@ -8,3 +8,4 @@ model_name: YRD450-N-BLE-BSP
 model_raw: YRD450-N-BLE-BSP
 versions:
 - software: 1.0.19
+is_via_device: false

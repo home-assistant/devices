@@ -9,3 +9,4 @@ model_raw: ZSE40 700
 versions:
 - software: 32.32.1
 - software: 1.10.2
+is_via_device: false

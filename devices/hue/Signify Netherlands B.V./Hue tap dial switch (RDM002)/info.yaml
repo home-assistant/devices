@@ -8,3 +8,4 @@ model_name: Hue tap dial switch (RDM002)
 model_raw: Hue tap dial switch (RDM002)
 versions:
 - software: 2.59.25
+is_via_device: false

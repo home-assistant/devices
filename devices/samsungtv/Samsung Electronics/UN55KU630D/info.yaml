@@ -8,3 +8,4 @@ model_name: UN55KU630D
 model_raw: UN55KU630D
 versions:
 - {}
+is_via_device: false

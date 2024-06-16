@@ -8,3 +8,4 @@ model_name: lumi.sensor_motion.aq2
 model_raw: lumi.sensor_motion.aq2
 versions:
 - {}
+is_via_device: false

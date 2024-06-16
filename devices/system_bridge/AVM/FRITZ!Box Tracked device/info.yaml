@@ -8,3 +8,4 @@ model_name: FRITZ!Box Tracked device
 model_raw: FRITZ!Box Tracked device
 versions:
 - software: 4.1.10
+is_via_device: false

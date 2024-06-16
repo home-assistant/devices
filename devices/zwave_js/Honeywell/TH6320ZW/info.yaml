@@ -8,3 +8,4 @@ model_name: TH6320ZW
 model_raw: TH6320ZW
 versions:
 - software: '1.3'
+is_via_device: false

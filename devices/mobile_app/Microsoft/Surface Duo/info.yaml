@@ -8,3 +8,4 @@ model_name: Surface Duo
 model_raw: Surface Duo
 versions:
 - software: '32'
+is_via_device: false

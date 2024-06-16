@@ -8,3 +8,4 @@ model_name: SM-F731B
 model_raw: SM-F731B
 versions:
 - software: '34'
+is_via_device: false

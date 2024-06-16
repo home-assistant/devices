@@ -8,3 +8,4 @@ model_name: C2
 model_raw: C2
 versions:
 - {}
+is_via_device: false

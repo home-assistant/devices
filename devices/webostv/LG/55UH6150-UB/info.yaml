@@ -8,3 +8,4 @@ model_name: 55UH6150-UB
 model_raw: 55UH6150-UB
 versions:
 - software: 05.65.03
+is_via_device: false

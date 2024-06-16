@@ -8,3 +8,4 @@ model_name: ZCOMBO
 model_raw: ZCOMBO
 versions:
 - software: 11.0.0
+is_via_device: false

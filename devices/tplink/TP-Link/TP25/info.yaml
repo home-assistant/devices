@@ -9,3 +9,4 @@ model_raw: TP25
 versions:
 - hardware: '1.0'
   software: 1.0.2 Build 230206 Rel.095245
+is_via_device: false

@@ -9,3 +9,4 @@ model_raw: STARKVIND Air purifier table
 versions:
 - software: '0x00010033'
 - software: '0x00011001'
+is_via_device: false

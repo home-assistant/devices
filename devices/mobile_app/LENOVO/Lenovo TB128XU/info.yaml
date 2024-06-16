@@ -8,3 +8,4 @@ model_name: Lenovo TB128XU
 model_raw: Lenovo TB128XU
 versions:
 - software: '33'
+is_via_device: false

@@ -8,3 +8,4 @@ model_name: KFQUWI
 model_raw: KFQUWI
 versions:
 - software: '30'
+is_via_device: false

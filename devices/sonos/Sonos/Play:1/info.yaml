@@ -8,3 +8,4 @@ model_name: Play:1
 model_raw: Play:1
 versions:
 - software: '16.2'
+is_via_device: false

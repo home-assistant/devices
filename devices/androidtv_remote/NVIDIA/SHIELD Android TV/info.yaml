@@ -8,3 +8,4 @@ model_name: SHIELD Android TV
 model_raw: SHIELD Android TV
 versions:
 - {}
+is_via_device: false

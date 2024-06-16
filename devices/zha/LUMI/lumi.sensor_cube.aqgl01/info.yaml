@@ -8,3 +8,4 @@ model_name: lumi.sensor_cube.aqgl01
 model_raw: lumi.sensor_cube.aqgl01
 versions:
 - {}
+is_via_device: false

@@ -8,3 +8,4 @@ model_name: 4AK1SZ
 model_raw: 4AK1SZ
 versions:
 - software: 1.18.0
+is_via_device: false

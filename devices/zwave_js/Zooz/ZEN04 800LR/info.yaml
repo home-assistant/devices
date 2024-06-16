@@ -8,3 +8,4 @@ model_name: ZEN04 800LR
 model_raw: ZEN04 800LR
 versions:
 - software: 2.20.1
+is_via_device: false

@@ -9,3 +9,4 @@ model_raw: HS110(US)
 versions:
 - hardware: '1.0'
   software: 1.2.5 Build 171206 Rel.085954
+is_via_device: false

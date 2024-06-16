@@ -9,3 +9,4 @@ model_raw: Quest
 versions:
 - software: '32'
 - software: '29'
+is_via_device: false

@@ -8,3 +8,4 @@ model_name: Connect:Amp
 model_raw: Connect:Amp
 versions:
 - software: '16.2'
+is_via_device: false

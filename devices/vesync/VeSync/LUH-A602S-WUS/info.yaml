@@ -8,3 +8,4 @@ model_name: LUH-A602S-WUS
 model_raw: LUH-A602S-WUS
 versions:
 - {}
+is_via_device: false

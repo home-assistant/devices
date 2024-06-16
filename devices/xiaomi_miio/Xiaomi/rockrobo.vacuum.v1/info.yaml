@@ -8,3 +8,4 @@ model_name: rockrobo.vacuum.v1
 model_raw: rockrobo.vacuum.v1
 versions:
 - {}
+is_via_device: false

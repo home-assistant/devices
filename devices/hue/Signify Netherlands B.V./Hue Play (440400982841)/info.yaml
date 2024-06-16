@@ -8,3 +8,4 @@ model_name: Hue Play (440400982841)
 model_raw: Hue Play (440400982841)
 versions:
 - software: 1.116.3
+is_via_device: false

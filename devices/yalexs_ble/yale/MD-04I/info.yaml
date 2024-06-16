@@ -8,3 +8,4 @@ model_name: MD-04I
 model_raw: MD-04I
 versions:
 - software: 1.0.16
+is_via_device: false

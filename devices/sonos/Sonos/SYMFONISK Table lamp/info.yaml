@@ -8,3 +8,4 @@ model_name: SYMFONISK Table lamp
 model_raw: SYMFONISK Table lamp
 versions:
 - software: '16.2'
+is_via_device: false

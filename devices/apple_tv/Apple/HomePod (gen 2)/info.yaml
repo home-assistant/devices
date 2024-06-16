@@ -8,3 +8,4 @@ model_name: HomePod (gen 2)
 model_raw: HomePod (gen 2)
 versions:
 - software: '17.5'
+is_via_device: false

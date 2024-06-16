@@ -8,3 +8,4 @@ model_name: Insight
 model_raw: Insight
 versions:
 - software: WeMo_WW_2.00.11396.PVT-OWRT-Insight
+is_via_device: false

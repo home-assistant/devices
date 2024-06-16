@@ -8,3 +8,4 @@ model_name: Vonluce Smart Ceiling Fan (vdqtvr0uqnrflobk)
 model_raw: Vonluce Smart Ceiling Fan (vdqtvr0uqnrflobk)
 versions:
 - {}
+is_via_device: false

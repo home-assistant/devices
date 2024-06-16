@@ -9,3 +9,4 @@ model_raw: Mini Smart Wi-Fi Plug
 versions:
 - hardware: '1.0'
   software: 1.0.0 Build 220930 Rel.143947
+is_via_device: false

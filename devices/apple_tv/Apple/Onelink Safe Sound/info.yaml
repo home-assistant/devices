@@ -8,3 +8,4 @@ model_name: Onelink Safe Sound
 model_raw: Onelink Safe Sound
 versions:
 - {}
+is_via_device: false

@@ -8,3 +8,4 @@ model_name: Hue Smart button (ROM001)
 model_raw: Hue Smart button (ROM001)
 versions:
 - software: 2.47.8
+is_via_device: false

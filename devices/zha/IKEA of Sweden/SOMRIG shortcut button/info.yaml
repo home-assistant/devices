@@ -8,3 +8,4 @@ model_name: SOMRIG shortcut button
 model_raw: SOMRIG shortcut button
 versions:
 - software: '0x01000020'
+is_via_device: false

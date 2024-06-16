@@ -9,3 +9,4 @@ model_raw: HS220(US)
 versions:
 - hardware: '1.0'
   software: 1.5.5 Build 180717 Rel.155202
+is_via_device: false

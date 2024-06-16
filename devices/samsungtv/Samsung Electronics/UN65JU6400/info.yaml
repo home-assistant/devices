@@ -8,3 +8,4 @@ model_name: UN65JU6400
 model_raw: UN65JU6400
 versions:
 - {}
+is_via_device: false

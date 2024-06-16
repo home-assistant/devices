@@ -8,3 +8,4 @@ model_name: LZW36
 model_raw: LZW36
 versions:
 - software: 1.36.1
+is_via_device: false

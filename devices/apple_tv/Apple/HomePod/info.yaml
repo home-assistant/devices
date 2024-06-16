@@ -8,3 +8,4 @@ model_name: HomePod
 model_raw: HomePod
 versions:
 - software: '17.5'
+is_via_device: false

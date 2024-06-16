@@ -8,3 +8,4 @@ model_name: Signe gradient table (915005987001)
 model_raw: Signe gradient table (915005987001)
 versions:
 - software: 1.116.3
+is_via_device: false

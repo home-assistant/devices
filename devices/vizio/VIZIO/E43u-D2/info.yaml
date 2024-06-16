@@ -8,3 +8,4 @@ model_name: E43u-D2
 model_raw: E43u-D2
 versions:
 - software: 11.0.120.1-1
+is_via_device: false

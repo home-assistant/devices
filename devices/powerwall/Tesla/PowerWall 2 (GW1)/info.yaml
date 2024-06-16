@@ -9,3 +9,4 @@ model_raw: PowerWall 2 (GW1)
 versions:
 - software: 23.28.2 27626f98
 - software: 23.36.3 aa269d35
+is_via_device: false

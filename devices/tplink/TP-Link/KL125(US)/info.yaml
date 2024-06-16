@@ -9,3 +9,4 @@ model_raw: KL125(US)
 versions:
 - hardware: '4.0'
   software: 1.0.5 Build 230613 Rel.151643
+is_via_device: false

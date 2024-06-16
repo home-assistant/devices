@@ -8,3 +8,4 @@ model_name: Nest Audio
 model_raw: Nest Audio
 versions:
 - {}
+is_via_device: false

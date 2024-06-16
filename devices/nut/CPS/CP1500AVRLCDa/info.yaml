@@ -8,3 +8,4 @@ model_name: CP1500AVRLCDa
 model_raw: CP1500AVRLCDa
 versions:
 - {}
+is_via_device: false

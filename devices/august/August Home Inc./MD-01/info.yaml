@@ -8,3 +8,4 @@ model_name: MD-01
 model_raw: MD-01
 versions:
 - software: 2.0.5
+is_via_device: false

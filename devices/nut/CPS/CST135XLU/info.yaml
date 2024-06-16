@@ -8,3 +8,4 @@ model_name: CST135XLU
 model_raw: CST135XLU
 versions:
 - {}
+is_via_device: false

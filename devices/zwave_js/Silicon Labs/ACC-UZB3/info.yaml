@@ -8,3 +8,4 @@ model_name: ACC-UZB3
 model_raw: ACC-UZB3
 versions:
 - software: '6.10'
+is_via_device: false

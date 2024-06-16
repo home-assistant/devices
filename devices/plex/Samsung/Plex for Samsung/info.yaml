@@ -8,3 +8,4 @@ model_name: Plex for Samsung
 model_raw: Plex for Samsung
 versions:
 - software: '2.012'
+is_via_device: false

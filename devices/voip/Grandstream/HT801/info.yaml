@@ -9,3 +9,4 @@ model_raw: HT801
 versions:
 - software: 1.0.51.1
 - software: 1.0.43.11
+is_via_device: false

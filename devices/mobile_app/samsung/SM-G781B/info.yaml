@@ -8,3 +8,4 @@ model_name: SM-G781B
 model_raw: SM-G781B
 versions:
 - software: '33'
+is_via_device: false

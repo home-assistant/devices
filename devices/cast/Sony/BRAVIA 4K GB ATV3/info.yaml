@@ -8,3 +8,4 @@ model_name: BRAVIA 4K GB ATV3
 model_raw: BRAVIA 4K GB ATV3
 versions:
 - {}
+is_via_device: false

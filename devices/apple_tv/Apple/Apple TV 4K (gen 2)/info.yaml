@@ -8,3 +8,4 @@ model_name: Apple TV 4K (gen 2)
 model_raw: Apple TV 4K (gen 2)
 versions:
 - software: '17.4'
+is_via_device: false

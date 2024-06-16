@@ -9,3 +9,4 @@ model_raw: RLC-830A
 versions:
 - hardware: IPC_560SD78MP
   software: v3.1.0.2515_23082406
+is_via_device: false

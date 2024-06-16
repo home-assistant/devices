@@ -8,3 +8,4 @@ model_name: lumi.sensor_magnet.aq2
 model_raw: lumi.sensor_magnet.aq2
 versions:
 - {}
+is_via_device: false

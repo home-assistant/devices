@@ -8,3 +8,4 @@ model_name: NL22
 model_raw: NL22
 versions:
 - software: 5.2.2
+is_via_device: false

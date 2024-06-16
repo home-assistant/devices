@@ -8,3 +8,4 @@ model_name: TS011F
 model_raw: TS011F
 versions:
 - software: '0x0000004d'
+is_via_device: false

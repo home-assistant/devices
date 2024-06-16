@@ -8,3 +8,4 @@ model_name: Hue dimmer switch (RWL022)
 model_raw: Hue dimmer switch (RWL022)
 versions:
 - software: 2.45.2
+is_via_device: false

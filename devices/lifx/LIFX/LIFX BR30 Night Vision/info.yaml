@@ -8,3 +8,4 @@ model_name: LIFX BR30 Night Vision
 model_raw: LIFX BR30 Night Vision
 versions:
 - software: '2.90'
+is_via_device: false

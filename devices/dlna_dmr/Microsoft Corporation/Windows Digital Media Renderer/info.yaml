@@ -8,3 +8,4 @@ model_name: Windows Digital Media Renderer
 model_raw: Windows Digital Media Renderer
 versions:
 - {}
+is_via_device: false

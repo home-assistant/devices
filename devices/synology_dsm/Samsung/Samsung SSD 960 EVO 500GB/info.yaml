@@ -8,3 +8,4 @@ model_name: Samsung SSD 960 EVO 500GB
 model_raw: Samsung SSD 960 EVO 500GB
 versions:
 - software: 3B7QCXE7
+is_via_device: false

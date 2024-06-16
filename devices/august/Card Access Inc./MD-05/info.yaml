@@ -8,3 +8,4 @@ model_name: MD-05
 model_raw: MD-05
 versions:
 - software: 1.0.20
+is_via_device: false

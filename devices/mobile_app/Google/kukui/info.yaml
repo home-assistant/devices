@@ -8,3 +8,4 @@ model_name: kukui
 model_raw: kukui
 versions:
 - software: '30'
+is_via_device: false

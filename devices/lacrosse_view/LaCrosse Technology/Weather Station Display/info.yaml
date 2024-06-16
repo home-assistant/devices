@@ -8,3 +8,4 @@ model_name: Weather Station Display
 model_raw: Weather Station Display
 versions:
 - {}
+is_via_device: false

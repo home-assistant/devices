@@ -9,3 +9,4 @@ model_raw: Addressable v3 5v (0xA3)
 versions:
 - hardware: AK001-ZJ2148
   software: '1.27'
+is_via_device: false

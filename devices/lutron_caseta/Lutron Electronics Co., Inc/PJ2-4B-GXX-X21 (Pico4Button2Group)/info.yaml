@@ -8,3 +8,4 @@ model_name: PJ2-4B-GXX-X21 (Pico4Button2Group)
 model_raw: PJ2-4B-GXX-X21 (Pico4Button2Group)
 versions:
 - {}
+is_via_device: false

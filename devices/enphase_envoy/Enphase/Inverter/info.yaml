@@ -8,3 +8,4 @@ model_name: Inverter
 model_raw: Inverter
 versions:
 - {}
+is_via_device: false

@@ -8,3 +8,4 @@ model_name: iPhone16,1
 model_raw: iPhone16,1
 versions:
 - software: 17.5.1
+is_via_device: false

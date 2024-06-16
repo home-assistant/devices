@@ -8,3 +8,4 @@ model_name: M1
 model_raw: M1
 versions:
 - software: 5.3.10
+is_via_device: false

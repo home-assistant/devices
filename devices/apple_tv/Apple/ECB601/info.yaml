@@ -8,3 +8,4 @@ model_name: ECB601
 model_raw: ECB601
 versions:
 - {}
+is_via_device: false

@@ -8,3 +8,4 @@ model_name: "Nob\xF8 Ecohub (11123618_rev._1)"
 model_raw: "Nob\xF8 Ecohub (11123618_rev._1)"
 versions:
 - software: '114'
+is_via_device: false

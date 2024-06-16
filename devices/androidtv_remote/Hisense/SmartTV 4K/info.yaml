@@ -8,3 +8,4 @@ model_name: SmartTV 4K
 model_raw: SmartTV 4K
 versions:
 - {}
+is_via_device: false

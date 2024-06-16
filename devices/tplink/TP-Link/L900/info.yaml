@@ -9,3 +9,4 @@ model_raw: L900
 versions:
 - hardware: '1.0'
   software: 1.0.11 Build 220119 Rel.221258
+is_via_device: false

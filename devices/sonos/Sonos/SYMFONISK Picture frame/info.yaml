@@ -8,3 +8,4 @@ model_name: SYMFONISK Picture frame
 model_raw: SYMFONISK Picture frame
 versions:
 - software: '16.2'
+is_via_device: false

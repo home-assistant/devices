@@ -9,3 +9,4 @@ model_raw: Elgato Key Light Air
 versions:
 - hardware: '200'
   software: 1.0.3 (214)
+is_via_device: false

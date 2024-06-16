@@ -8,3 +8,4 @@ model_name: lumi.sensor_wleak.aq1
 model_raw: lumi.sensor_wleak.aq1
 versions:
 - {}
+is_via_device: false

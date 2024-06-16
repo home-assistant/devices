@@ -8,3 +8,4 @@ model_name: Smart Ceiling Fan (lvl9k0xfqubcga9v)
 model_raw: Smart Ceiling Fan (lvl9k0xfqubcga9v)
 versions:
 - {}
+is_via_device: false

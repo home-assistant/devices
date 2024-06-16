@@ -8,3 +8,4 @@ model_name: ASL-03
 model_raw: ASL-03
 versions:
 - software: '1.59'
+is_via_device: false

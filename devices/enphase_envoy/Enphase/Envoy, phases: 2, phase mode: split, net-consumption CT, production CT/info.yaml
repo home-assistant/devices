@@ -9,3 +9,4 @@ model_raw: 'Envoy, phases: 2, phase mode: split, net-consumption CT, production 
 versions:
 - hardware: 800-00555-r03
   software: 7.3.621
+is_via_device: false

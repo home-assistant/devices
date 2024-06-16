@@ -9,3 +9,4 @@ model_raw: Smart RGBTW Bulb
 versions:
 - hardware: 1.0.0
   software: 1.00.00
+is_via_device: false

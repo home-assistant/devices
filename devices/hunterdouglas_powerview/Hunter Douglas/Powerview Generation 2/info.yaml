@@ -8,3 +8,4 @@ model_name: Powerview Generation 2
 model_raw: Powerview Generation 2
 versions:
 - software: 2.0.1056
+is_via_device: false

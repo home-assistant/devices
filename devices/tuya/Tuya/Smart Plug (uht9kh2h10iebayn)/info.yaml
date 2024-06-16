@@ -8,3 +8,4 @@ model_name: Smart Plug (uht9kh2h10iebayn)
 model_raw: Smart Plug (uht9kh2h10iebayn)
 versions:
 - {}
+is_via_device: false
