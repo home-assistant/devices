@@ -37,7 +37,7 @@ def build():
         mistune.html(f"""
 # Integrations
 
-[_Access this data as JSON_]({WEBSITE_BASE_PATH}index.json)
+[_Access this data as JSON_]({WEBSITE_BASE_PATH}integrations.json)
 
 {"\n".join(index_markdown)}
 """)
