@@ -1,0 +1,11 @@
+entry_type: device
+has_configuration_url: true
+has_suggested_area: false
+has_via_device: false
+is_via_device: false
+manufacturer_name: HIKVISION
+manufacturer_raw: HIKVISION
+model_name: DS-2CD2046G2-I
+model_raw: DS-2CD2046G2-I
+versions:
+- software: V5.7.14
