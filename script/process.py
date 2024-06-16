@@ -155,7 +155,7 @@ def process_row(row):
         changed = True
 
     if changed:
-        info_path.write_text(yaml.dump(info))
+        info_path.write_text(yaml.dump(info, sort_keys=False))
 
         if not update_record.created:
             update_record.updated = 1
