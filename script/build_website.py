@@ -1,13 +1,15 @@
 #!/usr/bin/env python3
 
-from collections import defaultdict
+import json
 import pathlib
 import shutil
-import json
+from collections import defaultdict
+from urllib.parse import quote
 
 import httpx
-import yaml
 import humanmark
+import mistune
+import yaml
 
 ROOT_DIR = pathlib.Path(__file__).parent.parent.resolve()
 DEVICES_DIR = ROOT_DIR / "devices"
@@ -21,38 +23,63 @@ def build():
     shutil.rmtree(BUILD_DIR, ignore_errors=True)
     shutil.copytree(DEVICES_DIR, BUILD_DIR)
 
-    integrations = []
+    index_json = []
+    index_markdown = []
 
     for integration in BUILD_DIR.iterdir():
-        integrations.append(integration.name)
         build_integration(integration)
+        index_json.append(integration.name)
+        title = INTEGRATIONS_INFO[integration.name]["title"]
+        index_markdown.append(f"- [{title}]({WEBSITE_BASE_PATH}{integration.name}/)")
 
-    (BUILD_DIR / "integrations.json").write_text(json.dumps(integrations, indent=2))
+    (BUILD_DIR / "integrations.json").write_text(json.dumps(index_json, indent=2))
+    (BUILD_DIR / "index.html").write_text(
+        mistune.html(f"""
+# Integrations
+
+{"\n".join(index_markdown)}
+""")
+    )
 
 
 def build_integration(integration_path):
     """Process an integration."""
-    index = defaultdict(dict)
+    index_json = defaultdict(dict)
+    index_markdown = []
 
     for manufacturer in integration_path.iterdir():
         for model in manufacturer.iterdir():
-            build_device(model, index)
+            build_device(model, index_json, index_markdown)
 
-    (integration_path / "index.json").write_text(json.dumps(index, indent=2))
+    (integration_path / "index.json").write_text(json.dumps(index_json, indent=2))
+    (integration_path / "index.html").write_text(
+        mistune.html(f"""
+# {INTEGRATIONS_INFO[integration_path.name]["title"]}
+
+{"\n".join(index_markdown)}
+""")
+    )
 
 
-def build_device(device_path, integration_index):
+def build_device(device_path, integration_index_json, integration_index_markdown):
     """Process a device."""
     rel_path = device_path.relative_to(BUILD_DIR)
-    device_url = f"{WEBSITE_BASE_PATH}{rel_path}"
+    device_url = (
+        f"{WEBSITE_BASE_PATH}{'/'.join(quote(part) for part in rel_path.parts)}"
+    )
     info = yaml.safe_load((device_path / "info.yaml").read_text())
 
-    model_index = {}
+    model_index = {
+        "info": f"{device_url}/info.json",
+    }
 
-    for doc, filename in (
-        ("readme", "readme.md"),
-        ("commission", "commission.md"),
-        ("factory_reset", "factory_reset.md"),
+    device_index_extra_content = []
+    readme = ""
+
+    for doc, heading, filename in (
+        ("readme", "", "readme.md"),
+        ("commission", "Commissioning", "commission.md"),
+        ("factory_reset", "Factory Reset", "factory_reset.md"),
     ):
         content = (device_path / filename).read_text()
 
@@ -61,13 +88,40 @@ def build_device(device_path, integration_index):
             continue
 
         model_index[f"docs_{doc}"] = f"{device_url}/{filename}"
-        (device_path / filename).write_text(rewrite_markdown(content, f"{device_url}/"))
+        markdown = rewrite_markdown(content, f"{device_url}/")
+        (device_path / filename).write_text(markdown)
+
+        if doc == "readme":
+            readme = markdown
+        else:
+            device_index_extra_content.append(f"""
+## {heading}
+
+{markdown}
+""")
+
+    (device_path / "index.html").write_text(
+        mistune.html(f"""
+# {info["manufacturer_name"]} {info["model_name"]}
+
+{readme}
+
+```yaml
+{yaml.dump(info, indent=2).strip()}
+```
+
+{'\n'.join(device_index_extra_content)}
+""")
+    )
 
     info.update(model_index)
 
     (device_path / "info.json").write_text(json.dumps(info, indent=2))
 
-    integration_index[info["manufacturer_raw"]][info["model_raw"]] = model_index
+    integration_index_json[info["manufacturer_raw"]][info["model_raw"]] = model_index
+    integration_index_markdown.append(
+        f"- [{info["manufacturer_name"]} {info["model_name"]}]({device_url})"
+    )
 
 
 def rewrite_markdown(text, prefix):
