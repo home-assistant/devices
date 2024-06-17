@@ -5,11 +5,9 @@ is_via_device: false
 is_works_with_ha_device: false
 manufacturer_name: IKEA of Sweden
 manufacturer_raw: IKEA of Sweden
-model_name: Remote Control N2
-model_raw: Remote Control N2
+model_name: TRADFRI bulb E27 CWS opal 600lm
+model_raw: TRADFRI bulb E27 CWS opal 600lm
 same_as: null
 versions:
-- software: '0x02040005'
-- software: '0x02040011'
-- software: '0x00010024'
+- software: '0x13000272'
 via_devices: null

@@ -10,4 +10,5 @@ model_raw: iPad6,11
 same_as: null
 versions:
 - software: 16.7.4
+- software: '14.8'
 via_devices: null
