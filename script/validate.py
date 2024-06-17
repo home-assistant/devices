@@ -22,6 +22,11 @@ INFO_YAML = vol.Schema(
         vol.Required("manufacturer_raw"): str,
         vol.Required("model_name"): str,
         vol.Required("model_raw"): str,
+        vol.Required("same_as"): vol.Any(None, [{
+            vol.Required("integration"): str,
+            vol.Required("manufacturer"): str,
+            vol.Required("model"): str,
+        }]),
         vol.Required("versions"): [
             {
                 vol.Optional("hardware"): str,
@@ -45,6 +50,7 @@ class DeviceReport:
     integration: str
     manufacturer: str
     model: str
+    info: dict
 
     errors: dict[str, list[str]] = dataclasses.field(
         default_factory=lambda: defaultdict(list)
@@ -52,13 +58,29 @@ class DeviceReport:
 
 
 def validate():
-    errors = []
+    devices = []
     for integration in DEVICES_DIR.iterdir():
         for manufacturer in integration.iterdir():
             for model in manufacturer.iterdir():
-                report = validate_device(model)
-                if report.errors:
-                    errors.append(report)
+                devices.append(validate_device(model))
+
+    errors = []
+    valid_device_keys = {
+        (device.integration, device.manufacturer, device.model)
+        for device in devices
+    }
+
+    for device in devices:
+        for key in ('via_devices', 'same_as'):
+            if not device.info[key]:
+                continue
+
+            for ref in device.info[key]:
+                if (ref['integration'], ref['manufacturer'], ref['model']) not in valid_device_keys:
+                    device.errors[key].append(f"Reference to unknown device: {ref}")
+
+        if device.errors:
+            errors.append(device)
 
     if not errors:
         print("No errors found")
@@ -78,15 +100,17 @@ def validate():
 def validate_device(path):
     """Validate a device."""
     rel_path = path.relative_to(DEVICES_DIR)
-    integration, manufacturer, model = rel_path.parts
+    info = yaml.safe_load((path / "info.yaml").read_text())
+    integration = rel_path.parts[0]
+    manufacturer = info["manufacturer_raw"]
+    model = info["model_raw"]
     report = DeviceReport(
         path=rel_path,
         integration=integration,
         manufacturer=manufacturer,
         model=model,
+        info=info,
     )
-
-    info = yaml.safe_load((path / "info.yaml").read_text())
 
     if list(info) != sorted(info):
         report.errors["info.yaml"].append("Keys are not sorted")
