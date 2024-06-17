@@ -3,6 +3,7 @@ has_configuration_url: true
 has_suggested_area: false
 has_via_device: true
 is_via_device: false
+is_works_with_ha_device: false
 manufacturer_name: Samsung
 manufacturer_raw: Samsung
 model_name: Samsung SSD 960 EVO 500GB

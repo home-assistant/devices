@@ -3,6 +3,7 @@ has_configuration_url: false
 has_suggested_area: false
 has_via_device: false
 is_via_device: false
+is_works_with_ha_device: false
 manufacturer_name: Enphase
 manufacturer_raw: Enphase
 model_name: 'Envoy, phases: 2, phase mode: split, net-consumption CT, production CT'

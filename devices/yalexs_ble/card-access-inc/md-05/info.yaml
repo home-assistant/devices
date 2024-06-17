@@ -3,6 +3,7 @@ has_configuration_url: true
 has_suggested_area: true
 has_via_device: false
 is_via_device: false
+is_works_with_ha_device: false
 manufacturer_name: Card Access Inc.
 manufacturer_raw: Card Access Inc.
 model_name: MD-05
