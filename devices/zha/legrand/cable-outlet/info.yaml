@@ -3,12 +3,13 @@ has_configuration_url: false
 has_suggested_area: false
 is_via_device: false
 is_works_with_ha_device: false
-manufacturer_name: LUMI
-manufacturer_raw: LUMI
-model_name: lumi.sensor_magnet.aq2
-model_raw: lumi.sensor_magnet.aq2
+manufacturer_name: ' Legrand'
+manufacturer_raw: ' Legrand'
+model_name: ' Cable outlet'
+model_raw: ' Cable outlet'
 same_as: null
-versions: []
+versions:
+- software: '0x001f43ff'
 via_devices:
 - hw_version: null
   integration: zha

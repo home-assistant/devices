@@ -3,12 +3,11 @@ has_configuration_url: false
 has_suggested_area: false
 is_via_device: false
 is_works_with_ha_device: false
-manufacturer_name: Silicon Labs
-manufacturer_raw: Silicon Labs
-model_name: EZSP
-model_raw: EZSP
+manufacturer_name: EATON
+manufacturer_raw: EATON
+model_name: 'Eaton 3S 700 '
+model_raw: 'Eaton 3S 700 '
 same_as: null
 versions:
-- software: 7.3.1.0 build 176
-- software: 7.1.1.0 build 273
+- software: 02.08.0010
 via_devices: null

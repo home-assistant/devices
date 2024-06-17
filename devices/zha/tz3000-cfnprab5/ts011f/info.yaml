@@ -3,10 +3,10 @@ has_configuration_url: false
 has_suggested_area: false
 is_via_device: false
 is_works_with_ha_device: false
-manufacturer_name: LUMI
-manufacturer_raw: LUMI
-model_name: lumi.sensor_magnet.aq2
-model_raw: lumi.sensor_magnet.aq2
+manufacturer_name: _TZ3000_cfnprab5
+manufacturer_raw: _TZ3000_cfnprab5
+model_name: TS011F
+model_raw: TS011F
 same_as: null
 versions: []
 via_devices:

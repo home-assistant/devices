@@ -3,12 +3,13 @@ has_configuration_url: false
 has_suggested_area: false
 is_via_device: false
 is_works_with_ha_device: false
-manufacturer_name: LUMI
-manufacturer_raw: LUMI
-model_name: lumi.sensor_magnet.aq2
-model_raw: lumi.sensor_magnet.aq2
+manufacturer_name: innr
+manufacturer_raw: innr
+model_name: SP 220
+model_raw: SP 220
 same_as: null
-versions: []
+versions:
+- software: '0x23026610'
 via_devices:
 - hw_version: null
   integration: zha

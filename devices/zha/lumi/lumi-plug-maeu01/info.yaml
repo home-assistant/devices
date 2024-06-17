@@ -5,10 +5,11 @@ is_via_device: false
 is_works_with_ha_device: false
 manufacturer_name: LUMI
 manufacturer_raw: LUMI
-model_name: lumi.sensor_magnet.aq2
-model_raw: lumi.sensor_magnet.aq2
+model_name: lumi.plug.maeu01
+model_raw: lumi.plug.maeu01
 same_as: null
-versions: []
+versions:
+- software: '0x00000029'
 via_devices:
 - hw_version: null
   integration: zha

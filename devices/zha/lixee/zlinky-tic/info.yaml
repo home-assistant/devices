@@ -3,12 +3,13 @@ has_configuration_url: false
 has_suggested_area: false
 is_via_device: false
 is_works_with_ha_device: false
-manufacturer_name: LUMI
-manufacturer_raw: LUMI
-model_name: lumi.sensor_magnet.aq2
-model_raw: lumi.sensor_magnet.aq2
+manufacturer_name: LiXee
+manufacturer_raw: LiXee
+model_name: ZLinky_TIC
+model_raw: ZLinky_TIC
 same_as: null
-versions: []
+versions:
+- software: '0x00000001'
 via_devices:
 - hw_version: null
   integration: zha
