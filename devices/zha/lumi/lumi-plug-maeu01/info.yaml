@@ -10,6 +10,7 @@ model_raw: lumi.plug.maeu01
 same_as: null
 versions:
 - software: '0x00000029'
+- software: '0x0000002b'
 via_devices:
 - hw_version: null
   integration: zha

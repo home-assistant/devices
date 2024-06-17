@@ -1,0 +1,13 @@
+entry_type: device
+has_configuration_url: true
+has_suggested_area: false
+is_via_device: false
+is_works_with_ha_device: false
+manufacturer_name: AVM
+manufacturer_raw: AVM
+model_name: FRITZ!DECT 301
+model_raw: FRITZ!DECT 301
+same_as: null
+versions:
+- software: '05.08'
+via_devices: null
