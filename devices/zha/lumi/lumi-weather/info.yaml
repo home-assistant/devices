@@ -8,6 +8,5 @@ manufacturer_raw: LUMI
 model_name: lumi.weather
 model_raw: lumi.weather
 same_as: null
-versions:
-- {}
+versions: []
 via_devices: null

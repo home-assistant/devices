@@ -8,6 +8,5 @@ manufacturer_raw: Govee
 model_name: H70C1
 model_raw: H70C1
 same_as: null
-versions:
-- {}
+versions: []
 via_devices: null

@@ -8,6 +8,5 @@ manufacturer_raw: Elexa
 model_name: gld1
 model_raw: gld1
 same_as: null
-versions:
-- {}
+versions: []
 via_devices: null

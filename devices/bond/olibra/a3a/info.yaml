@@ -8,6 +8,5 @@ manufacturer_raw: Olibra
 model_name: A3a
 model_raw: A3a
 same_as: null
-versions:
-- {}
+versions: []
 via_devices: null

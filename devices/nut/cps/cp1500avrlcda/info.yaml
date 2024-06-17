@@ -8,6 +8,5 @@ manufacturer_raw: CPS
 model_name: CP1500AVRLCDa
 model_raw: CP1500AVRLCDa
 same_as: null
-versions:
-- {}
+versions: []
 via_devices: null

@@ -8,6 +8,5 @@ manufacturer_raw: Tuya
 model_name: Smart Amari Ceiling Fan (zjqqpvhra3ep0fpk)
 model_raw: Smart Amari Ceiling Fan (zjqqpvhra3ep0fpk)
 same_as: null
-versions:
-- {}
+versions: []
 via_devices: null

@@ -8,6 +8,5 @@ manufacturer_raw: Amazon
 model_name: AirScreen MediaRenderer
 model_raw: AirScreen MediaRenderer
 same_as: null
-versions:
-- {}
+versions: []
 via_devices: null

@@ -8,6 +8,5 @@ manufacturer_raw: Tuya
 model_name: Air purifier (5a4rez30alfjfmdg)
 model_raw: Air purifier (5a4rez30alfjfmdg)
 same_as: null
-versions:
-- {}
+versions: []
 via_devices: null

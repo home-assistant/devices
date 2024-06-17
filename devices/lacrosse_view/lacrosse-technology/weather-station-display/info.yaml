@@ -8,6 +8,5 @@ manufacturer_raw: LaCrosse Technology
 model_name: Weather Station Display
 model_raw: Weather Station Display
 same_as: null
-versions:
-- {}
+versions: []
 via_devices: null

@@ -8,6 +8,5 @@ manufacturer_raw: Hisense
 model_name: SmartTV 4K
 model_raw: SmartTV 4K
 same_as: null
-versions:
-- {}
+versions: []
 via_devices: null

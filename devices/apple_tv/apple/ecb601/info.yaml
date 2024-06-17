@@ -8,6 +8,5 @@ manufacturer_raw: Apple
 model_name: ECB601
 model_raw: ECB601
 same_as: null
-versions:
-- {}
+versions: []
 via_devices: null

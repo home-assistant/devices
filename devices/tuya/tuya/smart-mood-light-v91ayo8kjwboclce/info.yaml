@@ -8,6 +8,5 @@ manufacturer_raw: Tuya
 model_name: Smart Mood Light (v91ayo8kjwboclce)
 model_raw: Smart Mood Light (v91ayo8kjwboclce)
 same_as: null
-versions:
-- {}
+versions: []
 via_devices: null

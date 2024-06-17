@@ -8,6 +8,5 @@ manufacturer_raw: Samsung
 model_name: QN43LS03BAFXZA
 model_raw: QN43LS03BAFXZA
 same_as: null
-versions:
-- {}
+versions: []
 via_devices: null

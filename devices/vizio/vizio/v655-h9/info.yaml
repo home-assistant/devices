@@ -8,6 +8,5 @@ manufacturer_raw: VIZIO
 model_name: V655-H9
 model_raw: V655-H9
 same_as: null
-versions:
-- {}
+versions: []
 via_devices: null

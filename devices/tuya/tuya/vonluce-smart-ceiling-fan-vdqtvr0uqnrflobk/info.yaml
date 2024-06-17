@@ -8,6 +8,5 @@ manufacturer_raw: Tuya
 model_name: Vonluce Smart Ceiling Fan (vdqtvr0uqnrflobk)
 model_raw: Vonluce Smart Ceiling Fan (vdqtvr0uqnrflobk)
 same_as: null
-versions:
-- {}
+versions: []
 via_devices: null

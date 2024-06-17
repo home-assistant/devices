@@ -8,6 +8,5 @@ manufacturer_raw: Rachio
 model_name: GENERATION3_16ZONE
 model_raw: GENERATION3_16ZONE
 same_as: null
-versions:
-- {}
+versions: []
 via_devices: null

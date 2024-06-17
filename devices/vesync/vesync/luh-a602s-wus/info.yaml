@@ -8,6 +8,5 @@ manufacturer_raw: VeSync
 model_name: LUH-A602S-WUS
 model_raw: LUH-A602S-WUS
 same_as: null
-versions:
-- {}
+versions: []
 via_devices: null

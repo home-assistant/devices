@@ -8,6 +8,5 @@ manufacturer_raw: TCL
 model_name: Smart TV Pro
 model_raw: Smart TV Pro
 same_as: null
-versions:
-- {}
+versions: []
 via_devices: null

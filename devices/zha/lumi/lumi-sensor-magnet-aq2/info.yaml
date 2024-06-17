@@ -8,6 +8,5 @@ manufacturer_raw: LUMI
 model_name: lumi.sensor_magnet.aq2
 model_raw: lumi.sensor_magnet.aq2
 same_as: null
-versions:
-- {}
+versions: []
 via_devices: null

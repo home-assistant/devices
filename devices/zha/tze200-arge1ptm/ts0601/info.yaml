@@ -8,6 +8,5 @@ manufacturer_raw: _TZE200_arge1ptm
 model_name: TS0601
 model_raw: TS0601
 same_as: null
-versions:
-- {}
+versions: []
 via_devices: null

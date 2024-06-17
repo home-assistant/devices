@@ -8,6 +8,5 @@ manufacturer_raw: Tuya
 model_name: DS01C Smart dimmer switch (r3fg1ytyd4sd67ga)
 model_raw: DS01C Smart dimmer switch (r3fg1ytyd4sd67ga)
 same_as: null
-versions:
-- {}
+versions: []
 via_devices: null

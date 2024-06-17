@@ -8,6 +8,5 @@ manufacturer_raw: Flume, Inc.
 model_name: Flume Smart Water Monitor
 model_raw: Flume Smart Water Monitor
 same_as: null
-versions:
-- {}
+versions: []
 via_devices: null

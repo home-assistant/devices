@@ -8,6 +8,5 @@ manufacturer_raw: Olibra
 model_name: SOMFY RMS12
 model_raw: SOMFY RMS12
 same_as: null
-versions:
-- {}
+versions: []
 via_devices: null

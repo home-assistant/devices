@@ -8,6 +8,5 @@ manufacturer_raw: Apple
 model_name: Onelink Safe Sound
 model_raw: Onelink Safe Sound
 same_as: null
-versions:
-- {}
+versions: []
 via_devices: null

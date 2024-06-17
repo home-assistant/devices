@@ -8,6 +8,5 @@ manufacturer_raw: Sony
 model_name: BRAVIA 4K GB ATV3
 model_raw: BRAVIA 4K GB ATV3
 same_as: null
-versions:
-- {}
+versions: []
 via_devices: null

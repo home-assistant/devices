@@ -8,6 +8,5 @@ manufacturer_raw: Samsung Electronics
 model_name: UN46D6000
 model_raw: UN46D6000
 same_as: null
-versions:
-- {}
+versions: []
 via_devices: null

@@ -8,6 +8,5 @@ manufacturer_raw: Linkplay Technology Inc
 model_name: WiiM Pro Receiver
 model_raw: WiiM Pro Receiver
 same_as: null
-versions:
-- {}
+versions: []
 via_devices: null

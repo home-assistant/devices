@@ -8,6 +8,5 @@ manufacturer_raw: Elexa
 model_name: 27.0.1-production.1af7b6d
 model_raw: 27.0.1-production.1af7b6d
 same_as: null
-versions:
-- {}
+versions: []
 via_devices: null

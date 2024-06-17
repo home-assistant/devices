@@ -8,6 +8,5 @@ manufacturer_raw: Lutron Electronics Co., Inc
 model_name: RR-SEL-REP-XX (RA2SelectMainRepeater)
 model_raw: RR-SEL-REP-XX (RA2SelectMainRepeater)
 same_as: null
-versions:
-- {}
+versions: []
 via_devices: null

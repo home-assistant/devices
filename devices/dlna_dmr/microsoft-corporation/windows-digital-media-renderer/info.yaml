@@ -8,6 +8,5 @@ manufacturer_raw: Microsoft Corporation
 model_name: Windows Digital Media Renderer
 model_raw: Windows Digital Media Renderer
 same_as: null
-versions:
-- {}
+versions: []
 via_devices: null

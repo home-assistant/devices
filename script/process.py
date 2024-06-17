@@ -167,7 +167,7 @@ def process_row(row):
     if row["hw_version"]:
         version["hardware"] = row["hw_version"]
 
-    if version not in info["versions"]:
+    if version and version not in info["versions"]:
         info["versions"].append(version)
         changed = True
 
