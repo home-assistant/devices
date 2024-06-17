@@ -1,7 +1,6 @@
 entry_type: device
 has_configuration_url: true
 has_suggested_area: false
-has_via_device: false
 is_via_device: false
 is_works_with_ha_device: false
 manufacturer_name: HIKVISION
@@ -10,3 +9,4 @@ model_name: DS-2CD2020F-I
 model_raw: DS-2CD2020F-I
 versions:
 - software: V5.4.800 build 210813
+via_devices: null

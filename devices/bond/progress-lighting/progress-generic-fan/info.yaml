@@ -1,7 +1,6 @@
 entry_type: device
 has_configuration_url: true
 has_suggested_area: true
-has_via_device: true
 is_via_device: false
 is_works_with_ha_device: false
 manufacturer_name: Progress Lighting
@@ -11,3 +10,4 @@ model_raw: Progress Generic Fan
 versions:
 - software: v3.5
 - software: v2.13.0
+via_devices: null

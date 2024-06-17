@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 
+import dataclasses
 import json
 import pathlib
 import shutil
 from collections import defaultdict
-import dataclasses
 from urllib.parse import quote
 
 import httpx

@@ -1,7 +1,6 @@
 entry_type: device
 has_configuration_url: false
 has_suggested_area: false
-has_via_device: true
 is_via_device: false
 is_works_with_ha_device: false
 manufacturer_name: Xiaomi
@@ -10,3 +9,4 @@ model_name: rockrobo.vacuum.v1
 model_raw: rockrobo.vacuum.v1
 versions:
 - {}
+via_devices: null
