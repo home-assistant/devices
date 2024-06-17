@@ -1,0 +1,12 @@
+entry_type: device
+has_configuration_url: false
+has_suggested_area: false
+is_via_device: false
+is_works_with_ha_device: false
+manufacturer_name: KEF
+manufacturer_raw: KEF
+model_name: SP3994
+model_raw: SP3994
+same_as: null
+versions: []
+via_devices: null
