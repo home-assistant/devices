@@ -3,6 +3,7 @@ has_configuration_url: false
 has_suggested_area: true
 has_via_device: false
 is_via_device: false
+is_works_with_ha_device: false
 manufacturer_name: LIFX
 manufacturer_raw: LIFX
 model_name: LIFX A19 Night Vision

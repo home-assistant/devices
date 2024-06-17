@@ -28,6 +28,7 @@ INFO_YAML = vol.Schema(
             }
         ],
         vol.Optional("is_via_device"): bool,
+        vol.Optional("is_works_with_ha_device"): bool,
     }
 )
 

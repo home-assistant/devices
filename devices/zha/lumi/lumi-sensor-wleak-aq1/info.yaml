@@ -3,6 +3,7 @@ has_configuration_url: false
 has_suggested_area: false
 has_via_device: true
 is_via_device: false
+is_works_with_ha_device: false
 manufacturer_name: LUMI
 manufacturer_raw: LUMI
 model_name: lumi.sensor_wleak.aq1

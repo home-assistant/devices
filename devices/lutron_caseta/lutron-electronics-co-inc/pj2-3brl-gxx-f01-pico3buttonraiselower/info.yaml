@@ -3,6 +3,7 @@ has_configuration_url: false
 has_suggested_area: true
 has_via_device: true
 is_via_device: false
+is_works_with_ha_device: false
 manufacturer_name: Lutron Electronics Co., Inc
 manufacturer_raw: Lutron Electronics Co., Inc
 model_name: PJ2-3BRL-GXX-F01 (Pico3ButtonRaiseLower)

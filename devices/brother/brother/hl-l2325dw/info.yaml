@@ -3,6 +3,7 @@ has_configuration_url: true
 has_suggested_area: false
 has_via_device: false
 is_via_device: false
+is_works_with_ha_device: false
 manufacturer_name: Brother
 manufacturer_raw: Brother
 model_name: HL-L2325DW

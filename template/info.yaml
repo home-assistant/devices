@@ -8,3 +8,4 @@ has_configuration_url: false
 has_via_device: false
 entry_type: ""
 is_via_device: false
+is_works_with_ha_device: false

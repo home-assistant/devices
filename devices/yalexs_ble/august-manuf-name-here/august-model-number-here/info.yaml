@@ -3,6 +3,7 @@ has_configuration_url: false
 has_suggested_area: false
 has_via_device: false
 is_via_device: false
+is_works_with_ha_device: false
 manufacturer_name: AUGUST_MANUF_NAME_HERE
 manufacturer_raw: AUGUST_MANUF_NAME_HERE
 model_name: AUGUST_MODEL_NUMBER_HERE
