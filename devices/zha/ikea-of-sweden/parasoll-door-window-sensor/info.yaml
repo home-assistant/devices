@@ -5,10 +5,9 @@ is_via_device: false
 is_works_with_ha_device: false
 manufacturer_name: IKEA of Sweden
 manufacturer_raw: IKEA of Sweden
-model_name: SOMRIG shortcut button
-model_raw: SOMRIG shortcut button
+model_name: PARASOLL Door/Window Sensor
+model_raw: PARASOLL Door/Window Sensor
 same_as: null
 versions:
-- software: '0x01000020'
-- software: '0x01000021'
+- software: '0x01000019'
 via_devices: null
