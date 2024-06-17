@@ -1,15 +1,17 @@
 #!/usr/bin/env python3
 
+import base64
 import csv
 import dataclasses
+import json
 import pathlib
 import shutil
 from pprint import pprint
 
 import httpx
-from slugify import slugify
 import voluptuous as vol
 import yaml
+from slugify import slugify
 
 ROOT_DIR = pathlib.Path(__file__).parent.parent.resolve()
 DEVICES_DIR = ROOT_DIR / "devices"
@@ -55,18 +57,34 @@ def bool(value):
     return value == "True"
 
 
+VIA_DEVICE_SCHEMA = vol.Schema({
+        vol.Required("integration"): str,
+        vol.Required("manufacturer"): str,
+        vol.Required("model"): str,
+        vol.Required("sw_version"): str_or_none,
+        vol.Required("hw_version"): str_or_none,
+})
+
+
+
+def via_device_schema(value):
+    if value == "bnVsbA==":
+        return None
+    return VIA_DEVICE_SCHEMA(json.loads(base64.b64decode(value).decode()))
+
+
 DEVICE_SCHEMA = vol.Schema(
     {
-        "integration": str,
-        "manufacturer": str,
-        "model": str,
-        "sw_version": str_or_none,
-        "hw_version": str_or_none,
-        "has_via_device": bool,
-        "has_suggested_area": bool,
-        "has_configuration_url": bool,
-        "entry_type": str_or_none,
-        "is_via_device": bool,
+        vol.Required("integration"): str,
+        vol.Required("manufacturer"): str,
+        vol.Required("model"): str,
+        vol.Required("sw_version"): str_or_none,
+        vol.Required("hw_version"): str_or_none,
+        vol.Required("via_device"): via_device_schema,
+        vol.Required("has_suggested_area"): bool,
+        vol.Required("has_configuration_url"): bool,
+        vol.Required("entry_type"): str_or_none,
+        vol.Required("is_via_device"): bool,
     }
 )
 
@@ -114,6 +132,9 @@ def process_row(row):
         / slugify(row["model"])
     )
 
+    if row['via_device']:
+        print(row['via_device'])
+
     if row["integration"] not in APPROVED_INTEGRATIONS:
         update_record.ignored = 1
         return update_record
@@ -135,11 +156,9 @@ def process_row(row):
         ("model", "model_raw"),
         ("manufacturer", "manufacturer_name"),
         ("model", "model_name"),
-        ("has_via_device", "has_via_device"),
         ("has_suggested_area", "has_suggested_area"),
         ("has_configuration_url", "has_configuration_url"),
         ("entry_type", "entry_type"),
-        ("is_via_device", "is_via_device"),
     ):
         if not info.get(info_key) and row[row_key]:
             info[info_key] = row[row_key]
@@ -154,6 +173,14 @@ def process_row(row):
     if version not in info["versions"]:
         info["versions"].append(version)
         changed = True
+
+    if row["via_device"]:
+        if not info["via_devices"]:
+            info["via_devices"] = []
+
+        if row["via_device"] not in info["via_devices"]:
+            info["via_devices"].append(row["via_device"])
+            changed = True
 
     if changed:
         info_path.write_text(yaml.dump(info))

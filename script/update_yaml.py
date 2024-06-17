@@ -10,7 +10,7 @@ ROOT_DIR = pathlib.Path(__file__).parent.parent.resolve()
 DEVICES_DIR = ROOT_DIR / "devices"
 
 NEW_KEYS = {
-    "is_works_with_ha_device": False,
+    "via_devices": None,
 }
 
 

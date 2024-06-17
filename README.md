@@ -27,19 +27,31 @@ You can also process it yourself and open a PR. To do that, put the output in th
     "esphome"
   ],
   ignore_entry_type=["service"],
-  via_devices=[]
+  via_devices=[(None, None)]
 ) %}
 {% for state in states -%}
 {% set dev_id = device_id(state.entity_id) -%}
 {% if dev_id -%}
 {% set via_device = device_attr(dev_id, 'via_device_id') -%}
-{% if via_device and via_device not in ns.via_devices -%}
-{% set ns.via_devices = ns.via_devices + [via_device] -%}
+{% if via_device  -%}
+{# temporary until primary integration is included -#}
+{% set ns.integration = None -%}
+{% for ident in device_attr(dev_id, 'identifiers') -%}
+{% set ns.integration = ident[0] -%}
+{% endfor %}
+{% set ns.via_devices = ns.via_devices + [(via_device, {
+  "sw_version": device_attr(via_device, 'sw_version'),
+  "hw_version": device_attr(via_device, 'hw_version'),
+  "integration": ns.integration,
+  "model": device_attr(via_device, 'model'),
+  "manufacturer": device_attr(via_device, 'manufacturer'),
+})] -%}
 {% endif -%}
 {% endif -%}
 {% endfor -%}
+{% set ns.via_devices = dict.from_keys(ns.via_devices) %}
 
-integration,manufacturer,model,sw_version,hw_version,has_via_device,has_suggested_area,has_configuration_url,entry_type,is_via_device
+integration,manufacturer,model,sw_version,hw_version,via_device,has_suggested_area,has_configuration_url,entry_type,is_via_device
 {% for state in states -%}
 {% set dev_id = device_id(state.entity_id) -%}
 {% if dev_id not in ns.devices -%}
@@ -58,7 +70,7 @@ integration,manufacturer,model,sw_version,hw_version,has_via_device,has_suggeste
 {#-#}"{{ device_attr(dev_id, 'model') }}",
 {#-#}"{{ device_attr(dev_id, 'sw_version') }}",
 {#-#}"{{ device_attr(dev_id, 'hw_version') }}",
-{{- device_attr(dev_id, 'via_device_id') != None }},
+{#-#}"{{- ns.via_devices[device_attr(dev_id, 'via_device_id')] | to_json | base64_encode }}",
 {{- device_attr(dev_id, 'suggested_area') != None }},
 {{- device_attr(dev_id, 'configuration_url') != None }},
 {{- device_attr(dev_id, 'entry_type') }},
