@@ -7,6 +7,7 @@ manufacturer_name: LUMI
 manufacturer_raw: LUMI
 model_name: lumi.sensor_wleak.aq1
 model_raw: lumi.sensor_wleak.aq1
+same_as: null
 versions:
 - {}
 via_devices:

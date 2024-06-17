@@ -7,6 +7,7 @@ manufacturer_name: Reolink
 manufacturer_raw: Reolink
 model_name: Reolink Video Doorbell WiFi
 model_raw: Reolink Video Doorbell WiFi
+same_as: null
 versions:
 - hardware: DB_566128M5MP_W
   software: v3.0.0.3215_2401262240

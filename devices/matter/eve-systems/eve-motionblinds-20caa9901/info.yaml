@@ -7,6 +7,7 @@ manufacturer_name: Eve Systems
 manufacturer_raw: Eve Systems
 model_name: Eve MotionBlinds 20CAA9901
 model_raw: Eve MotionBlinds 20CAA9901
+same_as: null
 versions:
 - hardware: '1.1'
   software: 3.2.1

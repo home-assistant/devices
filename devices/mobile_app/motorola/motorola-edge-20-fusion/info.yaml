@@ -7,6 +7,7 @@ manufacturer_name: motorola
 manufacturer_raw: motorola
 model_name: motorola edge 20 fusion
 model_raw: motorola edge 20 fusion
+same_as: null
 versions:
 - software: '31'
 via_devices: null

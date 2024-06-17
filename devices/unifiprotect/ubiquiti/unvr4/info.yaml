@@ -7,6 +7,7 @@ manufacturer_name: Ubiquiti
 manufacturer_raw: Ubiquiti
 model_name: UNVR4
 model_raw: UNVR4
+same_as: null
 versions:
 - software: 4.0.33
 via_devices: null

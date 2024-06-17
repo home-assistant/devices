@@ -7,6 +7,7 @@ manufacturer_name: Sengled
 manufacturer_raw: Sengled
 model_name: W41-N15A
 model_raw: W41-N15A
+same_as: null
 versions:
 - hardware: V1
   software: V1.0.0.5

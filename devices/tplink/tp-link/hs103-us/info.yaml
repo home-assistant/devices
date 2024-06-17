@@ -7,6 +7,7 @@ manufacturer_name: TP-Link
 manufacturer_raw: TP-Link
 model_name: HS103(US)
 model_raw: HS103(US)
+same_as: null
 versions:
 - hardware: '5.0'
   software: 1.0.3 Build 201015 Rel.142523

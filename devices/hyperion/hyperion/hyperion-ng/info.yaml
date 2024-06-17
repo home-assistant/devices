@@ -7,6 +7,7 @@ manufacturer_name: Hyperion
 manufacturer_raw: Hyperion
 model_name: Hyperion-NG
 model_raw: Hyperion-NG
+same_as: null
 versions:
 - {}
 via_devices: null

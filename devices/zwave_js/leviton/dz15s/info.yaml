@@ -7,6 +7,7 @@ manufacturer_name: Leviton
 manufacturer_raw: Leviton
 model_name: DZ15S
 model_raw: DZ15S
+same_as: null
 versions:
 - software: '1.23'
 via_devices: null

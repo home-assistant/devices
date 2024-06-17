@@ -7,6 +7,7 @@ manufacturer_name: American Power Conversion
 manufacturer_raw: American Power Conversion
 model_name: Back-UPS RS 1500G
 model_raw: Back-UPS RS 1500G
+same_as: null
 versions:
 - software: 865.L9 .D
 via_devices: null

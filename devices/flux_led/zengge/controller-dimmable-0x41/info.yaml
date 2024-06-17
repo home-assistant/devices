@@ -7,6 +7,7 @@ manufacturer_name: Zengge
 manufacturer_raw: Zengge
 model_name: Controller Dimmable (0x41)
 model_raw: Controller Dimmable (0x41)
+same_as: null
 versions:
 - hardware: AK001-ZJ21410
   software: '3.27'

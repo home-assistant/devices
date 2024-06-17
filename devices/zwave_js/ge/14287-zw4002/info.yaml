@@ -7,6 +7,7 @@ manufacturer_name: GE
 manufacturer_raw: GE
 model_name: 14287 / ZW4002
 model_raw: 14287 / ZW4002
+same_as: null
 versions:
 - software: '5.24'
 via_devices: null

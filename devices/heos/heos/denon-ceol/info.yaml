@@ -7,6 +7,7 @@ manufacturer_name: HEOS
 manufacturer_raw: HEOS
 model_name: Denon CEOL
 model_raw: Denon CEOL
+same_as: null
 versions:
 - software: 3.19.350
 via_devices: null

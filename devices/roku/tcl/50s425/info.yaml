@@ -7,6 +7,7 @@ manufacturer_name: TCL
 manufacturer_raw: TCL
 model_name: 50S425
 model_raw: 50S425
+same_as: null
 versions:
 - hardware: C105X
   software: 13.0.0

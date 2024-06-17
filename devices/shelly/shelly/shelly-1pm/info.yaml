@@ -7,6 +7,7 @@ manufacturer_name: Shelly
 manufacturer_raw: Shelly
 model_name: Shelly 1PM
 model_raw: Shelly 1PM
+same_as: null
 versions:
 - hardware: gen1 (SHSW-PM)
   software: 20230913-113709/v1.14.0-gcb84623

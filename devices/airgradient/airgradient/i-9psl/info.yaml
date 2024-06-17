@@ -7,6 +7,7 @@ manufacturer_name: AirGradient
 manufacturer_raw: AirGradient
 model_name: I-9PSL
 model_raw: I-9PSL
+same_as: null
 versions:
 - software: 3.1.1
 via_devices: null

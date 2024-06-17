@@ -7,6 +7,7 @@ manufacturer_name: ELK Products, Inc.
 manufacturer_raw: ELK Products, Inc.
 model_name: M1
 model_raw: M1
+same_as: null
 versions:
 - software: 5.3.10
 via_devices: null

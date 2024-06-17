@@ -7,6 +7,7 @@ manufacturer_name: Roborock
 manufacturer_raw: Roborock
 model_name: roborock.vacuum.a27
 model_raw: roborock.vacuum.a27
+same_as: null
 versions:
 - software: 02.58.40
 via_devices: null

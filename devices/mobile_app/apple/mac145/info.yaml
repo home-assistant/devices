@@ -7,6 +7,7 @@ manufacturer_name: Apple
 manufacturer_raw: Apple
 model_name: Mac14,5
 model_raw: Mac14,5
+same_as: null
 versions:
 - software: 14.5.0
 via_devices: null

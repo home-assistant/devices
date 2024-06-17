@@ -7,6 +7,7 @@ manufacturer_name: LUMI
 manufacturer_raw: LUMI
 model_name: lumi.motion.ac02
 model_raw: lumi.motion.ac02
+same_as: null
 versions:
 - software: '0x00000006'
 - {}

@@ -7,6 +7,7 @@ manufacturer_name: TP-Link
 manufacturer_raw: TP-Link
 model_name: Mini Smart Wi-Fi Plug
 model_raw: Mini Smart Wi-Fi Plug
+same_as: null
 versions:
 - hardware: '1.0'
   software: 1.0.0 Build 220930 Rel.143947

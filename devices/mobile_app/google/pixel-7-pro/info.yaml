@@ -7,6 +7,7 @@ manufacturer_name: Google
 manufacturer_raw: Google
 model_name: Pixel 7 Pro
 model_raw: Pixel 7 Pro
+same_as: null
 versions:
 - software: '34'
 via_devices: null

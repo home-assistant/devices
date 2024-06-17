@@ -7,6 +7,7 @@ manufacturer_name: Philips
 manufacturer_raw: Philips
 model_name: RWL020
 model_raw: RWL020
+same_as: null
 versions:
 - software: '0x420045b6'
 via_devices:

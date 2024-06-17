@@ -7,6 +7,7 @@ manufacturer_name: yale
 manufacturer_raw: yale
 model_name: MD-04I
 model_raw: MD-04I
+same_as: null
 versions:
 - software: 1.0.16
 via_devices: null

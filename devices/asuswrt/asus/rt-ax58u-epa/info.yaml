@@ -7,6 +7,7 @@ manufacturer_name: Asus
 manufacturer_raw: Asus
 model_name: RT-AX58U_EPA
 model_raw: RT-AX58U_EPA
+same_as: null
 versions:
 - software: 3.0.0.4 (build 388)
 via_devices: null

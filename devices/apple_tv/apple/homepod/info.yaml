@@ -7,6 +7,7 @@ manufacturer_name: Apple
 manufacturer_raw: Apple
 model_name: HomePod
 model_raw: HomePod
+same_as: null
 versions:
 - software: '17.5'
 via_devices: null

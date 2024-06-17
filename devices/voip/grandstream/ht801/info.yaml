@@ -7,6 +7,7 @@ manufacturer_name: Grandstream
 manufacturer_raw: Grandstream
 model_name: HT801
 model_raw: HT801
+same_as: null
 versions:
 - software: 1.0.51.1
 - software: 1.0.43.11

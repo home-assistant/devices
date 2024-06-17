@@ -7,6 +7,7 @@ manufacturer_name: Ring
 manufacturer_raw: Ring
 model_name: 4AK1SZ
 model_raw: 4AK1SZ
+same_as: null
 versions:
 - software: 1.18.0
 via_devices: null

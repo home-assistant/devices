@@ -7,6 +7,7 @@ manufacturer_name: IKEA of Sweden
 manufacturer_raw: IKEA of Sweden
 model_name: SYMFONISK sound remote gen2
 model_raw: SYMFONISK sound remote gen2
+same_as: null
 versions:
 - software: '0x01000035'
 via_devices: null

@@ -7,6 +7,7 @@ manufacturer_name: Broadlink
 manufacturer_raw: Broadlink
 model_name: RM4 pro
 model_raw: RM4 pro
+same_as: null
 versions:
 - software: '62093'
 - software: '52079'

@@ -7,6 +7,7 @@ manufacturer_name: Sonos
 manufacturer_raw: Sonos
 model_name: One
 model_raw: One
+same_as: null
 versions:
 - software: '16.2'
 - software: 16.1.1

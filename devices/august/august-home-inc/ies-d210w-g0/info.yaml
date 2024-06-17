@@ -7,6 +7,7 @@ manufacturer_name: August Home Inc.
 manufacturer_raw: August Home Inc.
 model_name: IES-D210W-G0
 model_raw: IES-D210W-G0
+same_as: null
 versions:
 - software: 3.0.10-2.0.8
 via_devices: null

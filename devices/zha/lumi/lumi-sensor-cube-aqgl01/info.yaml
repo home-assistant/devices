@@ -7,6 +7,7 @@ manufacturer_name: LUMI
 manufacturer_raw: LUMI
 model_name: lumi.sensor_cube.aqgl01
 model_raw: lumi.sensor_cube.aqgl01
+same_as: null
 versions:
 - {}
 via_devices: null

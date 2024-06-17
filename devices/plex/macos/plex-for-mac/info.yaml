@@ -7,6 +7,7 @@ manufacturer_name: macos
 manufacturer_raw: macos
 model_name: Plex for Mac
 model_raw: Plex for Mac
+same_as: null
 versions:
 - software: 1.87.2.87-87488d5a
 via_devices: null

@@ -7,6 +7,7 @@ manufacturer_name: 'WDC     '
 manufacturer_raw: 'WDC     '
 model_name: WD100EFAX-68LHPN0
 model_raw: WD100EFAX-68LHPN0
+same_as: null
 versions:
 - software: 83.H0A83
 via_devices: null

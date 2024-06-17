@@ -7,6 +7,7 @@ manufacturer_name: TP-Link
 manufacturer_raw: TP-Link
 model_name: HS220(US)
 model_raw: HS220(US)
+same_as: null
 versions:
 - hardware: '1.0'
   software: 1.5.5 Build 180717 Rel.155202

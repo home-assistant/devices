@@ -7,6 +7,7 @@ manufacturer_name: samsung
 manufacturer_raw: samsung
 model_name: SM-F731B
 model_raw: SM-F731B
+same_as: null
 versions:
 - software: '34'
 via_devices: null

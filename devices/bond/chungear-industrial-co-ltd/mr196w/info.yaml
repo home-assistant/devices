@@ -7,6 +7,7 @@ manufacturer_name: Chungear Industrial Co., Ltd.
 manufacturer_raw: Chungear Industrial Co., Ltd.
 model_name: MR196W
 model_raw: MR196W
+same_as: null
 versions:
 - software: v3.5-beta
 via_devices: null

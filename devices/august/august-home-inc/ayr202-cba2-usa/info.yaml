@@ -7,6 +7,7 @@ manufacturer_name: August Home Inc.
 manufacturer_raw: August Home Inc.
 model_name: AYR202-CBA2-USA
 model_raw: AYR202-CBA2-USA
+same_as: null
 versions:
 - software: 2.8.0-2.1.18
 via_devices: null

@@ -7,6 +7,7 @@ manufacturer_name: Tuya
 manufacturer_raw: Tuya
 model_name: YuHao dcFan (uoebyc4b8it0eh09)
 model_raw: YuHao dcFan (uoebyc4b8it0eh09)
+same_as: null
 versions:
 - {}
 via_devices: null

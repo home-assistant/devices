@@ -7,6 +7,7 @@ manufacturer_name: TP-Link
 manufacturer_raw: TP-Link
 model_name: KS240
 model_raw: KS240
+same_as: null
 versions:
 - hardware: '1.0'
   software: 1.0.4 Build 230721 Rel.184322

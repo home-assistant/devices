@@ -7,6 +7,7 @@ manufacturer_name: Leviton
 manufacturer_raw: Leviton
 model_name: DZPD3
 model_raw: DZPD3
+same_as: null
 versions:
 - software: '1.20'
 via_devices: null

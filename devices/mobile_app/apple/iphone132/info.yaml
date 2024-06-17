@@ -7,6 +7,7 @@ manufacturer_name: Apple
 manufacturer_raw: Apple
 model_name: iPhone13,2
 model_raw: iPhone13,2
+same_as: null
 versions:
 - software: 17.5.1
 via_devices: null

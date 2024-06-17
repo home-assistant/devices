@@ -7,6 +7,7 @@ manufacturer_name: IKEA of Sweden
 manufacturer_raw: IKEA of Sweden
 model_name: Remote Control N2
 model_raw: Remote Control N2
+same_as: null
 versions:
 - software: '0x02040005'
 via_devices: null

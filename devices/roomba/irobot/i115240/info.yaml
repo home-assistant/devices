@@ -7,6 +7,7 @@ manufacturer_name: iRobot
 manufacturer_raw: iRobot
 model_name: i115240
 model_raw: i115240
+same_as: null
 versions:
 - software: daredevil+2.6.0+daredevil-release+163
 via_devices: null

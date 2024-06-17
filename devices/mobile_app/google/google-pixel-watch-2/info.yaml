@@ -7,6 +7,7 @@ manufacturer_name: Google
 manufacturer_raw: Google
 model_name: Google Pixel Watch 2
 model_raw: Google Pixel Watch 2
+same_as: null
 versions:
 - software: '33'
 via_devices: null

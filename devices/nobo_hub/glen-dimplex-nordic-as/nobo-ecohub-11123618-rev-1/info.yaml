@@ -7,6 +7,7 @@ manufacturer_name: Glen Dimplex Nordic AS
 manufacturer_raw: Glen Dimplex Nordic AS
 model_name: "Nob\xF8 Ecohub (11123618_rev._1)"
 model_raw: "Nob\xF8 Ecohub (11123618_rev._1)"
+same_as: null
 versions:
 - software: '114'
 via_devices: null

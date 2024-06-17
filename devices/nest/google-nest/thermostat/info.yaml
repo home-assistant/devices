@@ -7,6 +7,7 @@ manufacturer_name: Google Nest
 manufacturer_raw: Google Nest
 model_name: Thermostat
 model_raw: Thermostat
+same_as: null
 versions:
 - {}
 via_devices: null

@@ -7,6 +7,7 @@ manufacturer_name: LIFX
 manufacturer_raw: LIFX
 model_name: LIFX Clean
 model_raw: LIFX Clean
+same_as: null
 versions:
 - software: '3.90'
 via_devices: null

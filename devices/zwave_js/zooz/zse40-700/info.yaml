@@ -7,6 +7,7 @@ manufacturer_name: Zooz
 manufacturer_raw: Zooz
 model_name: ZSE40 700
 model_raw: ZSE40 700
+same_as: null
 versions:
 - software: 32.32.1
 - software: 1.10.2

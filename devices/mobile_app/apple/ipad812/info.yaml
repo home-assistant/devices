@@ -7,6 +7,7 @@ manufacturer_name: Apple
 manufacturer_raw: Apple
 model_name: iPad8,12
 model_raw: iPad8,12
+same_as: null
 versions:
 - software: 17.4.1
 via_devices: null

@@ -7,6 +7,7 @@ manufacturer_name: Somfy
 manufacturer_raw: Somfy
 model_name: PositionableHorizontalAwning
 model_raw: PositionableHorizontalAwning
+same_as: null
 versions:
 - hardware: io:HorizontalAwningIOComponent
   software: 5104761X04

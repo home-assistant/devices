@@ -7,6 +7,7 @@ manufacturer_name: Google
 manufacturer_raw: Google
 model_name: Pixel 8
 model_raw: Pixel 8
+same_as: null
 versions:
 - software: '34'
 via_devices: null
