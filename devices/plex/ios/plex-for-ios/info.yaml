@@ -7,6 +7,7 @@ manufacturer_name: iOS
 manufacturer_raw: iOS
 model_name: Plex for iOS
 model_raw: Plex for iOS
+same_as: null
 versions:
 - software: '8.23'
 - software: '8.18'

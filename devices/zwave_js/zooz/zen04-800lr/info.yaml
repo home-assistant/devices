@@ -7,6 +7,7 @@ manufacturer_name: Zooz
 manufacturer_raw: Zooz
 model_name: ZEN04 800LR
 model_raw: ZEN04 800LR
+same_as: null
 versions:
 - software: 2.20.1
 via_devices:

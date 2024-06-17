@@ -7,6 +7,7 @@ manufacturer_name: August Home Inc.
 manufacturer_raw: August Home Inc.
 model_name: MD-01
 model_raw: MD-01
+same_as: null
 versions:
 - software: 2.0.5
 via_devices: null

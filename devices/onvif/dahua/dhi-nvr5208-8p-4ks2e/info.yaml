@@ -7,6 +7,7 @@ manufacturer_name: Dahua
 manufacturer_raw: Dahua
 model_name: DHI-NVR5208-8P-4KS2E
 model_raw: DHI-NVR5208-8P-4KS2E
+same_as: null
 versions:
 - software: 4.002.0000000.6.R, Build Date 2022-11-15
 via_devices: null

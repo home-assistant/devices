@@ -7,6 +7,7 @@ manufacturer_name: TP-Link
 manufacturer_raw: TP-Link
 model_name: KP115(AU)
 model_raw: KP115(AU)
+same_as: null
 versions:
 - hardware: '1.0'
   software: 1.0.7 Build 200825 Rel.091621

@@ -7,6 +7,7 @@ manufacturer_name: Lutron Electronics Co., Inc
 manufacturer_raw: Lutron Electronics Co., Inc
 model_name: QSYC-J-RCVR (QsWirelessShade)
 model_raw: QSYC-J-RCVR (QsWirelessShade)
+same_as: null
 versions:
 - {}
 via_devices: null

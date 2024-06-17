@@ -7,6 +7,7 @@ manufacturer_name: Hinkley
 manufacturer_raw: Hinkley
 model_name: '900982'
 model_raw: '900982'
+same_as: null
 versions:
 - software: v3.5-beta
 - software: v3.5

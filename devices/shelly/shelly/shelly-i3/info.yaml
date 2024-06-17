@@ -7,6 +7,7 @@ manufacturer_name: Shelly
 manufacturer_raw: Shelly
 model_name: Shelly i3
 model_raw: Shelly i3
+same_as: null
 versions:
 - hardware: gen1 (SHIX3-1)
   software: 20230913-114336/v1.14.0-gcb84623

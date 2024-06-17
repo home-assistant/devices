@@ -7,6 +7,7 @@ manufacturer_name: HomeWizard
 manufacturer_raw: HomeWizard
 model_name: HWE-WTR
 model_raw: HWE-WTR
+same_as: null
 versions:
 - software: '3.01'
 via_devices: null

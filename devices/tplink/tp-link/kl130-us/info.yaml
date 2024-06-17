@@ -7,6 +7,7 @@ manufacturer_name: TP-Link
 manufacturer_raw: TP-Link
 model_name: KL130(US)
 model_raw: KL130(US)
+same_as: null
 versions:
 - hardware: '2.0'
   software: 1.0.13 Build 211217 Rel.170501

@@ -7,6 +7,7 @@ manufacturer_name: Elgato
 manufacturer_raw: Elgato
 model_name: Elgato Key Light Air
 model_raw: Elgato Key Light Air
+same_as: null
 versions:
 - hardware: '200'
   software: 1.0.3 (214)

@@ -7,6 +7,7 @@ manufacturer_name: Z-Wave.me
 manufacturer_raw: Z-Wave.me
 model_name: RaZberry 7
 model_raw: RaZberry 7
+same_as: null
 versions:
 - software: '7.36'
 via_devices: null

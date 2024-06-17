@@ -7,6 +7,7 @@ manufacturer_name: Card Access Inc.
 manufacturer_raw: Card Access Inc.
 model_name: MD-05
 model_raw: MD-05
+same_as: null
 versions:
 - software: 1.0.20
 via_devices: null

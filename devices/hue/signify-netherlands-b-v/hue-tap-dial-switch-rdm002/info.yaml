@@ -7,6 +7,7 @@ manufacturer_name: Signify Netherlands B.V.
 manufacturer_raw: Signify Netherlands B.V.
 model_name: Hue tap dial switch (RDM002)
 model_raw: Hue tap dial switch (RDM002)
+same_as: null
 versions:
 - software: 2.59.25
 via_devices: null

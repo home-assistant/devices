@@ -7,6 +7,7 @@ manufacturer_name: AirGradient
 manufacturer_raw: AirGradient
 model_name: O-1PPT
 model_raw: O-1PPT
+same_as: null
 versions:
 - software: 3.1.1
 via_devices: null

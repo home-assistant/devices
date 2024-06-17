@@ -7,6 +7,7 @@ manufacturer_name: Phoscon
 manufacturer_raw: Phoscon
 model_name: Hive
 model_raw: Hive
+same_as: null
 versions:
 - software: '0x00200018'
 via_devices: null

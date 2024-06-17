@@ -7,6 +7,7 @@ manufacturer_name: Signify Netherlands B.V.
 manufacturer_raw: Signify Netherlands B.V.
 model_name: Signe gradient table (915005987001)
 model_raw: Signe gradient table (915005987001)
+same_as: null
 versions:
 - software: 1.116.3
 via_devices: null

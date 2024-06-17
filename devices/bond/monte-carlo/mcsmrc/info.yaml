@@ -7,6 +7,7 @@ manufacturer_name: Monte Carlo
 manufacturer_raw: Monte Carlo
 model_name: MCSMRC
 model_raw: MCSMRC
+same_as: null
 versions:
 - software: v3.5
 via_devices: null

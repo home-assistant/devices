@@ -7,6 +7,7 @@ manufacturer_name: August Home
 manufacturer_raw: August Home
 model_name: ASL-03
 model_raw: ASL-03
+same_as: null
 versions:
 - software: '1.59'
 via_devices: null

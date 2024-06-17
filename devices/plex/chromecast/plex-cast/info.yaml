@@ -7,6 +7,7 @@ manufacturer_name: Chromecast
 manufacturer_raw: Chromecast
 model_name: Plex Cast
 model_raw: Plex Cast
+same_as: null
 versions:
 - software: 4.54.1
 via_devices: null

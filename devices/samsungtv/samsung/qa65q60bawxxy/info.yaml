@@ -7,6 +7,7 @@ manufacturer_name: Samsung
 manufacturer_raw: Samsung
 model_name: QA65Q60BAWXXY
 model_raw: QA65Q60BAWXXY
+same_as: null
 versions:
 - {}
 via_devices: null

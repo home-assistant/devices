@@ -7,6 +7,7 @@ manufacturer_name: QNAP
 manufacturer_raw: QNAP
 model_name: TS-251+
 model_raw: TS-251+
+same_as: null
 versions:
 - software: 5.1.5
 via_devices: null

@@ -7,5 +7,6 @@ manufacturer_name: ""
 manufacturer_raw: ""
 model_name: ""
 model_raw: ""
+same_as: null
 versions: []
 via_devices: null

@@ -7,6 +7,7 @@ manufacturer_name: LG
 manufacturer_raw: LG
 model_name: 32LM631C0ZA
 model_raw: 32LM631C0ZA
+same_as: null
 versions:
 - software: 05.40.20
 via_devices: null

@@ -7,6 +7,7 @@ manufacturer_name: TP-Link
 manufacturer_raw: TP-Link
 model_name: EP25
 model_raw: EP25
+same_as: null
 versions:
 - hardware: '2.6'
   software: 1.0.2 Build 231108 Rel.163012

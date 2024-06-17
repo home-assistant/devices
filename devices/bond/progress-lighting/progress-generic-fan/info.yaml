@@ -7,6 +7,7 @@ manufacturer_name: Progress Lighting
 manufacturer_raw: Progress Lighting
 model_name: Progress Generic Fan
 model_raw: Progress Generic Fan
+same_as: null
 versions:
 - software: v3.5
 - software: v2.13.0

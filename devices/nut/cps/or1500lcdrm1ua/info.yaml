@@ -7,6 +7,7 @@ manufacturer_name: CPS
 manufacturer_raw: CPS
 model_name: OR1500LCDRM1Ua
 model_raw: OR1500LCDRM1Ua
+same_as: null
 versions:
 - {}
 via_devices: null

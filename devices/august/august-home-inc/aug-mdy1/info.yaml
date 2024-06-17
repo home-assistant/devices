@@ -7,6 +7,7 @@ manufacturer_name: August Home Inc.
 manufacturer_raw: August Home Inc.
 model_name: AUG-MDY1
 model_raw: AUG-MDY1
+same_as: null
 versions:
 - software: 2.2.5
 - software: 2.7.0-2.0.5

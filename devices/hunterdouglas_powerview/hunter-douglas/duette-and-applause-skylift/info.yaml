@@ -7,6 +7,7 @@ manufacturer_name: Hunter Douglas
 manufacturer_raw: Hunter Douglas
 model_name: Duette and Applause SkyLift
 model_raw: Duette and Applause SkyLift
+same_as: null
 versions:
 - software: 1.8.1944
 via_devices: null

@@ -7,6 +7,7 @@ manufacturer_name: ASSAABLOY Inc.
 manufacturer_raw: ASSAABLOY Inc.
 model_name: YRSM-1
 model_raw: YRSM-1
+same_as: null
 versions:
 - software: 2.0.8
 via_devices: null

@@ -7,6 +7,7 @@ manufacturer_name: Philips
 manufacturer_raw: Philips
 model_name: 7602031P7
 model_raw: 7602031P7
+same_as: null
 versions:
 - software: '0x01002002'
 via_devices: null

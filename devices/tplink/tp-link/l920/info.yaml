@@ -7,6 +7,7 @@ manufacturer_name: TP-Link
 manufacturer_raw: TP-Link
 model_name: L920
 model_raw: L920
+same_as: null
 versions:
 - hardware: '1.0'
   software: 1.1.3 Build 231229 Rel.164316

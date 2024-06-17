@@ -7,6 +7,7 @@ manufacturer_name: windows
 manufacturer_raw: windows
 model_name: Plex for Windows
 model_raw: Plex for Windows
+same_as: null
 versions:
 - software: 1.77.3.3966-a5ddb215
 - software: 1.49.1.3146-73559c78

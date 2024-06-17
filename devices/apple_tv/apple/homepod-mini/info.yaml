@@ -7,6 +7,7 @@ manufacturer_name: Apple
 manufacturer_raw: Apple
 model_name: HomePod Mini
 model_raw: HomePod Mini
+same_as: null
 versions:
 - software: '17.5'
 - software: '17.4'

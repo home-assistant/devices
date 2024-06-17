@@ -7,6 +7,7 @@ manufacturer_name: Ecolink
 manufacturer_raw: Ecolink
 model_name: H214104
 model_raw: H214104
+same_as: null
 versions:
 - software: '10.9'
 via_devices: null

@@ -7,6 +7,7 @@ manufacturer_name: Broadlink
 manufacturer_raw: Broadlink
 model_name: RM4 mini
 model_raw: RM4 mini
+same_as: null
 versions:
 - software: '62092'
 via_devices: null

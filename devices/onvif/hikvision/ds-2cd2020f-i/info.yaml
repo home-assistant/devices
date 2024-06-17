@@ -7,6 +7,7 @@ manufacturer_name: HIKVISION
 manufacturer_raw: HIKVISION
 model_name: DS-2CD2020F-I
 model_raw: DS-2CD2020F-I
+same_as: null
 versions:
 - software: V5.4.800 build 210813
 via_devices: null

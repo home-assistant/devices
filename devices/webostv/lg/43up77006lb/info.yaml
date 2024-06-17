@@ -7,6 +7,7 @@ manufacturer_name: LG
 manufacturer_raw: LG
 model_name: 43UP77006LB
 model_raw: 43UP77006LB
+same_as: null
 versions:
 - software: 03.40.82
 via_devices: null

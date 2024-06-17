@@ -7,6 +7,7 @@ manufacturer_name: Tesla
 manufacturer_raw: Tesla
 model_name: PowerWall 2 (GW2)
 model_raw: PowerWall 2 (GW2)
+same_as: null
 versions:
 - software: 24.4.0 0fe780c9
 - software: 24.12.3 1feaff3a

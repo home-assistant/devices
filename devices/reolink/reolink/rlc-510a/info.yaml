@@ -7,6 +7,7 @@ manufacturer_name: Reolink
 manufacturer_raw: Reolink
 model_name: RLC-510A
 model_raw: RLC-510A
+same_as: null
 versions:
 - hardware: IPC_MS1NA45MP
   software: v3.0.0.2417_23070500

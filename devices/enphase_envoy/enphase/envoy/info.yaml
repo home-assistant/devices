@@ -7,6 +7,7 @@ manufacturer_name: Enphase
 manufacturer_raw: Enphase
 model_name: Envoy
 model_raw: Envoy
+same_as: null
 versions:
 - hardware: 800-00069-r05
   software: 3.18.10

@@ -7,6 +7,7 @@ manufacturer_name: Samsung
 manufacturer_raw: Samsung
 model_name: Samsung SSD 960 EVO 500GB
 model_raw: Samsung SSD 960 EVO 500GB
+same_as: null
 versions:
 - software: 3B7QCXE7
 via_devices: null

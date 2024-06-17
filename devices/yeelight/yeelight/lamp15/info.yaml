@@ -7,6 +7,7 @@ manufacturer_name: Yeelight
 manufacturer_raw: Yeelight
 model_name: lamp15
 model_raw: lamp15
+same_as: null
 versions:
 - software: '38'
 via_devices: null

@@ -7,6 +7,7 @@ manufacturer_name: Nanoleaf
 manufacturer_raw: Nanoleaf
 model_name: NL22
 model_raw: NL22
+same_as: null
 versions:
 - software: 5.2.2
 via_devices: null

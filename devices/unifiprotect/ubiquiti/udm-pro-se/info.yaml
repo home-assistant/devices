@@ -7,6 +7,7 @@ manufacturer_name: Ubiquiti
 manufacturer_raw: Ubiquiti
 model_name: UDM-PRO-SE
 model_raw: UDM-PRO-SE
+same_as: null
 versions:
 - hardware: '26'
   software: 4.0.33

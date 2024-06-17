@@ -7,6 +7,7 @@ manufacturer_name: Lutron Electronics Co., Inc
 manufacturer_raw: Lutron Electronics Co., Inc
 model_name: PJ2-3BRL-GXX-F01 (Pico3ButtonRaiseLower)
 model_raw: PJ2-3BRL-GXX-F01 (Pico3ButtonRaiseLower)
+same_as: null
 versions:
 - {}
 via_devices: null

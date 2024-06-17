@@ -7,6 +7,7 @@ manufacturer_name: IKEA of Sweden
 manufacturer_raw: IKEA of Sweden
 model_name: VINDSTYRKA
 model_raw: VINDSTYRKA
+same_as: null
 versions:
 - software: '0x00010010'
 - software: '0x01000011'

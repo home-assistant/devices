@@ -7,6 +7,7 @@ manufacturer_name: TP-Link
 manufacturer_raw: TP-Link
 model_name: KP200(US)
 model_raw: KP200(US)
+same_as: null
 versions:
 - hardware: '3.0'
   software: 1.0.3 Build 221021 Rel.183354

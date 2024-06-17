@@ -7,6 +7,7 @@ manufacturer_name: Philips
 manufacturer_raw: Philips
 model_name: LCT001
 model_raw: LCT001
+same_as: null
 versions:
 - software: '0x420052b1'
 via_devices:
