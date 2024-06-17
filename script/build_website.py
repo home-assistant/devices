@@ -10,6 +10,7 @@ from urllib.parse import quote
 import httpx
 import humanmark
 import mistune
+from slugify import slugify
 import yaml
 
 ROOT_DIR = pathlib.Path(__file__).parent.parent.resolve()
@@ -98,6 +99,7 @@ def build_device(device_path, integration_index_json, integration_index_markdown
 
     model_index = {
         "info": f"{device_url}/info.json",
+        "is_works_with_ha_device": info["is_works_with_ha_device"]
     }
 
     device_index_extra_content = []
