@@ -132,9 +132,6 @@ def process_row(row):
         / slugify(row["model"])
     )
 
-    if row['via_device']:
-        print(row['via_device'])
-
     if row["integration"] not in APPROVED_INTEGRATIONS:
         update_record.ignored = 1
         return update_record

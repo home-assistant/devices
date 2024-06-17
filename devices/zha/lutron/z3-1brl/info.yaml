@@ -9,4 +9,9 @@ model_name: Z3-1BRL
 model_raw: Z3-1BRL
 versions:
 - software: '0x00000c08'
-via_devices: null
+via_devices:
+- hw_version: null
+  integration: zha
+  manufacturer: Silicon Labs
+  model: EZSP
+  sw_version: 7.3.2.0 build 212

@@ -9,4 +9,9 @@ model_name: QNPL-001X16
 model_raw: QNPL-001X16
 versions:
 - software: 10.11.0
-via_devices: null
+via_devices:
+- hw_version: null
+  integration: zwave_js
+  manufacturer: Silicon Labs
+  model: 700/800 Series
+  sw_version: 7.15.1

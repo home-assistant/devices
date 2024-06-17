@@ -9,4 +9,9 @@ model_name: ZEN04 800LR
 model_raw: ZEN04 800LR
 versions:
 - software: 2.20.1
-via_devices: null
+via_devices:
+- hw_version: null
+  integration: zwave_js
+  manufacturer: Silicon Labs
+  model: 700/800 Series
+  sw_version: 7.15.1

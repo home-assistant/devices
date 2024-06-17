@@ -10,4 +10,9 @@ model_raw: VINDSTYRKA
 versions:
 - software: '0x00010010'
 - software: '0x01000011'
-via_devices: null
+via_devices:
+- hw_version: null
+  integration: zha
+  manufacturer: Silicon Labs
+  model: EZSP
+  sw_version: 7.3.2.0 build 212

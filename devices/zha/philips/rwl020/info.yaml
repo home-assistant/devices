@@ -9,4 +9,9 @@ model_name: RWL020
 model_raw: RWL020
 versions:
 - software: '0x420045b6'
-via_devices: null
+via_devices:
+- hw_version: null
+  integration: zha
+  manufacturer: Silicon Labs
+  model: EZSP
+  sw_version: 7.3.2.0 build 212

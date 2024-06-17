@@ -9,4 +9,9 @@ model_name: TRADFRI bulb E12 CWS opal 600lm
 model_raw: TRADFRI bulb E12 CWS opal 600lm
 versions:
 - software: '0x13009572'
-via_devices: null
+via_devices:
+- hw_version: null
+  integration: zha
+  manufacturer: Silicon Labs
+  model: EZSP
+  sw_version: 7.3.2.0 build 212
