@@ -11,6 +11,7 @@ same_as: null
 versions:
 - software: '215.1'
 - software: '204.1'
+- software: '95.1'
 via_devices:
 - hw_version: null
   integration: tado
@@ -22,3 +23,8 @@ via_devices:
   manufacturer: Tado
   model: VA02
   sw_version: '204.1'
+- hw_version: null
+  integration: tado
+  manufacturer: Tado
+  model: VA02
+  sw_version: '95.1'

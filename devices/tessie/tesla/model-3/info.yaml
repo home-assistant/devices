@@ -1,0 +1,14 @@
+entry_type: device
+has_configuration_url: true
+has_suggested_area: false
+is_via_device: false
+is_works_with_ha_device: false
+manufacturer_name: Tesla
+manufacturer_raw: Tesla
+model_name: Model 3
+model_raw: Model 3
+same_as: null
+versions:
+- hardware: TeslaAP3
+  software: 2024.20.1
+via_devices: null

@@ -10,4 +10,9 @@ model_raw: Hue dimmer switch (RWL022)
 same_as: null
 versions:
 - software: 2.45.2
-via_devices: null
+via_devices:
+- hw_version: null
+  integration: hue
+  manufacturer: Signify Netherlands B.V.
+  model: BSB002
+  sw_version: 1.65.1965017030

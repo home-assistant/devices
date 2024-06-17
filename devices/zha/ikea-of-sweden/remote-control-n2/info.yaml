@@ -10,4 +10,5 @@ model_raw: Remote Control N2
 same_as: null
 versions:
 - software: '0x02040005'
+- software: '0x02040011'
 via_devices: null

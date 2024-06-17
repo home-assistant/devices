@@ -10,4 +10,5 @@ model_raw: SOMRIG shortcut button
 same_as: null
 versions:
 - software: '0x01000020'
+- software: '0x01000021'
 via_devices: null
