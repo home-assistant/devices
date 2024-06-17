@@ -16,19 +16,25 @@ INFO_YAML = vol.Schema(
         vol.Required("entry_type"): str,
         vol.Required("has_configuration_url"): bool,
         vol.Required("has_suggested_area"): bool,
-        vol.Required("has_via_device"): bool,
-        vol.Required("manufacturer_raw"): str,
+        vol.Optional("is_via_device"): bool,
+        vol.Optional("is_works_with_ha_device"): bool,
         vol.Required("manufacturer_name"): str,
-        vol.Required("model_raw"): str,
+        vol.Required("manufacturer_raw"): str,
         vol.Required("model_name"): str,
+        vol.Required("model_raw"): str,
         vol.Required("versions"): [
             {
                 vol.Optional("hardware"): str,
                 vol.Optional("software"): str,
             }
         ],
-        vol.Optional("is_via_device"): bool,
-        vol.Optional("is_works_with_ha_device"): bool,
+        vol.Required("via_devices"): vol.Any(None, [{
+            vol.Required("integration"): str,
+            vol.Required("manufacturer"): str,
+            vol.Required("model"): str,
+            vol.Required("hw_version"): vol.Any(str, None),
+            vol.Required("sw_version"): vol.Any(str, None),
+        }]),
     }
 )
 
