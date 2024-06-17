@@ -8,6 +8,5 @@ manufacturer_raw: Google Inc.
 model_name: Google Home
 model_raw: Google Home
 same_as: null
-versions:
-- {}
+versions: []
 via_devices: null

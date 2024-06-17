@@ -8,6 +8,5 @@ manufacturer_raw: Samsung
 model_name: QN55Q6DAAFXZA
 model_raw: QN55Q6DAAFXZA
 same_as: null
-versions:
-- {}
+versions: []
 via_devices: null

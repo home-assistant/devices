@@ -8,6 +8,5 @@ manufacturer_raw: VeSync
 model_name: LAP-V102S-WUS
 model_raw: LAP-V102S-WUS
 same_as: null
-versions:
-- {}
+versions: []
 via_devices: null

@@ -8,6 +8,5 @@ manufacturer_raw: NVIDIA
 model_name: SHIELD Android TV
 model_raw: SHIELD Android TV
 same_as: null
-versions:
-- {}
+versions: []
 via_devices: null

@@ -8,6 +8,5 @@ manufacturer_raw: Olibra
 model_name: C2
 model_raw: C2
 same_as: null
-versions:
-- {}
+versions: []
 via_devices: null

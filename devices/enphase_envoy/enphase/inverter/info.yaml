@@ -8,6 +8,5 @@ manufacturer_raw: Enphase
 model_name: Inverter
 model_raw: Inverter
 same_as: null
-versions:
-- {}
+versions: []
 via_devices: null

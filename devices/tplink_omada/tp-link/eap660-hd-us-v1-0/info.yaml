@@ -8,6 +8,5 @@ manufacturer_raw: TP-Link
 model_name: EAP660 HD(US) v1.0
 model_raw: EAP660 HD(US) v1.0
 same_as: null
-versions:
-- {}
+versions: []
 via_devices: null

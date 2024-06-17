@@ -8,6 +8,5 @@ manufacturer_raw: LaCrosse Technology
 model_name: Rain 2.0 Sensor
 model_raw: Rain 2.0 Sensor
 same_as: null
-versions:
-- {}
+versions: []
 via_devices: null

@@ -8,6 +8,5 @@ manufacturer_raw: Google Inc.
 model_name: Google Nest Hub Max
 model_raw: Google Nest Hub Max
 same_as: null
-versions:
-- {}
+versions: []
 via_devices: null

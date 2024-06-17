@@ -8,6 +8,5 @@ manufacturer_raw: Tuya
 model_name: ' (hdf9m2mq0g116ag4)'
 model_raw: ' (hdf9m2mq0g116ag4)'
 same_as: null
-versions:
-- {}
+versions: []
 via_devices: null

@@ -8,6 +8,5 @@ manufacturer_raw: TPV
 model_name: 2021/22 Philips UHD Android TV
 model_raw: 2021/22 Philips UHD Android TV
 same_as: null
-versions:
-- {}
+versions: []
 via_devices: null

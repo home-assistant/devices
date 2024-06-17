@@ -8,6 +8,5 @@ manufacturer_raw: Sense Labs, Inc.
 model_name: Sense
 model_raw: Sense
 same_as: null
-versions:
-- {}
+versions: []
 via_devices: null

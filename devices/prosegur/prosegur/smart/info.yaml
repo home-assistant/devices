@@ -8,6 +8,5 @@ manufacturer_raw: Prosegur
 model_name: smart
 model_raw: smart
 same_as: null
-versions:
-- {}
+versions: []
 via_devices: null

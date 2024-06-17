@@ -8,6 +8,5 @@ manufacturer_raw: VeSync
 model_name: Core200S
 model_raw: Core200S
 same_as: null
-versions:
-- {}
+versions: []
 via_devices: null

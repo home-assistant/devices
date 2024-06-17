@@ -8,6 +8,5 @@ manufacturer_raw: Unknown manufacturer
 model_name: HK Citation MultiBeam 1100
 model_raw: HK Citation MultiBeam 1100
 same_as: null
-versions:
-- {}
+versions: []
 via_devices: null

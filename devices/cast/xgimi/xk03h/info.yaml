@@ -8,6 +8,5 @@ manufacturer_raw: XGIMI
 model_name: XK03H
 model_raw: XK03H
 same_as: null
-versions:
-- {}
+versions: []
 via_devices: null

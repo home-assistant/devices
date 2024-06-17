@@ -8,6 +8,5 @@ manufacturer_raw: Panasonic
 model_name: Panasonic Viera
 model_raw: Panasonic Viera
 same_as: null
-versions:
-- {}
+versions: []
 via_devices: null

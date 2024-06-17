@@ -8,6 +8,5 @@ manufacturer_raw: CPS
 model_name: CST135XLU
 model_raw: CST135XLU
 same_as: null
-versions:
-- {}
+versions: []
 via_devices: null

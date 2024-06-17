@@ -8,6 +8,5 @@ manufacturer_raw: SwitchBot
 model_name: DIY Light
 model_raw: DIY Light
 same_as: null
-versions:
-- {}
+versions: []
 via_devices: null

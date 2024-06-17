@@ -8,6 +8,5 @@ manufacturer_raw: Lutron Electronics Co., Inc
 model_name: PJ2-4B-GXX-X21 (Pico4Button2Group)
 model_raw: PJ2-4B-GXX-X21 (Pico4Button2Group)
 same_as: null
-versions:
-- {}
+versions: []
 via_devices: null

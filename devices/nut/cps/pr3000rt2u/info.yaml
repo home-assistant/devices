@@ -8,6 +8,5 @@ manufacturer_raw: CPS
 model_name: PR3000RT2U
 model_raw: PR3000RT2U
 same_as: null
-versions:
-- {}
+versions: []
 via_devices: null

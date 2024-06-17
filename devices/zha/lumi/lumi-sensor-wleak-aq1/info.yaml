@@ -8,8 +8,7 @@ manufacturer_raw: LUMI
 model_name: lumi.sensor_wleak.aq1
 model_raw: lumi.sensor_wleak.aq1
 same_as: null
-versions:
-- {}
+versions: []
 via_devices:
 - hw_version: null
   integration: zha

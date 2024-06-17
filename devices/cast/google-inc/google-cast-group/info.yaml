@@ -8,6 +8,5 @@ manufacturer_raw: Google Inc.
 model_name: Google Cast Group
 model_raw: Google Cast Group
 same_as: null
-versions:
-- {}
+versions: []
 via_devices: null

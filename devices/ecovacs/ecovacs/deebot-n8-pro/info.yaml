@@ -8,6 +8,5 @@ manufacturer_raw: Ecovacs
 model_name: DEEBOT N8 PRO
 model_raw: DEEBOT N8 PRO
 same_as: null
-versions:
-- {}
+versions: []
 via_devices: null

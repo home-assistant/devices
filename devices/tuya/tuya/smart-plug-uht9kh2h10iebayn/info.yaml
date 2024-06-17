@@ -8,6 +8,5 @@ manufacturer_raw: Tuya
 model_name: Smart Plug (uht9kh2h10iebayn)
 model_raw: Smart Plug (uht9kh2h10iebayn)
 same_as: null
-versions:
-- {}
+versions: []
 via_devices: null

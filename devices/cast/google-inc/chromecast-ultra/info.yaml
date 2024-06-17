@@ -8,6 +8,5 @@ manufacturer_raw: Google Inc.
 model_name: Chromecast Ultra
 model_raw: Chromecast Ultra
 same_as: null
-versions:
-- {}
+versions: []
 via_devices: null

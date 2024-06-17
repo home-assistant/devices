@@ -8,6 +8,5 @@ manufacturer_raw: Xiaomi
 model_name: rockrobo.vacuum.v1
 model_raw: rockrobo.vacuum.v1
 same_as: null
-versions:
-- {}
+versions: []
 via_devices: null
