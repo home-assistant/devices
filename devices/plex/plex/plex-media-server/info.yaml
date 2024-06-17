@@ -1,7 +1,6 @@
 entry_type: device
 has_configuration_url: true
 has_suggested_area: false
-has_via_device: false
 is_via_device: false
 is_works_with_ha_device: false
 manufacturer_name: Plex
@@ -11,3 +10,4 @@ model_raw: Plex Media Server
 versions:
 - software: 1.40.0.7998-c29d4c0c8
 - software: 1.40.3.8555-fef15d30c
+via_devices: null

@@ -1,7 +1,6 @@
 entry_type: device
 has_configuration_url: true
 has_suggested_area: false
-has_via_device: false
 is_via_device: false
 is_works_with_ha_device: false
 manufacturer_name: Tesla
@@ -11,3 +10,4 @@ model_raw: PowerWall 2 (GW1)
 versions:
 - software: 23.28.2 27626f98
 - software: 23.36.3 aa269d35
+via_devices: null

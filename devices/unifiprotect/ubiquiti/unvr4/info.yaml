@@ -1,7 +1,6 @@
 entry_type: device
 has_configuration_url: true
 has_suggested_area: false
-has_via_device: false
 is_via_device: false
 is_works_with_ha_device: false
 manufacturer_name: Ubiquiti
@@ -10,3 +9,4 @@ model_name: UNVR4
 model_raw: UNVR4
 versions:
 - software: 4.0.33
+via_devices: null

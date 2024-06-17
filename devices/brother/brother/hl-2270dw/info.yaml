@@ -1,7 +1,6 @@
 entry_type: device
 has_configuration_url: true
 has_suggested_area: false
-has_via_device: false
 is_via_device: false
 is_works_with_ha_device: false
 manufacturer_name: Brother
@@ -10,3 +9,4 @@ model_name: HL-2270DW
 model_raw: HL-2270DW
 versions:
 - software: '1.19'
+via_devices: null

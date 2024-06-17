@@ -1,7 +1,6 @@
 entry_type: device
 has_configuration_url: true
 has_suggested_area: false
-has_via_device: false
 is_via_device: false
 is_works_with_ha_device: false
 manufacturer_name: Reolink
@@ -11,3 +10,4 @@ model_raw: RLC-830A
 versions:
 - hardware: IPC_560SD78MP
   software: v3.1.0.2515_23082406
+via_devices: null

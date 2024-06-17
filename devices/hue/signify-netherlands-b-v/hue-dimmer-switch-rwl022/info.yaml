@@ -1,7 +1,6 @@
 entry_type: device
 has_configuration_url: false
 has_suggested_area: false
-has_via_device: true
 is_via_device: false
 is_works_with_ha_device: false
 manufacturer_name: Signify Netherlands B.V.
@@ -10,3 +9,4 @@ model_name: Hue dimmer switch (RWL022)
 model_raw: Hue dimmer switch (RWL022)
 versions:
 - software: 2.45.2
+via_devices: null

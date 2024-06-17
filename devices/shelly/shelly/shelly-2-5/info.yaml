@@ -1,7 +1,6 @@
 entry_type: device
 has_configuration_url: true
 has_suggested_area: false
-has_via_device: false
 is_via_device: false
 is_works_with_ha_device: false
 manufacturer_name: Shelly
@@ -11,3 +10,4 @@ model_raw: Shelly 2.5
 versions:
 - hardware: gen1 (SHSW-25)
   software: 20230913-112234/v1.14.0-gcb84623
+via_devices: null

@@ -1,7 +1,6 @@
 entry_type: device
 has_configuration_url: true
 has_suggested_area: true
-has_via_device: true
 is_via_device: false
 is_works_with_ha_device: false
 manufacturer_name: Minka Aire
@@ -10,3 +9,4 @@ model_name: F467L
 model_raw: F467L
 versions:
 - software: v3.5
+via_devices: null
