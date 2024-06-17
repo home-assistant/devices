@@ -1,0 +1,13 @@
+entry_type: device
+has_configuration_url: true
+has_suggested_area: false
+is_via_device: false
+is_works_with_ha_device: false
+manufacturer_name: Brother
+manufacturer_raw: Brother
+model_name: HL-L2350DW
+model_raw: HL-L2350DW
+same_as: null
+versions:
+- software: '1.74'
+via_devices: null

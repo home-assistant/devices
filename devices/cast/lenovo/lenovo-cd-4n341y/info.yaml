@@ -1,0 +1,12 @@
+entry_type: device
+has_configuration_url: false
+has_suggested_area: false
+is_via_device: false
+is_works_with_ha_device: false
+manufacturer_name: Lenovo
+manufacturer_raw: Lenovo
+model_name: Lenovo CD-4N341Y
+model_raw: Lenovo CD-4N341Y
+same_as: null
+versions: []
+via_devices: null
