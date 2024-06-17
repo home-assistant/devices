@@ -1,0 +1,12 @@
+entry_type: device
+has_configuration_url: true
+has_suggested_area: false
+is_via_device: false
+is_works_with_ha_device: false
+manufacturer_name: Netatmo
+manufacturer_raw: Netatmo
+model_name: Public Weather station
+model_raw: Public Weather station
+same_as: null
+versions: []
+via_devices: null
