@@ -1,15 +1,15 @@
 entry_type: device
 has_configuration_url: false
-has_suggested_area: false
+has_suggested_area: true
 is_via_device: false
 is_works_with_ha_device: false
 manufacturer_name: Signify Netherlands B.V.
 manufacturer_raw: Signify Netherlands B.V.
-model_name: Hue dimmer switch (RWL021)
-model_raw: Hue dimmer switch (RWL021)
+model_name: Hue color candle (LCE002)
+model_raw: Hue color candle (LCE002)
 same_as: null
 versions:
-- software: 1.1.28573
+- software: 1.116.3
 via_devices:
 - hw_version: null
   integration: hue

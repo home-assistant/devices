@@ -10,4 +10,9 @@ model_raw: Plex Cast
 same_as: null
 versions:
 - software: 4.54.1
-via_devices: null
+via_devices:
+- hw_version: null
+  integration: plex
+  manufacturer: Plex
+  model: Plex Media Server
+  sw_version: 1.40.3.8555-fef15d30c
