@@ -5,3 +5,4 @@ mistune
 humanmark
 # required for humanmark
 setuptools
+python-slugify

@@ -7,6 +7,7 @@ import shutil
 from pprint import pprint
 
 import httpx
+from slugify import slugify
 import voluptuous as vol
 import yaml
 
@@ -109,8 +110,8 @@ def process_row(row):
     model_dir = (
         DEVICES_DIR
         / row["integration"]
-        / row["manufacturer"].replace("/", "_")
-        / row["model"].replace("/", "_")
+        / slugify(row["manufacturer"])
+        / slugify(row["model"])
     )
 
     if row["integration"] not in APPROVED_INTEGRATIONS:
