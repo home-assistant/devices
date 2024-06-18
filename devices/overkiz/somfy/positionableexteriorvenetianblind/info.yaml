@@ -5,16 +5,12 @@ is_via_device: false
 is_works_with_ha_device: false
 manufacturer_name: Somfy
 manufacturer_raw: Somfy
-model_name: PositionableScreen
-model_raw: PositionableScreen
+model_name: PositionableExteriorVenetianBlind
+model_raw: PositionableExteriorVenetianBlind
 same_as: null
 versions:
-- hardware: io:VerticalExteriorAwningIOComponent
-  software: 5118126A10
-- hardware: io:VerticalExteriorAwningIOComponent
-  software: 5104761X04
-- hardware: io:VerticalExteriorAwningIOComponent
-  software: 5121525A07
+- hardware: io:ExteriorVenetianBlindIOComponent
+  software: 5128194A15
 via_devices:
 - hw_version: null
   integration: overkiz
