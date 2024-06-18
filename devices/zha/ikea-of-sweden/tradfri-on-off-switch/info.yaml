@@ -10,6 +10,7 @@ model_raw: TRADFRI on/off switch
 same_as: null
 versions:
 - software: '0x24040006'
+- software: '0x22008631'
 via_devices:
 - hw_version: null
   integration: zha

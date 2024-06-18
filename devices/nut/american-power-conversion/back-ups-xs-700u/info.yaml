@@ -1,0 +1,13 @@
+entry_type: device
+has_configuration_url: false
+has_suggested_area: false
+is_via_device: false
+is_works_with_ha_device: false
+manufacturer_name: American Power Conversion
+manufacturer_raw: American Power Conversion
+model_name: 'Back-UPS XS 700U  '
+model_raw: 'Back-UPS XS 700U  '
+same_as: null
+versions:
+- software: 924.Z5 .I
+via_devices: null

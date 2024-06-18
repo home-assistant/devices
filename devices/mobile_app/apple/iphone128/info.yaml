@@ -10,4 +10,5 @@ model_raw: iPhone12,8
 same_as: null
 versions:
 - software: 17.5.1
+- software: 17.1.1
 via_devices: null

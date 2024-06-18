@@ -11,6 +11,7 @@ same_as: null
 versions:
 - software: '0x02040005'
 - software: '0x02040011'
+- software: '0x00010024'
 via_devices:
 - hw_version: null
   integration: zha

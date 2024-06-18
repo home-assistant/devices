@@ -1,0 +1,18 @@
+entry_type: device
+has_configuration_url: false
+has_suggested_area: false
+is_via_device: false
+is_works_with_ha_device: false
+manufacturer_name: Computime
+manufacturer_raw: Computime
+model_name: SP600
+model_raw: SP600
+same_as: null
+versions:
+- software: '0x02015120'
+via_devices:
+- hw_version: null
+  integration: zha
+  manufacturer: Silicon Labs
+  model: EZSP
+  sw_version: 7.2.2.0 build 190

@@ -10,7 +10,7 @@ The integration, manufacturer and model are the data reported in Home Assistant.
 
 ## Adding new devices
 
-Paste the below template to the template developer tool to generate data from your Home Assistant instance.
+Paste the below template to the [template developer tool](https://my.home-assistant.io/redirect/developer_template/) to generate data from your Home Assistant instance.
 
 To get the data into the repo, paste the output in a GitHub issue or share the file with me on Discord (@balloob).
 
