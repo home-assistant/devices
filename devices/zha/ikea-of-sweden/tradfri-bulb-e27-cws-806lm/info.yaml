@@ -5,12 +5,11 @@ is_via_device: false
 is_works_with_ha_device: false
 manufacturer_name: IKEA of Sweden
 manufacturer_raw: IKEA of Sweden
-model_name: TRADFRI on/off switch
-model_raw: TRADFRI on/off switch
+model_name: TRADFRI bulb E27 CWS 806lm
+model_raw: TRADFRI bulb E27 CWS 806lm
 same_as: null
 versions:
-- software: '0x24040006'
-- software: '0x22008631'
+- software: '0x10021655'
 via_devices:
 - hw_version: null
   integration: zha

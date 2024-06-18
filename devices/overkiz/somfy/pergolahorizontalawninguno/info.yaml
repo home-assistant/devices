@@ -5,12 +5,10 @@ is_via_device: false
 is_works_with_ha_device: false
 manufacturer_name: Somfy
 manufacturer_raw: Somfy
-model_name: DimmerLight
-model_raw: DimmerLight
+model_name: PergolaHorizontalAwningUno
+model_raw: PergolaHorizontalAwningUno
 same_as: null
 versions:
-- hardware: io:DimmableLightIOComponent
-  software: 5109156A09
-- hardware: io:DimmableLightIOComponent
-  software: 5133033A02
+- hardware: io:PergolaHorizontalUnoIOComponent
+  software: 5131572A10
 via_devices: null

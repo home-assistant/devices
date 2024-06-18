@@ -5,12 +5,11 @@ is_via_device: false
 is_works_with_ha_device: false
 manufacturer_name: IKEA of Sweden
 manufacturer_raw: IKEA of Sweden
-model_name: TRADFRI on/off switch
-model_raw: TRADFRI on/off switch
+model_name: TRADFRIbulbE14WScandleopal470lm
+model_raw: TRADFRIbulbE14WScandleopal470lm
 same_as: null
 versions:
-- software: '0x24040006'
-- software: '0x22008631'
+- software: '0x00011003'
 via_devices:
 - hw_version: null
   integration: zha

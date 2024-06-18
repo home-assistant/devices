@@ -12,4 +12,9 @@ versions:
 - software: '0x02040005'
 - software: '0x02040011'
 - software: '0x00010024'
-via_devices: null
+via_devices:
+- hw_version: null
+  integration: zha
+  manufacturer: Silicon Labs
+  model: EZSP
+  sw_version: 7.1.1.0 build 273
