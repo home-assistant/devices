@@ -13,9 +13,4 @@ versions:
   software: 5109156A09
 - hardware: io:DimmableLightIOComponent
   software: 5133033A02
-via_devices:
-- hw_version: null
-  integration: overkiz
-  manufacturer: Somfy
-  model: TaHoma Premium
-  sw_version: 2024.2.4
+via_devices: null

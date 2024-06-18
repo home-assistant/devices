@@ -15,9 +15,4 @@ versions:
   software: 5104761X04
 - hardware: io:VerticalExteriorAwningIOComponent
   software: 5121525A07
-via_devices:
-- hw_version: null
-  integration: overkiz
-  manufacturer: Somfy
-  model: TaHoma Premium
-  sw_version: 2024.2.4
+via_devices: null

@@ -11,9 +11,4 @@ same_as: null
 versions:
 - hardware: io:PergolaHorizontalUnoIOComponent
   software: 5131572A10
-via_devices:
-- hw_version: null
-  integration: overkiz
-  manufacturer: Somfy
-  model: TaHoma Premium
-  sw_version: 2024.2.4
+via_devices: null
