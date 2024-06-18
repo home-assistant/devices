@@ -5,10 +5,9 @@ is_via_device: false
 is_works_with_ha_device: false
 manufacturer_name: Apple
 manufacturer_raw: Apple
-model_name: iPhone12,8
-model_raw: iPhone12,8
+model_name: iPhone SE
+model_raw: iPhone SE
 same_as: null
 versions:
-- software: 17.5.1
-- software: 17.1.1
+- software: 13.6.1
 via_devices: null

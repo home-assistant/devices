@@ -3,12 +3,11 @@ has_configuration_url: false
 has_suggested_area: false
 is_via_device: false
 is_works_with_ha_device: false
-manufacturer_name: Apple
-manufacturer_raw: Apple
-model_name: iPhone12,8
-model_raw: iPhone12,8
+manufacturer_name: _TZ3000_cehuw1lw
+manufacturer_raw: _TZ3000_cehuw1lw
+model_name: TS011F
+model_raw: TS011F
 same_as: null
 versions:
-- software: 17.5.1
-- software: 17.1.1
+- software: '0x000000c0'
 via_devices: null

@@ -3,12 +3,12 @@ has_configuration_url: false
 has_suggested_area: false
 is_via_device: false
 is_works_with_ha_device: false
-manufacturer_name: Apple
-manufacturer_raw: Apple
-model_name: iPhone12,8
-model_raw: iPhone12,8
+manufacturer_name: Roku
+manufacturer_raw: Roku
+model_name: Roku Express
+model_raw: Roku Express
 same_as: null
 versions:
-- software: 17.5.1
-- software: 17.1.1
+- hardware: 3930EU
+  software: 12.5.5
 via_devices: null
