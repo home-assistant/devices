@@ -9,4 +9,9 @@ model_name: Inverter
 model_raw: Inverter
 same_as: null
 versions: []
-via_devices: null
+via_devices:
+- hw_version: 800-00663-r05
+  integration: enphase_envoy
+  manufacturer: Enphase
+  model: 'Envoy, phases: 2, phase mode: split, net-consumption CT, production CT'
+  sw_version: 7.3.621

@@ -1,0 +1,17 @@
+entry_type: device
+has_configuration_url: true
+has_suggested_area: true
+is_via_device: false
+is_works_with_ha_device: false
+manufacturer_name: Olibra
+manufacturer_raw: Olibra
+model_name: RCF98v2
+model_raw: RCF98v2
+same_as: null
+versions: []
+via_devices:
+- hw_version: null
+  integration: bond
+  manufacturer: Olibra
+  model: zermatt
+  sw_version: v3.13.6

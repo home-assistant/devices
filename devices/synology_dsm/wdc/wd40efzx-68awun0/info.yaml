@@ -1,0 +1,18 @@
+entry_type: device
+has_configuration_url: true
+has_suggested_area: false
+is_via_device: false
+is_works_with_ha_device: false
+manufacturer_name: 'WDC     '
+manufacturer_raw: 'WDC     '
+model_name: WD40EFZX-68AWUN0
+model_raw: WD40EFZX-68AWUN0
+same_as: null
+versions:
+- software: 81.00A81
+via_devices:
+- hw_version: null
+  integration: synology_dsm
+  manufacturer: Synology
+  model: DS1817+
+  sw_version: DSM 7.1.1-42962 Update 6

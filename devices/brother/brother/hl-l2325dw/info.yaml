@@ -10,4 +10,5 @@ model_raw: HL-L2325DW
 same_as: null
 versions:
 - software: '1.58'
+- software: '1.72'
 via_devices: null
