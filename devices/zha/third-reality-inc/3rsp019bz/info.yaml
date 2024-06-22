@@ -10,9 +10,4 @@ model_raw: 3RSP019BZ
 same_as: null
 versions:
 - software: '0x10013050'
-via_devices:
-- hw_version: null
-  integration: zha
-  manufacturer: Texas Instruments
-  model: Coordinator
-  sw_version: Z-Stack 20221226
+via_devices: null

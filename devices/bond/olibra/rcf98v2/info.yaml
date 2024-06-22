@@ -9,9 +9,4 @@ model_name: RCF98v2
 model_raw: RCF98v2
 same_as: null
 versions: []
-via_devices:
-- hw_version: null
-  integration: bond
-  manufacturer: Olibra
-  model: zermatt
-  sw_version: v3.13.6
+via_devices: null

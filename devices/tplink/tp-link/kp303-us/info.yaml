@@ -11,9 +11,4 @@ same_as: null
 versions:
 - hardware: '1.0'
   software: 1.0.10 Build 200828 Rel.162602
-via_devices:
-- hw_version: null
-  integration: tplink
-  manufacturer: netgate
-  model: pfSense
-  sw_version: 2.7.0-RELEASE
+via_devices: null
