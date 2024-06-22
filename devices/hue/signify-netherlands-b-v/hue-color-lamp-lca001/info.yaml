@@ -10,4 +10,9 @@ model_raw: Hue color lamp (LCA001)
 same_as: null
 versions:
 - software: 1.116.3
-via_devices: null
+via_devices:
+- hw_version: null
+  integration: hue
+  manufacturer: Signify Netherlands B.V.
+  model: Hue Bridge (BSB002)
+  sw_version: 1.65.1965053020
