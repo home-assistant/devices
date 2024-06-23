@@ -34,15 +34,10 @@ You can also process it yourself and open a PR. To do that, put the output in a 
 {% if dev_id -%}
 {% set via_device = device_attr(dev_id, 'via_device_id') -%}
 {% if via_device  -%}
-{# temporary until primary integration is included -#}
-{% set ns.integration = None -%}
-{% for ident in device_attr(dev_id, 'identifiers') -%}
-{% set ns.integration = ident[0] -%}
-{% endfor %}
 {% set ns.via_devices = ns.via_devices + [(via_device, {
   "sw_version": device_attr(via_device, 'sw_version'),
   "hw_version": device_attr(via_device, 'hw_version'),
-  "integration": ns.integration,
+  "integration": device_attr(dev_id, 'config_entries')[0] | config_entry_attr('domain'),
   "model": device_attr(via_device, 'model'),
   "manufacturer": device_attr(via_device, 'manufacturer'),
 })] -%}
@@ -56,16 +51,12 @@ integration,manufacturer,model,sw_version,hw_version,via_device,has_suggested_ar
 {% set dev_id = device_id(state.entity_id) -%}
 {% if dev_id not in ns.devices -%}
 {% set ns.devices = ns.devices + [dev_id] -%}
-{# temporary until primary integration is included -#}
-{% set ns.integration = None -%}
-{% for ident in device_attr(dev_id, 'identifiers') -%}
-{% set ns.integration = ident[0] -%}
-{% endfor -%}
-{% if ns.integration not in ns.ignore_integration and
+{% set integration = device_attr(dev_id, 'config_entries')[0] | config_entry_attr('domain') -%}
+{% if integration not in ns.ignore_integration and
    device_attr(dev_id, 'manufacturer') and
    device_attr(dev_id, 'model') and
    device_attr(dev_id, 'entry_type') not in ns.ignore_entry_type -%}
-{{- ns.integration }},
+{{- integration }},
 {#-#}"{{ device_attr(dev_id, 'manufacturer') }}",
 {#-#}"{{ device_attr(dev_id, 'model') }}",
 {#-#}"{{ device_attr(dev_id, 'sw_version') }}",
