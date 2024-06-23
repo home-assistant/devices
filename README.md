@@ -37,7 +37,7 @@ You can also process it yourself and open a PR. To do that, put the output in a 
 {% set ns.via_devices = ns.via_devices + [(via_device, {
   "sw_version": device_attr(via_device, 'sw_version'),
   "hw_version": device_attr(via_device, 'hw_version'),
-  "integration": device_attr(dev_id, 'config_entries')[0] | config_entry_attr('domain'),
+  "integration": device_attr(via_device, 'config_entries')[0] | config_entry_attr('domain'),
   "model": device_attr(via_device, 'model'),
   "manufacturer": device_attr(via_device, 'manufacturer'),
 })] -%}
