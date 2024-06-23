@@ -108,7 +108,7 @@ def process():
 def process_file(path: pathlib.Path):
     total = UpdateRecord()
 
-    with path.open("r", encoding="utf-8-sig") as file:
+    with path.open("r") as file:
         reader = csv.DictReader(file)
         for row in reader:
             try:
