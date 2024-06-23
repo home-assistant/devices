@@ -12,4 +12,10 @@ versions:
 - software: 5.74.0
 - software: 5.59.3
 - software: 5.81.1
-via_devices: null
+- software: 5.69.1
+via_devices:
+- hw_version: null
+  integration: plex
+  manufacturer: Plex
+  model: Plex Media Server
+  sw_version: 1.40.3.8555-fef15d30c

@@ -10,4 +10,11 @@ model_raw: Plex for Mac
 same_as: null
 versions:
 - software: 1.87.2.87-87488d5a
-via_devices: null
+- software: 1.74.1.3913-9baac009
+- software: 1.94.1.155-f1e7f457
+via_devices:
+- hw_version: null
+  integration: plex
+  manufacturer: Plex
+  model: Plex Media Server
+  sw_version: 1.40.3.8555-fef15d30c
