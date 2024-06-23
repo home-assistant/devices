@@ -8,7 +8,8 @@ manufacturer_raw: LUMI
 model_name: lumi.sensor_motion.aq2
 model_raw: lumi.sensor_motion.aq2
 same_as: null
-versions: []
+versions:
+- software: 3000-0001
 via_devices:
 - hw_version: null
   integration: zha

@@ -5,12 +5,11 @@ is_via_device: false
 is_works_with_ha_device: false
 manufacturer_name: IKEA of Sweden
 manufacturer_raw: IKEA of Sweden
-model_name: TRADFRI SHORTCUT Button
-model_raw: TRADFRI SHORTCUT Button
+model_name: TRADFRI bulb E14 WS opal 600lm
+model_raw: TRADFRI bulb E14 WS opal 600lm
 same_as: null
 versions:
-- software: '0x23015631'
-- software: '0x23080631'
+- software: '0x23095631'
 via_devices:
 - hw_version: null
   integration: zha
