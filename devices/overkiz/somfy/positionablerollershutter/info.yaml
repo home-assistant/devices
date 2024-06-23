@@ -1,0 +1,19 @@
+entry_type: device
+has_configuration_url: true
+has_suggested_area: true
+is_via_device: false
+is_works_with_ha_device: false
+manufacturer_name: Somfy
+manufacturer_raw: Somfy
+model_name: PositionableRollerShutter
+model_raw: PositionableRollerShutter
+same_as: null
+versions:
+- hardware: io:RollerShutterGenericIOComponent
+  software: 5100394X23
+via_devices:
+- hw_version: null
+  integration: overkiz
+  manufacturer: Somfy
+  model: TaHoma Short Channel
+  sw_version: 2024.2.4

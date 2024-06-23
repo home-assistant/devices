@@ -5,11 +5,11 @@ is_via_device: false
 is_works_with_ha_device: false
 manufacturer_name: Signify Netherlands B.V.
 manufacturer_raw: Signify Netherlands B.V.
-model_name: Hue Smart button (ROM001)
-model_raw: Hue Smart button (ROM001)
+model_name: Hue tap switch (ZGPSWITCH)
+model_raw: Hue tap switch (ZGPSWITCH)
 same_as: null
 versions:
-- software: 2.47.8
+- software: 0.0.0
 via_devices:
 - hw_version: null
   integration: hue

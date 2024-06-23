@@ -10,9 +10,15 @@ model_raw: RU02
 same_as: null
 versions:
 - software: '204.3'
+- software: '215.2'
 via_devices:
 - hw_version: null
   integration: tado
   manufacturer: Tado
   model: RU02
   sw_version: '204.3'
+- hw_version: null
+  integration: tado
+  manufacturer: Tado
+  model: RU02
+  sw_version: '215.2'

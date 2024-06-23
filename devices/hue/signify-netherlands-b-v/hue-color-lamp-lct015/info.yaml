@@ -16,3 +16,8 @@ via_devices:
   manufacturer: Signify Netherlands B.V.
   model: BSB002
   sw_version: 1.65.1965017030
+- hw_version: null
+  integration: hue
+  manufacturer: Signify Netherlands B.V.
+  model: Hue Bridge (BSB002)
+  sw_version: 1.65.1965053020
