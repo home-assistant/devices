@@ -1,0 +1,13 @@
+entry_type: device
+has_configuration_url: false
+has_suggested_area: false
+is_via_device: false
+is_works_with_ha_device: false
+manufacturer_name: Shelly
+manufacturer_raw: Shelly
+model_name: BLU Button1
+model_raw: BLU Button1
+same_as: null
+versions:
+- software: BTHome BLE v2
+via_devices: null
