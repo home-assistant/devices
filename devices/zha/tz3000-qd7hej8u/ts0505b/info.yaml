@@ -3,14 +3,13 @@ has_configuration_url: false
 has_suggested_area: false
 is_via_device: false
 is_works_with_ha_device: false
-manufacturer_name: IKEA of Sweden
-manufacturer_raw: IKEA of Sweden
-model_name: TRADFRI SHORTCUT Button
-model_raw: TRADFRI SHORTCUT Button
+manufacturer_name: _TZ3000_qd7hej8u
+manufacturer_raw: _TZ3000_qd7hej8u
+model_name: TS0505B
+model_raw: TS0505B
 same_as: null
 versions:
-- software: '0x23015631'
-- software: '0x23080631'
+- software: '0x00000041'
 via_devices:
 - hw_version: null
   integration: zha

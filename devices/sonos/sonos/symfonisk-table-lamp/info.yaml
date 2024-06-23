@@ -10,4 +10,5 @@ model_raw: SYMFONISK Table lamp
 same_as: null
 versions:
 - software: '16.2'
+- software: 15.1.1
 via_devices: null
