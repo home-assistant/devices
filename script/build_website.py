@@ -71,9 +71,12 @@ def build_integration(integration_path):
     index_markdown = []
     devices = []
 
-    for manufacturer in sorted(integration_path.iterdir()):
-        for model in sorted(manufacturer.iterdir()):
-            devices.append(build_device(model, index_json, index_markdown))
+    all_model_dirs = sorted([
+        model for manufacturer in integration_path.iterdir() for model in manufacturer.iterdir()
+    ], key=lambda x: (x.name, x.parent.name))
+
+    for model in all_model_dirs:
+        devices.append(build_device(model, index_json, index_markdown))
 
     (integration_path / "index.json").write_text(json.dumps(index_json, indent=2))
     (integration_path / "index.html").write_text(
@@ -151,7 +154,7 @@ def build_device(device_path, integration_index_json, integration_index_markdown
 
     integration_index_json[info["manufacturer_raw"]][info["model_raw"]] = model_index
     integration_index_markdown.append(
-        f"- [{info["manufacturer_name"]} {info["model_name"]}]({device_url})"
+        f"- [{info["model_name"]}]({device_url}) by {info["manufacturer_name"]}"
     )
 
     return DeviceSite(device_url, info)
