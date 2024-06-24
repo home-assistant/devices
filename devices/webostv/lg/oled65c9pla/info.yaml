@@ -7,6 +7,7 @@ manufacturer_name: LG
 manufacturer_raw: LG
 model_name: OLED65C9PLA
 model_raw: OLED65C9PLA
+product_manual: null
 same_as: null
 versions:
 - software: 05.40.35

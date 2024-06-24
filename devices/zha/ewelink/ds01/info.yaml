@@ -7,6 +7,7 @@ manufacturer_name: eWeLink
 manufacturer_raw: eWeLink
 model_name: DS01
 model_raw: DS01
+product_manual: null
 same_as: null
 versions: []
 via_devices:

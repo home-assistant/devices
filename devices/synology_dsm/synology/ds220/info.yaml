@@ -7,6 +7,7 @@ manufacturer_name: Synology
 manufacturer_raw: Synology
 model_name: DS220+
 model_raw: DS220+
+product_manual: null
 same_as: null
 versions:
 - software: DSM 7.2.1-69057 Update 5

@@ -7,6 +7,7 @@ manufacturer_name: Synology
 manufacturer_raw: Synology
 model_name: DS920+
 model_raw: DS920+
+product_manual: null
 same_as: null
 versions:
 - software: DSM 6.2.4-25556 Update 7

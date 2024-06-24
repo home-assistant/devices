@@ -39,6 +39,7 @@ INFO_YAML = vol.Schema(
         vol.Required("manufacturer_raw"): str,
         vol.Required("model_name"): str,
         vol.Required("model_raw"): str,
+        vol.Required("product_manual"): vol.Any(str, None),
         vol.Required("same_as"): vol.Any(None, [{
             vol.Required("integration"): str,
             vol.Required("manufacturer"): str,

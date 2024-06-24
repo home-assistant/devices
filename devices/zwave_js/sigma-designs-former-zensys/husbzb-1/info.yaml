@@ -7,6 +7,7 @@ manufacturer_name: Sigma Designs (Former Zensys)
 manufacturer_raw: Sigma Designs (Former Zensys)
 model_name: HUSBZB-1
 model_raw: HUSBZB-1
+product_manual: null
 same_as: null
 versions:
 - software: '4.32'

@@ -7,6 +7,7 @@ manufacturer_name: Sonos
 manufacturer_raw: Sonos
 model_name: Era 100
 model_raw: Era 100
+product_manual: null
 same_as: null
 versions:
 - software: '16.2'

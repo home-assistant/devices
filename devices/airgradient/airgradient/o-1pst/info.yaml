@@ -7,6 +7,7 @@ manufacturer_name: AirGradient
 manufacturer_raw: AirGradient
 model_name: O-1PST
 model_raw: O-1PST
+product_manual: null
 same_as: null
 versions:
 - software: 3.0.10beta2

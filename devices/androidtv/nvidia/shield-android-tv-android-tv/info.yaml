@@ -7,6 +7,7 @@ manufacturer_name: NVIDIA
 manufacturer_raw: NVIDIA
 model_name: SHIELD Android TV (Android TV)
 model_raw: SHIELD Android TV (Android TV)
+product_manual: null
 same_as: null
 versions:
 - software: '11'

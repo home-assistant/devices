@@ -7,6 +7,7 @@ manufacturer_name: LIFX
 manufacturer_raw: LIFX
 model_name: LIFX Neon Intl
 model_raw: LIFX Neon Intl
+product_manual: null
 same_as: null
 versions:
 - software: '3.100'

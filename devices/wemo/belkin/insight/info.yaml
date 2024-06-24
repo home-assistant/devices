@@ -7,6 +7,7 @@ manufacturer_name: Belkin
 manufacturer_raw: Belkin
 model_name: Insight
 model_raw: Insight
+product_manual: null
 same_as: null
 versions:
 - software: WeMo_WW_2.00.11396.PVT-OWRT-Insight

@@ -7,6 +7,7 @@ manufacturer_name: Android
 manufacturer_raw: Android
 model_name: Plex for Android (TV)
 model_raw: Plex for Android (TV)
+product_manual: null
 same_as: null
 versions:
 - software: 9.26.1.2783

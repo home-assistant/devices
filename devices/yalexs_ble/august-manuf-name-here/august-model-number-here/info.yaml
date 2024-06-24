@@ -7,6 +7,7 @@ manufacturer_name: AUGUST_MANUF_NAME_HERE
 manufacturer_raw: AUGUST_MANUF_NAME_HERE
 model_name: AUGUST_MODEL_NUMBER_HERE
 model_raw: AUGUST_MODEL_NUMBER_HERE
+product_manual: null
 same_as: null
 versions:
 - software: 1.0.19

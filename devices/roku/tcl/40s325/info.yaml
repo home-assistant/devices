@@ -7,6 +7,7 @@ manufacturer_name: TCL
 manufacturer_raw: TCL
 model_name: 40S325
 model_raw: 40S325
+product_manual: null
 same_as: null
 versions:
 - hardware: 8113X

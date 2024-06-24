@@ -7,6 +7,7 @@ manufacturer_name: Xiaomi
 manufacturer_raw: Xiaomi
 model_name: Redmi Note 9S
 model_raw: Redmi Note 9S
+product_manual: null
 same_as: null
 versions:
 - software: '31'

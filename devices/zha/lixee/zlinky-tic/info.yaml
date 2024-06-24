@@ -7,6 +7,7 @@ manufacturer_name: LiXee
 manufacturer_raw: LiXee
 model_name: ZLinky_TIC
 model_raw: ZLinky_TIC
+product_manual: null
 same_as: null
 versions:
 - software: '0x00000001'

@@ -7,6 +7,7 @@ manufacturer_name: Kwikset
 manufacturer_raw: Kwikset
 model_name: '916'
 model_raw: '916'
+product_manual: null
 same_as: null
 versions:
 - software: '4.10'

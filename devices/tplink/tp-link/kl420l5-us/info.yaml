@@ -7,6 +7,7 @@ manufacturer_name: TP-Link
 manufacturer_raw: TP-Link
 model_name: KL420L5(US)
 model_raw: KL420L5(US)
+product_manual: null
 same_as: null
 versions:
 - hardware: '1.0'

@@ -7,6 +7,7 @@ manufacturer_name: UltraPro
 manufacturer_raw: UltraPro
 model_name: 39348 / 54890 / 54891 / ZW4008
 model_raw: 39348 / 54890 / 54891 / ZW4008
+product_manual: null
 same_as: null
 versions:
 - software: '5.54'

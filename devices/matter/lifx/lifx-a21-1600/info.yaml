@@ -7,6 +7,7 @@ manufacturer_name: LIFX
 manufacturer_raw: LIFX
 model_name: LIFX A21 1600
 model_raw: LIFX A21 1600
+product_manual: null
 same_as: null
 versions:
 - hardware: '1'

@@ -7,6 +7,7 @@ manufacturer_name: Roborock
 manufacturer_raw: Roborock
 model_name: roborock.vacuum.a10
 model_raw: roborock.vacuum.a10
+product_manual: null
 same_as: null
 versions:
 - software: 02.62.46

@@ -7,6 +7,7 @@ manufacturer_name: TP-Link
 manufacturer_raw: TP-Link
 model_name: P115
 model_raw: P115
+product_manual: null
 same_as: null
 versions:
 - hardware: '1.0'

@@ -7,6 +7,7 @@ manufacturer_name: ' Legrand'
 manufacturer_raw: ' Legrand'
 model_name: ' Cable outlet'
 model_raw: ' Cable outlet'
+product_manual: null
 same_as: null
 versions:
 - software: '0x001f43ff'

@@ -7,6 +7,7 @@ manufacturer_name: Silicon Labs
 manufacturer_raw: Silicon Labs
 model_name: 700/800 Series
 model_raw: 700/800 Series
+product_manual: null
 same_as: null
 versions:
 - software: 7.17.2

@@ -7,6 +7,7 @@ manufacturer_name: LENOVO
 manufacturer_raw: LENOVO
 model_name: Lenovo TB-X306F
 model_raw: Lenovo TB-X306F
+product_manual: null
 same_as: null
 versions:
 - software: '30'

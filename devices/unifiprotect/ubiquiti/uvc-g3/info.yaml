@@ -7,6 +7,7 @@ manufacturer_name: Ubiquiti
 manufacturer_raw: Ubiquiti
 model_name: UVC G3
 model_raw: UVC G3
+product_manual: null
 same_as: null
 versions:
 - software: 4.71.95

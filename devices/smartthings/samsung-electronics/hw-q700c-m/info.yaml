@@ -7,6 +7,7 @@ manufacturer_name: Samsung Electronics
 manufacturer_raw: Samsung Electronics
 model_name: HW-Q700C_M
 model_raw: HW-Q700C_M
+product_manual: null
 same_as: null
 versions:
 - software: SAT-MT8532D23WWC-1004.1

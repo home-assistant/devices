@@ -7,6 +7,7 @@ manufacturer_name: Aeotec Ltd.
 manufacturer_raw: Aeotec Ltd.
 model_name: ZW164
 model_raw: ZW164
+product_manual: null
 same_as: null
 versions:
 - software: '1.9'

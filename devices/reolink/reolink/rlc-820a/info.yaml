@@ -7,6 +7,7 @@ manufacturer_name: Reolink
 manufacturer_raw: Reolink
 model_name: RLC-820A
 model_raw: RLC-820A
+product_manual: null
 same_as: null
 versions:
 - hardware: IPC_523128M8MP

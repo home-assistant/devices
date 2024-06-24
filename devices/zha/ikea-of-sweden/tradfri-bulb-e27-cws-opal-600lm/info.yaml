@@ -7,6 +7,7 @@ manufacturer_name: IKEA of Sweden
 manufacturer_raw: IKEA of Sweden
 model_name: TRADFRI bulb E27 CWS opal 600lm
 model_raw: TRADFRI bulb E27 CWS opal 600lm
+product_manual: null
 same_as: null
 versions:
 - software: '0x13000272'

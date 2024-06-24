@@ -7,6 +7,7 @@ manufacturer_name: Synology
 manufacturer_raw: Synology
 model_name: DS620slim
 model_raw: DS620slim
+product_manual: null
 same_as: null
 versions:
 - software: DSM 7.2.1-69057 Update 5

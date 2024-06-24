@@ -7,6 +7,7 @@ manufacturer_name: Tesla
 manufacturer_raw: Tesla
 model_name: Model 3
 model_raw: Model 3
+product_manual: null
 same_as: null
 versions:
 - hardware: TeslaAP3

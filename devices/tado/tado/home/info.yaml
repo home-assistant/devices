@@ -7,6 +7,7 @@ manufacturer_name: Tado
 manufacturer_raw: Tado
 model_name: Home
 model_raw: Home
+product_manual: null
 same_as: null
 versions: []
 via_devices: null

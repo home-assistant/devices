@@ -7,6 +7,7 @@ manufacturer_name: 'WDC     '
 manufacturer_raw: 'WDC     '
 model_name: WD40EFRX-68N32N0
 model_raw: WD40EFRX-68N32N0
+product_manual: null
 same_as: null
 versions:
 - software: 82.00A82

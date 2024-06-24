@@ -7,6 +7,7 @@ manufacturer_name: HIKVISION
 manufacturer_raw: HIKVISION
 model_name: DS-2CD2046G2-I
 model_raw: DS-2CD2046G2-I
+product_manual: null
 same_as: null
 versions:
 - software: V5.7.14

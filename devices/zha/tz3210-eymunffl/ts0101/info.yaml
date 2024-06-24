@@ -7,6 +7,7 @@ manufacturer_name: _TZ3210_eymunffl
 manufacturer_raw: _TZ3210_eymunffl
 model_name: TS0101
 model_raw: TS0101
+product_manual: null
 same_as: null
 versions:
 - software: '0x00000045'

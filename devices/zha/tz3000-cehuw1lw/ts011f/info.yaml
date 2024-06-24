@@ -7,6 +7,7 @@ manufacturer_name: _TZ3000_cehuw1lw
 manufacturer_raw: _TZ3000_cehuw1lw
 model_name: TS011F
 model_raw: TS011F
+product_manual: null
 same_as: null
 versions:
 - software: '0x000000c0'

@@ -7,6 +7,7 @@ manufacturer_name: SONOFF
 manufacturer_raw: SONOFF
 model_name: SNZB-06P
 model_raw: SNZB-06P
+product_manual: null
 same_as: null
 versions:
 - software: '0x00001005'

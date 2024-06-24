@@ -7,6 +7,7 @@ manufacturer_name: Progress Lighting
 manufacturer_raw: Progress Lighting
 model_name: BF841
 model_raw: BF841
+product_manual: null
 same_as: null
 versions:
 - software: v2.13.0

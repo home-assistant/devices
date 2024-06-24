@@ -7,6 +7,7 @@ manufacturer_name: iRobot
 manufacturer_raw: iRobot
 model_name: R981040
 model_raw: R981040
+product_manual: null
 same_as: null
 versions:
 - hardware: '3'

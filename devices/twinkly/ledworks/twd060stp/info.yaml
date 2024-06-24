@@ -7,6 +7,7 @@ manufacturer_name: LEDWORKS
 manufacturer_raw: LEDWORKS
 model_name: TWD060STP
 model_raw: TWD060STP
+product_manual: null
 same_as: null
 versions:
 - software: 2.8.18

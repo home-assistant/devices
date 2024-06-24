@@ -7,6 +7,7 @@ manufacturer_name: IKEA of Sweden
 manufacturer_raw: IKEA of Sweden
 model_name: STARKVIND Air purifier table
 model_raw: STARKVIND Air purifier table
+product_manual: null
 same_as: null
 versions:
 - software: '0x00010033'

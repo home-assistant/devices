@@ -7,6 +7,7 @@ manufacturer_name: _TZE200_qhlxve78
 manufacturer_raw: _TZE200_qhlxve78
 model_name: TS0601
 model_raw: TS0601
+product_manual: null
 same_as: null
 versions:
 - software: '0x00000044'

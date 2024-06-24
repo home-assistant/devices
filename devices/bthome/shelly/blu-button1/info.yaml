@@ -7,6 +7,7 @@ manufacturer_name: Shelly
 manufacturer_raw: Shelly
 model_name: BLU Button1
 model_raw: BLU Button1
+product_manual: null
 same_as: null
 versions:
 - software: BTHome BLE v2

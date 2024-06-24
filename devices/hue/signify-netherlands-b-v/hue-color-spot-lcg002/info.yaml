@@ -7,6 +7,7 @@ manufacturer_name: Signify Netherlands B.V.
 manufacturer_raw: Signify Netherlands B.V.
 model_name: Hue color spot (LCG002)
 model_raw: Hue color spot (LCG002)
+product_manual: null
 same_as: null
 versions:
 - software: 1.116.3

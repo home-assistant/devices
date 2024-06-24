@@ -7,6 +7,7 @@ manufacturer_name: Signify Netherlands B.V.
 manufacturer_raw: Signify Netherlands B.V.
 model_name: Hue dimmer switch (RWL022)
 model_raw: Hue dimmer switch (RWL022)
+product_manual: null
 same_as: null
 versions:
 - software: 2.45.2

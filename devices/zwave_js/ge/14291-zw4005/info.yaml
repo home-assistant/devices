@@ -7,6 +7,7 @@ manufacturer_name: GE
 manufacturer_raw: GE
 model_name: 14291 / ZW4005
 model_raw: 14291 / ZW4005
+product_manual: null
 same_as: null
 versions:
 - software: '5.24'
