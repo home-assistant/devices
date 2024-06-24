@@ -7,6 +7,7 @@ manufacturer_name: Shelly
 manufacturer_raw: Shelly
 model_name: Shelly Plus 1PM UL
 model_raw: Shelly Plus 1PM UL
+product_manual: null
 same_as: null
 versions:
 - hardware: gen2 (SNSW-001P15UL)

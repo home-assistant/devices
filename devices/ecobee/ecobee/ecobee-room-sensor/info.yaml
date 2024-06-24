@@ -7,6 +7,7 @@ manufacturer_name: ecobee
 manufacturer_raw: ecobee
 model_name: ecobee Room Sensor
 model_raw: ecobee Room Sensor
+product_manual: null
 same_as: null
 versions: []
 via_devices: null

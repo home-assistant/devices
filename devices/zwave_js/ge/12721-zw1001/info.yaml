@@ -7,6 +7,7 @@ manufacturer_name: GE
 manufacturer_raw: GE
 model_name: 12721 / ZW1001
 model_raw: 12721 / ZW1001
+product_manual: null
 same_as: null
 versions:
 - software: '1.27'

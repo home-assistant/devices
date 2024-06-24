@@ -7,6 +7,7 @@ manufacturer_name: tvOS
 manufacturer_raw: tvOS
 model_name: Plex for Apple TV
 model_raw: Plex for Apple TV
+product_manual: null
 same_as: null
 versions:
 - software: '8.34'

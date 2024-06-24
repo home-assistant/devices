@@ -7,6 +7,7 @@ manufacturer_name: _TZ3000_7dcddnye
 manufacturer_raw: _TZ3000_7dcddnye
 model_name: TS0501A
 model_raw: TS0501A
+product_manual: null
 same_as: null
 versions:
 - software: '0x00000051'

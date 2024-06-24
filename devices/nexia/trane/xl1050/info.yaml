@@ -7,6 +7,7 @@ manufacturer_name: Trane
 manufacturer_raw: Trane
 model_name: XL1050
 model_raw: XL1050
+product_manual: null
 same_as: null
 versions:
 - software: 5.10.1

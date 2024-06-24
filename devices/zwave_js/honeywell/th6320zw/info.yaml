@@ -7,6 +7,7 @@ manufacturer_name: Honeywell
 manufacturer_raw: Honeywell
 model_name: TH6320ZW
 model_raw: TH6320ZW
+product_manual: null
 same_as: null
 versions:
 - software: '1.3'

@@ -7,6 +7,7 @@ manufacturer_name: Ubiquiti Networks
 manufacturer_raw: Ubiquiti Networks
 model_name: UDMPROSE
 model_raw: UDMPROSE
+product_manual: null
 same_as: null
 versions:
 - hardware: '26'

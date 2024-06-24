@@ -7,6 +7,7 @@ manufacturer_name: Tizen
 manufacturer_raw: Tizen
 model_name: Plex for Samsung
 model_raw: Plex for Samsung
+product_manual: null
 same_as: null
 versions:
 - software: 5.74.0

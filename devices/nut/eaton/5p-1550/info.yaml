@@ -7,6 +7,7 @@ manufacturer_name: EATON
 manufacturer_raw: EATON
 model_name: 5P 1550
 model_raw: 5P 1550
+product_manual: null
 same_as: null
 versions:
 - software: 03.18.0035

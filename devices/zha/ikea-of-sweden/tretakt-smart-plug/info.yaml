@@ -7,6 +7,7 @@ manufacturer_name: IKEA of Sweden
 manufacturer_raw: IKEA of Sweden
 model_name: TRETAKT Smart plug
 model_raw: TRETAKT Smart plug
+product_manual: null
 same_as: null
 versions:
 - software: '0x02040004'

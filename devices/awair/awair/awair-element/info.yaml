@@ -7,6 +7,7 @@ manufacturer_name: Awair
 manufacturer_raw: Awair
 model_name: Awair Element
 model_raw: Awair Element
+product_manual: null
 same_as: null
 versions:
 - software: 1.4.1

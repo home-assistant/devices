@@ -7,6 +7,7 @@ manufacturer_name: SONOFF
 manufacturer_raw: SONOFF
 model_name: ZBMINIL2
 model_raw: ZBMINIL2
+product_manual: null
 same_as: null
 versions:
 - software: '0x0000100e'

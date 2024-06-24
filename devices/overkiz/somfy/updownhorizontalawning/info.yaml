@@ -7,6 +7,7 @@ manufacturer_name: Somfy
 manufacturer_raw: Somfy
 model_name: UpDownHorizontalAwning
 model_raw: UpDownHorizontalAwning
+product_manual: null
 same_as: null
 versions:
 - hardware: rts:HorizontalAwningRTSComponent

@@ -7,6 +7,7 @@ manufacturer_name: Zengge
 manufacturer_raw: Zengge
 model_name: Addressable v3 5v (0xA3)
 model_raw: Addressable v3 5v (0xA3)
+product_manual: null
 same_as: null
 versions:
 - hardware: AK001-ZJ2148

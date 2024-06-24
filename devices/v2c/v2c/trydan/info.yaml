@@ -7,6 +7,7 @@ manufacturer_name: V2C
 manufacturer_raw: V2C
 model_name: Trydan
 model_raw: Trydan
+product_manual: null
 same_as: null
 versions:
 - software: 2.1.7

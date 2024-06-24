@@ -7,6 +7,7 @@ manufacturer_name: Netatmo
 manufacturer_raw: Netatmo
 model_name: Public Weather station
 model_raw: Public Weather station
+product_manual: null
 same_as: null
 versions: []
 via_devices: null

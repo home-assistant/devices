@@ -7,6 +7,7 @@ manufacturer_name: Apple
 manufacturer_raw: Apple
 model_name: MacBookAir10,1
 model_raw: MacBookAir10,1
+product_manual: null
 same_as: null
 versions:
 - software: 14.4.1

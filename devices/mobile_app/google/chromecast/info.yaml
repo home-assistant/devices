@@ -7,6 +7,7 @@ manufacturer_name: Google
 manufacturer_raw: Google
 model_name: Chromecast
 model_raw: Chromecast
+product_manual: null
 same_as: null
 versions:
 - software: '31'

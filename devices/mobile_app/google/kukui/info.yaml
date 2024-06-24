@@ -7,6 +7,7 @@ manufacturer_name: Google
 manufacturer_raw: Google
 model_name: kukui
 model_raw: kukui
+product_manual: null
 same_as: null
 versions:
 - software: '30'

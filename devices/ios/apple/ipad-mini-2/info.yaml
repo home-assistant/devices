@@ -7,6 +7,7 @@ manufacturer_name: Apple
 manufacturer_raw: Apple
 model_name: iPad Mini 2
 model_raw: iPad Mini 2
+product_manual: null
 same_as: null
 versions:
 - software: '11.4'

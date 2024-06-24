@@ -7,6 +7,7 @@ manufacturer_name: AlertMe
 manufacturer_raw: AlertMe
 model_name: NANO2
 model_raw: NANO2
+product_manual: null
 same_as: null
 versions:
 - software: 1.0.0-7030-E37

@@ -7,6 +7,7 @@ manufacturer_name: Shelly Europe Ltd.
 manufacturer_raw: Shelly Europe Ltd.
 model_name: QNPL-001X16
 model_raw: QNPL-001X16
+product_manual: null
 same_as: null
 versions:
 - software: 10.11.0

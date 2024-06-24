@@ -7,6 +7,7 @@ manufacturer_name: 'WDC     '
 manufacturer_raw: 'WDC     '
 model_name: WD140EDGZ-11B2DA2
 model_raw: WD140EDGZ-11B2DA2
+product_manual: null
 same_as: null
 versions:
 - software: 85.00A85

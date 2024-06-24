@@ -7,6 +7,7 @@ manufacturer_name: ONVIF_IPNC
 manufacturer_raw: ONVIF_IPNC
 model_name: F4G
 model_raw: F4G
+product_manual: null
 same_as: null
 versions:
 - software: 2.1.0-20211214SG

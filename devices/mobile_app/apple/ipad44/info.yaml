@@ -7,6 +7,7 @@ manufacturer_name: Apple
 manufacturer_raw: Apple
 model_name: iPad4,4
 model_raw: iPad4,4
+product_manual: null
 same_as: null
 versions:
 - software: 12.5.7

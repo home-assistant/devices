@@ -7,6 +7,7 @@ manufacturer_name: Signify Netherlands B.V.
 manufacturer_raw: Signify Netherlands B.V.
 model_name: Hue outdoor motion sensor (SML004)
 model_raw: Hue outdoor motion sensor (SML004)
+product_manual: null
 same_as: null
 versions:
 - software: 2.53.6

@@ -7,6 +7,7 @@ manufacturer_name: Amazon
 manufacturer_raw: Amazon
 model_name: KFTRWI
 model_raw: KFTRWI
+product_manual: null
 same_as: null
 versions:
 - software: '28'

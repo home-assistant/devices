@@ -7,6 +7,7 @@ manufacturer_name: Apple
 manufacturer_raw: Apple
 model_name: iPad13,6
 model_raw: iPad13,6
+product_manual: null
 same_as: null
 versions:
 - software: '18.0'

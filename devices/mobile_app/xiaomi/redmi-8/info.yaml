@@ -7,6 +7,7 @@ manufacturer_name: Xiaomi
 manufacturer_raw: Xiaomi
 model_name: Redmi 8
 model_raw: Redmi 8
+product_manual: null
 same_as: null
 versions:
 - software: '29'

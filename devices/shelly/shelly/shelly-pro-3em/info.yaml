@@ -7,6 +7,7 @@ manufacturer_name: Shelly
 manufacturer_raw: Shelly
 model_name: Shelly Pro 3EM
 model_raw: Shelly Pro 3EM
+product_manual: null
 same_as: null
 versions:
 - hardware: gen2 (SPEM-003CEBEU)

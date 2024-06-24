@@ -7,6 +7,7 @@ manufacturer_name: TP-Link
 manufacturer_raw: TP-Link
 model_name: L920
 model_raw: L920
+product_manual: null
 same_as: null
 versions:
 - hardware: '1.0'

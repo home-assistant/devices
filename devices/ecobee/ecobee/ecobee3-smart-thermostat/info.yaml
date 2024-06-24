@@ -7,6 +7,7 @@ manufacturer_name: ecobee
 manufacturer_raw: ecobee
 model_name: ecobee3 Smart Thermostat
 model_raw: ecobee3 Smart Thermostat
+product_manual: null
 same_as: null
 versions: []
 via_devices: null

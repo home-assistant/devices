@@ -7,6 +7,7 @@ manufacturer_name: Zengge
 manufacturer_raw: Zengge
 model_name: Controller RGB IR (0x33)
 model_raw: Controller RGB IR (0x33)
+product_manual: null
 same_as: null
 versions:
 - hardware: AK001-ZJ210

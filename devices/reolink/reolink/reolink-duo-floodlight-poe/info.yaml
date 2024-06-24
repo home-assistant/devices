@@ -7,6 +7,7 @@ manufacturer_name: Reolink
 manufacturer_raw: Reolink
 model_name: Reolink Duo Floodlight PoE
 model_raw: Reolink Duo Floodlight PoE
+product_manual: null
 same_as: null
 versions:
 - hardware: IPC_529B17B8MP

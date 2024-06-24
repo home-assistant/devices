@@ -7,6 +7,7 @@ manufacturer_name: Signify Netherlands B.V.
 manufacturer_raw: Signify Netherlands B.V.
 model_name: Hue tap switch (ZGPSWITCH)
 model_raw: Hue tap switch (ZGPSWITCH)
+product_manual: null
 same_as: null
 versions:
 - software: 0.0.0

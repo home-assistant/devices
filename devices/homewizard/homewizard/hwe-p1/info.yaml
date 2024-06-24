@@ -7,6 +7,7 @@ manufacturer_name: HomeWizard
 manufacturer_raw: HomeWizard
 model_name: HWE-P1
 model_raw: HWE-P1
+product_manual: null
 same_as: null
 versions:
 - software: '4.19'

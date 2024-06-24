@@ -7,6 +7,7 @@ manufacturer_name: Tesla
 manufacturer_raw: Tesla
 model_name: 1457768-02-G
 model_raw: 1457768-02-G
+product_manual: null
 same_as: null
 versions:
 - software: 24.12.51+g7855f626d7fb3

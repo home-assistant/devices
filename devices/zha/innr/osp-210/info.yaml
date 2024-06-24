@@ -7,6 +7,7 @@ manufacturer_name: innr
 manufacturer_raw: innr
 model_name: OSP 210
 model_raw: OSP 210
+product_manual: null
 same_as: null
 versions:
 - software: '0x11003674'

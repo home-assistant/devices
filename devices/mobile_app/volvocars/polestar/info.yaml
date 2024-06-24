@@ -7,6 +7,7 @@ manufacturer_name: VolvoCars
 manufacturer_raw: VolvoCars
 model_name: Polestar
 model_raw: Polestar
+product_manual: null
 same_as: null
 versions:
 - software: '30'

@@ -7,6 +7,7 @@ manufacturer_name: Plex
 manufacturer_raw: Plex
 model_name: Plex for Android (Mobile)
 model_raw: Plex for Android (Mobile)
+product_manual: null
 same_as: null
 versions:
 - software: 10.2.0.4488

@@ -7,6 +7,7 @@ manufacturer_name: IKEA of Sweden
 manufacturer_raw: IKEA of Sweden
 model_name: TRADFRIbulbE27WSglobeopal1055lm
 model_raw: TRADFRIbulbE27WSglobeopal1055lm
+product_manual: null
 same_as: null
 versions:
 - software: '0x00010012'

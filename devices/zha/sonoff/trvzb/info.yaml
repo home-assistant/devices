@@ -7,6 +7,7 @@ manufacturer_name: SONOFF
 manufacturer_raw: SONOFF
 model_name: TRVZB
 model_raw: TRVZB
+product_manual: null
 same_as: null
 versions:
 - software: '0x00001105'

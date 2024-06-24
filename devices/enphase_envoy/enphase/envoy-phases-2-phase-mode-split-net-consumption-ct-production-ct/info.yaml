@@ -7,6 +7,7 @@ manufacturer_name: Enphase
 manufacturer_raw: Enphase
 model_name: 'Envoy, phases: 2, phase mode: split, net-consumption CT, production CT'
 model_raw: 'Envoy, phases: 2, phase mode: split, net-consumption CT, production CT'
+product_manual: null
 same_as: null
 versions:
 - hardware: 800-00555-r03

@@ -7,6 +7,7 @@ manufacturer_name: Schneider Electric
 manufacturer_raw: Schneider Electric
 model_name: SOCKET/OUTLET/1
 model_raw: SOCKET/OUTLET/1
+product_manual: null
 same_as: null
 versions:
 - software: '0x020612ff'

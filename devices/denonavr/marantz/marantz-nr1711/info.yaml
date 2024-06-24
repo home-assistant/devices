@@ -7,6 +7,7 @@ manufacturer_name: Marantz
 manufacturer_raw: Marantz
 model_name: Marantz NR1711
 model_raw: Marantz NR1711
+product_manual: null
 same_as: null
 versions:
 - hardware: avr-x-2016

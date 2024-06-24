@@ -7,6 +7,7 @@ manufacturer_name: Plex
 manufacturer_raw: Plex
 model_name: Plex Media Server
 model_raw: Plex Media Server
+product_manual: null
 same_as: null
 versions:
 - software: 1.40.0.7998-c29d4c0c8
