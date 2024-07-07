@@ -56,7 +56,7 @@ integration,manufacturer,model,sw_version,hw_version,via_device,has_suggested_ar
    device_attr(dev_id, 'manufacturer') and
    device_attr(dev_id, 'model') and
    device_attr(dev_id, 'entry_type') not in ns.ignore_entry_type -%}
-{{- integration }},
+{{- config_entry_attr(device_attr(dev_id, 'primary_config_entry'), 'domain') }},
 {#-#}"{{ device_attr(dev_id, 'manufacturer') }}",
 {#-#}"{{ device_attr(dev_id, 'model') }}",
 {#-#}"{{ device_attr(dev_id, 'sw_version') }}",
