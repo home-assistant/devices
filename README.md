@@ -20,7 +20,6 @@ You can also process it yourself and open a PR. To do that, put the output in a 
 {% set ns = namespace(
   devices=[None],
   ignore_integration=[
-    None,
     "hassio",
     "bluetooth",
     "mqtt",
@@ -51,12 +50,12 @@ integration,manufacturer,model,sw_version,hw_version,via_device,has_suggested_ar
 {% set dev_id = device_id(state.entity_id) -%}
 {% if dev_id not in ns.devices -%}
 {% set ns.devices = ns.devices + [dev_id] -%}
-{% if device_attr(dev_id, 'primary_config_entry') and
-   config_entry_attr(device_attr(dev_id, 'primary_config_entry'), 'domain') not in ns.ignore_integration and
+{% set integration = device_attr(dev_id, 'primary_config_entry') and config_entry_attr(device_attr(dev_id, 'primary_config_entry'), 'domain') -%}
+{% if integration and integration not in ns.ignore_integration and
    device_attr(dev_id, 'manufacturer') and
    device_attr(dev_id, 'model') and
    device_attr(dev_id, 'entry_type') not in ns.ignore_entry_type -%}
-{{- config_entry_attr(device_attr(dev_id, 'primary_config_entry'), 'domain') }},
+{{- integration }},
 {#-#}"{{ device_attr(dev_id, 'manufacturer') }}",
 {#-#}"{{ device_attr(dev_id, 'model') }}",
 {#-#}"{{ device_attr(dev_id, 'sw_version') }}",
