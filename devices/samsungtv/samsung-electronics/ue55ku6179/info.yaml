@@ -1,17 +1,15 @@
 entry_type: device
-has_configuration_url: true
+has_configuration_url: false
 has_suggested_area: false
 is_via_device: false
 is_works_with_ha_device: false
-manufacturer_name: Shelly
-manufacturer_raw: Shelly
-model_name: Shelly 1PM
-model_raw: Shelly 1PM
+manufacturer_name: Samsung Electronics
+manufacturer_raw: Samsung Electronics
+model_name: UE55KU6179
+model_raw: UE55KU6179
 product_manual: null
 same_as: null
-versions:
-- hardware: gen1 (SHSW-PM)
-  software: 20230913-113709/v1.14.0-gcb84623
+versions: []
 via_devices:
 - hw_version: null
   integration: fritz

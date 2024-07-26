@@ -5,13 +5,13 @@ is_via_device: false
 is_works_with_ha_device: false
 manufacturer_name: Shelly
 manufacturer_raw: Shelly
-model_name: Shelly 1PM
-model_raw: Shelly 1PM
+model_name: Shelly H&T
+model_raw: Shelly H&T
 product_manual: null
 same_as: null
 versions:
-- hardware: gen1 (SHSW-PM)
-  software: 20230913-113709/v1.14.0-gcb84623
+- hardware: gen1 (SHHT-1)
+  software: 20211109-125452/v1.11.7-g682a0db
 via_devices:
 - hw_version: null
   integration: fritz
