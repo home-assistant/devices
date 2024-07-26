@@ -5,13 +5,11 @@ is_via_device: false
 is_works_with_ha_device: false
 manufacturer_name: Shelly
 manufacturer_raw: Shelly
-model_name: Shelly EM
-model_raw: Shelly EM
+model_name: Shelly Plus Smoke
+model_raw: Shelly Plus Smoke
 product_manual: null
 same_as: null
 versions:
-- hardware: gen1 (SHEM)
-  software: 20230503-102005/v1.13.0-g9aed950
-- hardware: gen1 (SHEM)
-  software: 20231107-164916/v1.14.1-rc1-g0617c15
+- hardware: gen2 (SNSN-0031Z)
+  software: 20240425-141501/1.3.0-ga3fdd3d
 via_devices: null
