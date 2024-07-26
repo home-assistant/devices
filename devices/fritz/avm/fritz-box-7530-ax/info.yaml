@@ -1,0 +1,14 @@
+entry_type: device
+has_configuration_url: true
+has_suggested_area: false
+is_via_device: false
+is_works_with_ha_device: false
+manufacturer_name: AVM
+manufacturer_raw: AVM
+model_name: FRITZ!Box 7530 AX
+model_raw: FRITZ!Box 7530 AX
+product_manual: null
+same_as: null
+versions:
+- software: '7.57'
+via_devices: null
