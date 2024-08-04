@@ -5,13 +5,10 @@ is_via_device: false
 is_works_with_ha_device: false
 manufacturer_name: Shelly
 manufacturer_raw: Shelly
-model_name: Shelly EM
-model_raw: Shelly EM
+model_name: Shelly Door/Window 2
+model_raw: Shelly Door/Window 2
 product_manual: null
 same_as: null
 versions:
-- hardware: gen1 (SHEM)
-  software: 20230503-102005/v1.13.0-g9aed950
-- hardware: gen1 (SHEM)
-  software: 20231107-164916/v1.14.1-rc1-g0617c15
+- hardware: gen1 (SHDW-2)
 via_devices: null
