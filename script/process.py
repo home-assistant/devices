@@ -28,7 +28,6 @@ APPROVED_INTEGRATIONS = set(
     if domain
     not in (
         "wled",  # Hardcoded to single value
-        "fritz",  # user chosen manufacturer
     )
 )
 
