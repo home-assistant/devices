@@ -37,7 +37,7 @@ You can also process it yourself and open a PR. To do that, put the output in a 
   "sw_version": device_attr(via_device, 'sw_version'),
   "hw_version": device_attr(via_device, 'hw_version'),
   "integration": device_attr(via_device, 'primary_config_entry') | config_entry_attr('domain'),
-  "model": device_attr(via_device, 'model'),
+  "model": device_attr(via_device, 'model_id'),
   "manufacturer": device_attr(via_device, 'manufacturer'),
 })] -%}
 {% endif -%}
@@ -53,11 +53,11 @@ integration,manufacturer,model,sw_version,hw_version,via_device,has_suggested_ar
 {% set integration = device_attr(dev_id, 'primary_config_entry') and config_entry_attr(device_attr(dev_id, 'primary_config_entry'), 'domain') -%}
 {% if integration and integration not in ns.ignore_integration and
    device_attr(dev_id, 'manufacturer') and
-   device_attr(dev_id, 'model') and
+   device_attr(dev_id, 'model_id') and
    device_attr(dev_id, 'entry_type') not in ns.ignore_entry_type -%}
 {{- integration }},
 {#-#}"{{ device_attr(dev_id, 'manufacturer') }}",
-{#-#}"{{ device_attr(dev_id, 'model') }}",
+{#-#}"{{ device_attr(dev_id, 'model_id') }}",
 {#-#}"{{ device_attr(dev_id, 'sw_version') }}",
 {#-#}"{{ device_attr(dev_id, 'hw_version') }}",
 {#-#}"{{- ns.via_devices[device_attr(dev_id, 'via_device_id')] | to_json | base64_encode }}",
