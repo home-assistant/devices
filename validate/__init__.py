@@ -10,7 +10,9 @@ import voluptuous as vol
 import yaml
 
 ROOT_DIR = pathlib.Path(__file__).parent.parent.resolve()
-DEVICES_DIR = ROOT_DIR / "devices"
+# DEVICES_DIR = ROOT_DIR / "devices"
+DEVICES_DIR = ROOT_DIR / "validate/sample_companies"
+
 
 def has_at_least_one_key(*keys: Any) -> Callable[[dict], dict]:
     """Validate that at least one key exists."""
@@ -28,6 +30,7 @@ def has_at_least_one_key(*keys: Any) -> Callable[[dict], dict]:
 
     return validate
 
+
 INFO_YAML = vol.Schema(
     {
         vol.Required("entry_type"): str,
@@ -40,24 +43,37 @@ INFO_YAML = vol.Schema(
         vol.Required("model_name"): str,
         vol.Required("model_raw"): str,
         vol.Required("product_manual"): vol.Any(str, None),
-        vol.Required("same_as"): vol.Any(None, [{
-            vol.Required("integration"): str,
-            vol.Required("manufacturer"): str,
-            vol.Required("model"): str,
-        }]),
+        vol.Required("same_as"): vol.Any(
+            None,
+            [
+                {
+                    vol.Required("integration"): str,
+                    vol.Required("manufacturer"): str,
+                    vol.Required("model"): str,
+                }
+            ],
+        ),
         vol.Required("versions"): [
-            vol.All({
-                vol.Optional("hardware"): str,
-                vol.Optional("software"): str,
-            }, has_at_least_one_key("hardware", "software")),
+            vol.All(
+                {
+                    vol.Optional("hardware"): str,
+                    vol.Optional("software"): str,
+                },
+                has_at_least_one_key("hardware", "software"),
+            ),
         ],
-        vol.Required("via_devices"): vol.Any(None, [{
-            vol.Required("integration"): str,
-            vol.Required("manufacturer"): str,
-            vol.Required("model"): str,
-            vol.Required("hw_version"): vol.Any(str, None),
-            vol.Required("sw_version"): vol.Any(str, None),
-        }]),
+        vol.Required("via_devices"): vol.Any(
+            None,
+            [
+                {
+                    vol.Required("integration"): str,
+                    vol.Required("manufacturer"): str,
+                    vol.Required("model"): str,
+                    vol.Required("hw_version"): vol.Any(str, None),
+                    vol.Required("sw_version"): vol.Any(str, None),
+                }
+            ],
+        ),
     }
 )
 
@@ -84,17 +100,20 @@ def validate():
 
     errors = []
     valid_device_keys = {
-        (device.integration, device.manufacturer, device.model)
-        for device in devices
+        (device.integration, device.manufacturer, device.model) for device in devices
     }
 
     for device in devices:
-        for key in ('via_devices', 'same_as'):
+        for key in ("via_devices", "same_as"):
             if not device.info[key]:
                 continue
 
             for ref in device.info[key]:
-                if (ref['integration'], ref['manufacturer'], ref['model']) not in valid_device_keys:
+                if (
+                    ref["integration"],
+                    ref["manufacturer"],
+                    ref["model"],
+                ) not in valid_device_keys:
                     device.errors[key].append(f"Reference to unknown device: {ref}")
 
         if device.errors:
@@ -141,7 +160,3 @@ def validate_device(path):
         report.errors["info.yaml"].append("File not found")
 
     return report
-
-
-if __name__ == "__main__":
-    sys.exit(validate())
