@@ -29,7 +29,7 @@ def load_companies() -> list[Company]:
     return companies
 
 
-def create_company(name: str) -> Company:
+def create_company_entry(name: str) -> Company:
     company_dir = DATABASE_DIR / slugify(name)
     if company_dir.exists():
         raise ValueError(f"A company already exists at {company_dir.name}")

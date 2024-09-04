@@ -1,8 +1,6 @@
 """Update Record models."""
 
 import dataclasses
-import pathlib
-from typing import Iterable
 
 
 @dataclasses.dataclass

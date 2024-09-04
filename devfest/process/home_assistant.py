@@ -8,8 +8,9 @@ from pprint import pprint
 import voluptuous as vol
 import yaml
 
-from ..const import INTEGRATIONS_INFO, PROCESS_DIR, DataSource, TEMPLATE_DIR
-from ..models.home_assistant import HADeviceIndex, HADevice, HACompany
+from ..const import INTEGRATIONS_INFO, PROCESS_DIR, TEMPLATE_DIR, DataSource
+from ..models.base import create_company_entry
+from ..models.home_assistant import HACompany, HADevice, HADeviceIndex
 from ..models.update_record import UpdateRecord
 from ..validation import bool, str_or_none
 
@@ -136,7 +137,7 @@ def create_company(index: HADeviceIndex, row: dict) -> HACompany:
     # TODO do we always just create a new one or should we ask
     # the user for an ID? Especially Matter can have duplicates.
 
-    company = create_company(name=row["manufacturer"])
+    company = create_company_entry(name=row["manufacturer"])
 
     # Copy Home Assistant specific data
     ha_path = company.path / DataSource.HOME_ASSISTANT

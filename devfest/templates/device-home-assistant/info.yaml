@@ -1,4 +1,4 @@
 integrations: []
 has_configuration_url: false
 has_suggested_area: false
-is_works_with_ha_device: false
+is_works_with_ha: false
