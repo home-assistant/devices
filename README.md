@@ -4,9 +4,7 @@ _This is experimental and may change at any time._
 
 This collection is automatically published at https://home-assistant.github.io/devices/.
 
-Each device is stored in: `devices/<integration>/<device manufacturer>/<device model>/`
-
-The integration, manufacturer and model are the data reported in Home Assistant.
+Each device is stored in: `database/<company>/devices/<device model>/`.
 
 ## Adding new devices
 
@@ -14,7 +12,7 @@ Paste the below template to the [template developer tool](https://my.home-assist
 
 To get the data into the repo, paste the output in a GitHub issue or share the file with me on Discord (@balloob).
 
-You can also process it yourself and open a PR. To do that, put the output in a CSV file in the `to_process` folder (for example `to_process/my_devices.csv`) and run the `script/process.py` script.
+You can also process it yourself and open a PR. To do that, put the output in a CSV file in the `to_process` folder (for example `to_process/my_devices.csv`) and run the `python3 -m devfest process` script.
 
 ```jinja2
 {% set ns = namespace(
