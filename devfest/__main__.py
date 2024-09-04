@@ -4,6 +4,7 @@ import click
 
 from .process.home_assistant import process
 from .validate import validate
+from .website import generate_website
 
 
 @click.group()
@@ -14,6 +15,7 @@ def cli():
 
 cli.add_command(click.command(process))
 cli.add_command(click.command(validate))
+cli.add_command(click.command(generate_website))
 
 
 if __name__ == "__main__":

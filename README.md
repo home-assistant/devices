@@ -45,7 +45,7 @@ You can also process it yourself and open a PR. To do that, put the output in a 
 {% endfor -%}
 {% set ns.via_devices = dict.from_keys(ns.via_devices) %}
 
-integration,manufacturer,model,sw_version,hw_version,via_device,has_suggested_area,has_configuration_url,entry_type,is_via_device
+integration,manufacturer,model_id,model_name,sw_version,hw_version,via_device,has_suggested_area,has_configuration_url,entry_type,is_via_device
 {% for state in states -%}
 {% set dev_id = device_id(state.entity_id) -%}
 {% if dev_id not in ns.devices -%}
@@ -58,6 +58,7 @@ integration,manufacturer,model,sw_version,hw_version,via_device,has_suggested_ar
 {{- integration }},
 {#-#}"{{ device_attr(dev_id, 'manufacturer') }}",
 {#-#}"{{ device_attr(dev_id, 'model_id') }}",
+{#-#}"{{ device_attr(dev_id, 'model') }}",
 {#-#}"{{ device_attr(dev_id, 'sw_version') }}",
 {#-#}"{{ device_attr(dev_id, 'hw_version') }}",
 {#-#}"{{- ns.via_devices[device_attr(dev_id, 'via_device_id')] | to_json | base64_encode }}",

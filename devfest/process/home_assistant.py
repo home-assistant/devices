@@ -8,22 +8,19 @@ from pprint import pprint
 import voluptuous as vol
 import yaml
 
-from ..const import INTEGRATIONS_INFO, PROCESS_DIR, TEMPLATE_DIR, DataSource
-from ..models.base import create_company_entry
+from ..const import DataSource
+from .base import create_company_entry, create_device_entry
 from ..models.home_assistant import HACompany, HADevice, HADeviceIndex
 from ..models.update_record import UpdateRecord
 from ..validation import bool, str_or_none
 
-APPROVED_INTEGRATIONS = set(
-    domain
-    for domain, info in INTEGRATIONS_INFO.items()
-    # Manual filter to remove integrations with
-    # user-defined/incorrect device data
-    if domain
-    not in (
-        "wled",  # Hardcoded to single value
-    )
-)
+
+from .const import TEMPLATE_DIR, PROCESS_DIR
+
+
+IGNORED_INTEGRATIONS = {
+    "wled",  # hardcoded to single value
+}
 
 
 VIA_DEVICE_SCHEMA = vol.Schema(
@@ -47,13 +44,13 @@ DEVICE_SCHEMA = vol.Schema(
     {
         vol.Required("integration"): str,
         vol.Required("manufacturer"): str,
-        vol.Required("model"): str,
+        vol.Required("model_id"): str,
+        vol.Required("model_name"): str,
         vol.Required("sw_version"): str_or_none,
         vol.Required("hw_version"): str_or_none,
-        # vol.Required("via_device"): via_device_schema,
+        vol.Required("via_device"): via_device_schema,
         vol.Required("has_suggested_area"): bool,
         vol.Required("has_configuration_url"): bool,
-        vol.Required("has_via_device"): bool,
         vol.Required("entry_type"): str_or_none,
         vol.Required("is_via_device"): bool,
     }
@@ -100,11 +97,7 @@ def process_file(path: pathlib.Path):
 
     # Ensure all companies and devices created
     for row in rows:
-        # TEMP FIX FOR OLD DATA DURING DEV
-        row["model_id"] = row["model"]
-        row["model_name"] = row["model"]
-
-        if row["integration"] not in APPROVED_INTEGRATIONS:
+        if row["integration"] in IGNORED_INTEGRATIONS:
             total.devices_ignored = 1
             continue
 
@@ -162,7 +155,9 @@ def create_device(company: HACompany, row: dict) -> HADevice:
     # TODO do we always just create a new one or should we ask
     # the user for an ID? Especially Matter can have duplicates.
 
-    device = company.company.create_device(row["model_id"], row["model_name"] or None)
+    device = create_device_entry(
+        company.company, row["model_id"], row["model_name"] or None
+    )
 
     # Copy Home Assistant specific data
     ha_path = device.path / DataSource.HOME_ASSISTANT
