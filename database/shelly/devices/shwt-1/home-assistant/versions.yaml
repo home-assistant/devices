@@ -1,0 +1,3 @@
+versions:
+- hardware: gen1
+  software: 20211022-124538/v1.11.6-21-g9a347eddb-master
