@@ -1,5 +1,7 @@
 """Company model."""
 
+from __future__ import annotations
+
 import dataclasses
 import pathlib
 import shutil
@@ -9,11 +11,10 @@ import yaml
 from slugify import slugify
 
 from ..const import DATABASE_DIR, TEMPLATE_DIR
-from .device import Device
 from .update_record import UpdateRecord
 
 
-def load_companies() -> list["Company"]:
+def load_companies() -> list[Company]:
     """Load companies indexed by source identifier."""
     companies = []
     for company_dir in DATABASE_DIR.iterdir():
@@ -28,7 +29,7 @@ def load_companies() -> list["Company"]:
     return companies
 
 
-def create_company(name: str) -> "Company":
+def create_company(name: str) -> Company:
     company_dir = DATABASE_DIR / slugify(name)
     if company_dir.exists():
         raise ValueError(f"A company already exists at {company_dir.name}")
@@ -104,3 +105,24 @@ class Company:
         self.devices.append(device)
 
         return device
+
+
+@dataclasses.dataclass
+class Device:
+    path: pathlib.Path
+    info: dict
+    subdirs: list[str] = dataclasses.field(init=False)
+    is_new: bool = dataclasses.field(default=True)
+
+    def __post_init__(self) -> None:
+        self.subdirs = [entry.name for entry in self.path.iterdir() if entry.is_dir()]
+
+    @property
+    def model_name(self) -> str:
+        """Name of the device."""
+        return self.info["model_name"]
+
+    @property
+    def model_id(self) -> str:
+        """Name of the device."""
+        return self.info["model_name"]
