@@ -1,0 +1,3 @@
+integrations:
+- integration: shelly
+  manufacturer: Shelly

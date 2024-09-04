@@ -2,6 +2,7 @@ voluptuous
 PyYAML
 httpx
 mistune
+click
 humanmark
 # required for humanmark
 setuptools

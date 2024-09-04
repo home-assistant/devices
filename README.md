@@ -4,9 +4,7 @@ _This is experimental and may change at any time._
 
 This collection is automatically published at https://home-assistant.github.io/devices/.
 
-Each device is stored in: `devices/<integration>/<device manufacturer>/<device model>/`
-
-The integration, manufacturer and model are the data reported in Home Assistant.
+Each device is stored in: `database/<company>/devices/<device model>/`.
 
 ## Adding new devices
 
@@ -14,7 +12,7 @@ Paste the below template to the [template developer tool](https://my.home-assist
 
 To get the data into the repo, paste the output in a GitHub issue or share the file with me on Discord (@balloob).
 
-You can also process it yourself and open a PR. To do that, put the output in a CSV file in the `to_process` folder (for example `to_process/my_devices.csv`) and run the `script/process.py` script.
+You can also process it yourself and open a PR. To do that, put the output in a CSV file in the `to_process` folder (for example `to_process/my_devices.csv`) and run the `python3 -m devfest process` script.
 
 ```jinja2
 {% set ns = namespace(
@@ -45,7 +43,7 @@ You can also process it yourself and open a PR. To do that, put the output in a 
 {% endfor -%}
 {% set ns.via_devices = dict.from_keys(ns.via_devices) %}
 
-integration,manufacturer,model,sw_version,hw_version,via_device,has_suggested_area,has_configuration_url,entry_type,is_via_device
+integration,manufacturer,model_id,model_name,sw_version,hw_version,via_device,has_suggested_area,has_configuration_url,entry_type,is_via_device
 {% for state in states -%}
 {% set dev_id = device_id(state.entity_id) -%}
 {% if dev_id not in ns.devices -%}
@@ -58,6 +56,7 @@ integration,manufacturer,model,sw_version,hw_version,via_device,has_suggested_ar
 {{- integration }},
 {#-#}"{{ device_attr(dev_id, 'manufacturer') }}",
 {#-#}"{{ device_attr(dev_id, 'model_id') }}",
+{#-#}"{{ device_attr(dev_id, 'model') }}",
 {#-#}"{{ device_attr(dev_id, 'sw_version') }}",
 {#-#}"{{ device_attr(dev_id, 'hw_version') }}",
 {#-#}"{{- ns.via_devices[device_attr(dev_id, 'via_device_id')] | to_json | base64_encode }}",

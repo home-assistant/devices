@@ -41,7 +41,7 @@ jobs:
       - name: Install Python dependencies
         run: script/setup
       - name: Build site
-        run: script/build_website.py
+        run: python3 -m devfest generate-website
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3.0.1
         with:
