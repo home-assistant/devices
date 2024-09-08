@@ -23,7 +23,7 @@ VIA_DEVICE_SCHEMA = vol.Schema(
     {
         vol.Required("integration"): str,
         vol.Required("manufacturer"): str,
-        vol.Required("model"): str,
+        vol.Required("model_id"): str_or_none,
         vol.Required("sw_version"): str_or_none,
         vol.Required("hw_version"): str_or_none,
     }
@@ -33,7 +33,12 @@ VIA_DEVICE_SCHEMA = vol.Schema(
 def via_device_schema(value):
     if value == "bnVsbA==":
         return None
-    return VIA_DEVICE_SCHEMA(json.loads(base64.b64decode(value).decode()))
+    data = json.loads(base64.b64decode(value).decode())
+    data = VIA_DEVICE_SCHEMA(data)
+    # If the via device has no model ID, we ignore that via device.
+    if data["model_id"] is None:
+        return None
+    return data
 
 
 DEVICE_SCHEMA = vol.Schema(

@@ -41,7 +41,7 @@ You can also process it yourself and open a PR. To do that, put the output in a 
   "sw_version": device_attr(via_device, 'sw_version'),
   "hw_version": device_attr(via_device, 'hw_version'),
   "integration": device_attr(via_device, 'primary_config_entry') | config_entry_attr('domain'),
-  "model": device_attr(via_device, 'model_id'),
+  "model_id": device_attr(via_device, 'model_id'),
   "manufacturer": device_attr(via_device, 'manufacturer'),
 })] -%}
 {% endif -%}
