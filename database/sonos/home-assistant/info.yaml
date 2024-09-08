@@ -1,0 +1,3 @@
+integrations:
+- integration: sonos
+  manufacturer: Sonos
