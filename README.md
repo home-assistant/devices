@@ -6,13 +6,19 @@ This collection is automatically published at https://home-assistant.github.io/d
 
 Each device is stored in: `database/<company>/devices/<device model>/`.
 
-## Adding new devices
+## Adding new devices via CLI
+
+```
+python3 -m devfest process base --company-name "Nabu Casa" --model-id "hagreen" --model-name "Home Assistant Green"
+```
+
+## Adding new devices from Home Assistant
 
 Paste the below template to the [template developer tool](https://my.home-assistant.io/redirect/developer_template/) to generate data from your Home Assistant instance.
 
 To get the data into the repo, paste the output in a GitHub issue or share the file with me on Discord (@balloob).
 
-You can also process it yourself and open a PR. To do that, put the output in a CSV file in the `to_process` folder (for example `to_process/my_devices.csv`) and run the `python3 -m devfest process` script.
+You can also process it yourself and open a PR. To do that, put the output in a CSV file in the `to_process` folder (for example `to_process/my_devices.csv`) and run the `python3 -m devfest process home-assistant` script.
 
 ```jinja2
 {% set ns = namespace(

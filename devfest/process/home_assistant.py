@@ -58,7 +58,7 @@ DEVICE_SCHEMA = vol.Schema(
 
 
 def process():
-    """Process all files."""
+    """Process Home Assistant generated files."""
     total = UpdateRecord()
 
     for path in PROCESS_DIR.glob("*.csv"):
@@ -132,9 +132,8 @@ def create_company(index: HADeviceIndex, row: dict) -> HACompany:
 
     company = create_company_entry(name=row["manufacturer"])
 
-    # Copy Home Assistant specific data
+    # Set Home Assistant specific data
     ha_path = company.path / DataSource.HOME_ASSISTANT
-    shutil.copytree((TEMPLATE_DIR / f"company-{DataSource.HOME_ASSISTANT}"), ha_path)
     info_path = ha_path / "info.yaml"
     info = yaml.safe_load(info_path.read_text())
     info["integrations"].append(
@@ -144,6 +143,8 @@ def create_company(index: HADeviceIndex, row: dict) -> HACompany:
         }
     )
     info_path.write_text(yaml.dump(info))
+
+    # Update index
     company_key = row["integration"], row["manufacturer"]
     ha_company = HACompany(company)
     index.companies[company_key] = ha_company
@@ -159,9 +160,8 @@ def create_device(company: HACompany, row: dict) -> HADevice:
         company.company, row["model_id"], row["model_name"] or None
     )
 
-    # Copy Home Assistant specific data
+    # Set Home Assistant specific data
     ha_path = device.path / DataSource.HOME_ASSISTANT
-    shutil.copytree((TEMPLATE_DIR / f"device-{DataSource.HOME_ASSISTANT}"), ha_path)
     info_path = ha_path / "info.yaml"
     info = yaml.safe_load(info_path.read_text())
     info["integrations"].append(
@@ -172,6 +172,8 @@ def create_device(company: HACompany, row: dict) -> HADevice:
         }
     )
     info_path.write_text(yaml.dump(info))
+
+    # Update index
     device_key = row["integration"], row["manufacturer"], row["model_id"]
     ha_device = HADevice(device)
     company.devices[device_key] = ha_device

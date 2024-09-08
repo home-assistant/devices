@@ -18,6 +18,8 @@ def create_company_entry(name: str) -> Company:
         raise ValueError(f"A company already exists at {company_dir.name}")
 
     shutil.copytree((TEMPLATE_DIR / "company"), company_dir)
+    # Empty directories are not contained in git, so we need to create them
+    (company_dir / "devices").mkdir()
 
     info_path = company_dir / "info.yaml"
     info = yaml.safe_load(info_path.read_text())
