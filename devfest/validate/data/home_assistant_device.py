@@ -53,4 +53,14 @@ def validate_device(device: HADevice) -> DeviceReport:
         except vol.Invalid as err:
             report.errors[f"home-assistant/{file}"].append(str(err))
 
+    # If it is a Matter device, ensure we use the better model ID
+    if any(
+        integration["integration"] == "matter"
+        for integration in device.ha_info["integrations"]
+    ):
+        if device.id.isnumeric():
+            report.errors["info.yaml"].append(
+                f"Matter devices should use the part number from https://webui.dcl.csa-iot.org as model ID instead of {device.id}"
+            )
+
     return report
