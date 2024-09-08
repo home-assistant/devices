@@ -1,0 +1,7 @@
+has_configuration_url: true
+has_suggested_area: false
+integrations:
+- integration: unifiprotect
+  manufacturer: Ubiquiti
+  model_id: UVC G3
+is_works_with_ha: false
