@@ -8,8 +8,8 @@ import yaml
 from slugify import slugify
 
 from ..const import DATABASE_DIR
-from .const import TEMPLATE_DIR
 from ..models.base import Company, Device
+from .const import TEMPLATE_DIR
 
 
 def create_company_entry(name: str) -> Company:

@@ -2,21 +2,17 @@ import base64
 import csv
 import json
 import pathlib
-import shutil
 from pprint import pprint
 
 import voluptuous as vol
 import yaml
 
 from ..const import DataSource
-from .base import create_company_entry, create_device_entry
 from ..models.home_assistant import HACompany, HADevice, HADeviceIndex
 from ..models.update_record import UpdateRecord
 from ..validation import bool, str_or_none
-
-
-from .const import TEMPLATE_DIR, PROCESS_DIR
-
+from .base import create_company_entry, create_device_entry
+from .const import PROCESS_DIR
 
 IGNORED_INTEGRATIONS = {
     "wled",  # hardcoded to single value

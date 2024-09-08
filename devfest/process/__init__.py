@@ -2,9 +2,9 @@
 
 import click
 
+from ..models.base import Company, load_companies
 from . import home_assistant
 from .base import create_company_entry, create_device_entry
-from ..models.base import Company, load_companies
 
 
 @click.group()

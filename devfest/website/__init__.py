@@ -1,11 +1,11 @@
 """Generate a website."""
 
 import shutil
-from ..models.home_assistant import HADeviceIndex
-from .output.works_with_ha import generate_works_with_ha
-from .output.json import generate_json
 
+from ..models.home_assistant import HADeviceIndex
 from .const import WEBSITE_DIR
+from .output.json import generate_json
+from .output.works_with_ha import generate_works_with_ha
 
 
 def generate_website():

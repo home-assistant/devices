@@ -3,8 +3,8 @@
 import voluptuous as vol
 
 from ...models.home_assistant import HADevice
-from ..models import DeviceReport
 from ...validation import has_at_least_one_key
+from ..models import DeviceReport
 
 # info.yaml
 INFO_SCHEMA = vol.Schema(

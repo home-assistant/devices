@@ -2,6 +2,7 @@
 
 import json
 from collections import defaultdict
+
 from ...models.home_assistant import HADeviceIndex
 from ..const import WEBSITE_DIR
 

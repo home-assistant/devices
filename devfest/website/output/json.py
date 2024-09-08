@@ -1,14 +1,15 @@
 """Generate a JSON structure of all devices."""
 
-import pathlib
 import json
+import pathlib
 import shutil
+
 import yaml
 
 from ...const import DATABASE_DIR
-from ..const import WEBSITE_DIR, BASE_URL
 from ...models.base import Device
 from ...models.home_assistant import HADeviceIndex
+from ..const import BASE_URL, WEBSITE_DIR
 from ..markdown import prefix_images
 
 
