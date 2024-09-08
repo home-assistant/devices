@@ -2,7 +2,7 @@
 
 import click
 
-from .process.home_assistant import process
+from .process import process
 from .validate import validate
 from .website import generate_website
 
@@ -13,7 +13,7 @@ def cli():
     pass
 
 
-cli.add_command(click.command(process))
+cli.add_command(process)
 cli.add_command(click.command(validate))
 cli.add_command(click.command(generate_website))
 
