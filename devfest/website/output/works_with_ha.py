@@ -31,6 +31,7 @@ def generate_works_with_ha(index: HADeviceIndex) -> None:
                     {
                         "manufacturer": integration["manufacturer"],
                         "model_id": integration["model_id"],
+                        "model_name": device.device.model_name,
                     }
                 )
 

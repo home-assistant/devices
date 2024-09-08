@@ -1,5 +1,5 @@
 integrations:
-- integration: Matter
+- integration: matter
   manufacturer: Aqara
   model_id: "14"
 has_configuration_url: false
