@@ -19,6 +19,16 @@ class HADevice:
         self.ha_versions = yaml.safe_load(self.ha_versions_path.read_text())
 
     @property
+    def id(self) -> str:
+        """Return ID of the device."""
+        return self.device.id
+
+    @property
+    def model_name(self) -> str:
+        """Return name of the device."""
+        return self.device.model_name
+
+    @property
     def ha_info_path(self) -> pathlib.Path:
         """Return path to HA info."""
         return self.device.path / DataSource.HOME_ASSISTANT / "info.yaml"
@@ -61,6 +71,16 @@ class HACompany:
                         integration["model_id"],
                     )
                 ] = ha_device
+
+    @property
+    def id(self) -> str:
+        """Return ID of the company."""
+        return self.company.id
+
+    @property
+    def name(self) -> str:
+        """Return name of the company."""
+        return self.company.name
 
     @property
     def ha_info_path(self) -> pathlib.Path:

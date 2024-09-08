@@ -37,6 +37,11 @@ class Company:
         self.subdirs = [entry.name for entry in self.path.iterdir() if entry.is_dir()]
 
     @property
+    def id(self) -> str:
+        """ID of the company."""
+        return self.path.name
+
+    @property
     def name(self) -> str:
         """Name of the company."""
         return self.info["name"]
@@ -70,6 +75,11 @@ class Device:
 
     def __post_init__(self) -> None:
         self.subdirs = [entry.name for entry in self.path.iterdir() if entry.is_dir()]
+
+    @property
+    def id(self) -> str:
+        """ID of the company."""
+        return self.path.name
 
     @property
     def model_name(self) -> str:
