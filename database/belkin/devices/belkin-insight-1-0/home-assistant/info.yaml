@@ -4,4 +4,4 @@ integrations:
 - integration: wemo
   manufacturer: Belkin
   model_id: Belkin Insight 1.0
-is_works_with_ha: false
+is_works_with_ha: null

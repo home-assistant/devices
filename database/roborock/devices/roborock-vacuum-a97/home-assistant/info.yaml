@@ -4,4 +4,4 @@ integrations:
 - integration: roborock
   manufacturer: Roborock
   model_id: roborock.vacuum.a97
-is_works_with_ha: false
+is_works_with_ha: null

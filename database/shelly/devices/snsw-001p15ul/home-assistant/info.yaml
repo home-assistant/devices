@@ -4,4 +4,4 @@ integrations:
 - integration: shelly
   manufacturer: Shelly
   model_id: SNSW-001P15UL
-is_works_with_ha: false
+is_works_with_ha: null
