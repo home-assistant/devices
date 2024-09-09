@@ -1,0 +1,11 @@
+integrations:
+- integration: matter
+  manufacturer: Aqara
+  model_id: "10242"
+- integration: matter
+  manufacturer: Aqara
+  model_id: "20481"
+has_configuration_url: false
+has_suggested_area: false
+is_works_with_ha:
+  matter: matter
