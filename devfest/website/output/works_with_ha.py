@@ -17,24 +17,29 @@ def generate_works_with_ha(index: HADeviceIndex) -> None:
     works_with_ha: dict[str, list] = defaultdict(list)
 
     for company in index.companies.values():
-        devices = [
-            device
+        # Make it a dictionary so we de-duplicate
+        devices = {
+            device.id: device
             for device in company.devices.values()
             if device.ha_info["is_works_with_ha"]
-        ]
+        }
 
         if not devices:
             continue
 
-        for device in devices:
-            for integration in device.ha_info["integrations"]:
-                works_with_ha[integration["integration"]].append(
-                    {
-                        "manufacturer": integration["manufacturer"],
-                        "model_id": integration["model_id"],
-                        "model_name": device.device.model_name,
-                    }
-                )
+        for device in devices.values():
+            for badge_integration, badge in device.ha_info["is_works_with_ha"].items():
+                for integration in device.ha_info["integrations"]:
+                    if integration["integration"] != badge_integration:
+                        continue
+                    works_with_ha[badge_integration].append(
+                        {
+                            "manufacturer": integration["manufacturer"],
+                            "model_id": integration["model_id"],
+                            "model_name": device.device.model_name,
+                            "badge": badge,
+                        }
+                    )
 
     index_file = TARGET / "index.json"
     index_file.write_text(
