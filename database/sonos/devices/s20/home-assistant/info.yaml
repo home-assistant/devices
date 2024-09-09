@@ -4,4 +4,4 @@ integrations:
 - integration: sonos
   manufacturer: Sonos
   model_id: S20
-is_works_with_ha: false
+is_works_with_ha: null

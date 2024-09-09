@@ -4,4 +4,4 @@ integrations:
 - integration: unifiprotect
   manufacturer: Ubiquiti
   model_id: UVC G3
-is_works_with_ha: false
+is_works_with_ha: null

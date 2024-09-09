@@ -18,7 +18,21 @@ INFO_SCHEMA = vol.Schema(
                 vol.Required("model_id"): str,
             }
         ],
-        vol.Required("is_works_with_ha"): bool,
+        vol.Required("is_works_with_ha"): vol.Any(
+            None,
+            # Dict mapping integration to the type of badge
+            {
+                str: vol.In(
+                    [
+                        "bluetooth",
+                        "local",
+                        "matter",
+                        "z-wave",
+                        "zigbee",
+                    ]
+                )
+            },
+        ),
     }
 )
 

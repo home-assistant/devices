@@ -4,4 +4,4 @@ integrations:
 - integration: shelly
   manufacturer: Shelly
   model_id: SHGS-1
-is_works_with_ha: false
+is_works_with_ha: null
