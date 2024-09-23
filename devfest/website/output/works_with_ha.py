@@ -51,6 +51,14 @@ def generate_works_with_ha(index: HADeviceIndex) -> None:
         )
     )
 
+    all_file = TARGET / "all.json"
+    all_file.write_text(
+        json.dumps(
+            works_with_ha,
+            indent=2,
+        )
+    )
+
     for integration, devices in works_with_ha.items():
         with open(TARGET / f"{integration}.json", "w") as fp:
             json.dump(
