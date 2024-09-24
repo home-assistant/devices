@@ -1,5 +1,5 @@
 """Processing CLI."""
-
+from __future__ import annotations
 import click
 
 from ..models.base import Company, load_companies
