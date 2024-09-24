@@ -1,5 +1,5 @@
 """Validation models."""
-
+from __future__ import annotations
 import dataclasses
 from collections import defaultdict
 
