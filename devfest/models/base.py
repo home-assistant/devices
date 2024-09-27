@@ -89,4 +89,4 @@ class Device:
     @property
     def model_id(self) -> str:
         """Name of the device."""
-        return self.info["model_name"]
+        return self.info["model_id"]

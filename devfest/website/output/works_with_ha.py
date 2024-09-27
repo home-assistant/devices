@@ -13,8 +13,11 @@ def generate_works_with_ha(index: HADeviceIndex) -> None:
     """Generate works with HA files."""
     TARGET.mkdir()
 
-    # domain => devices
-    works_with_ha: dict[str, list] = defaultdict(list)
+    # domain => ha devices
+    ha_device_mappings: dict[str, list] = defaultdict(list)
+
+    # domain => device (not HA)
+    all_works_with: dict[str, list] = defaultdict(list)
 
     for company in index.companies.values():
         # Make it a dictionary so we de-duplicate
@@ -29,10 +32,18 @@ def generate_works_with_ha(index: HADeviceIndex) -> None:
 
         for device in devices.values():
             for badge_integration, badge in device.ha_info["is_works_with_ha"].items():
+                all_works_with[badge_integration].append(
+                    {
+                        "manufacturer": company.name,
+                        "model_id": device.device.model_id,
+                        "model_name": device.model_name,
+                        "badge": badge,
+                    }
+                )
                 for integration in device.ha_info["integrations"]:
                     if integration["integration"] != badge_integration:
                         continue
-                    works_with_ha[badge_integration].append(
+                    ha_device_mappings[badge_integration].append(
                         {
                             "manufacturer": integration["manufacturer"],
                             "model_id": integration["model_id"],
@@ -45,7 +56,7 @@ def generate_works_with_ha(index: HADeviceIndex) -> None:
     index_file.write_text(
         json.dumps(
             {
-                "integrations": sorted(works_with_ha),
+                "integrations": sorted(ha_device_mappings),
             },
             indent=2,
         )
@@ -54,12 +65,12 @@ def generate_works_with_ha(index: HADeviceIndex) -> None:
     all_file = TARGET / "all.json"
     all_file.write_text(
         json.dumps(
-            works_with_ha,
+            all_works_with,
             indent=2,
         )
     )
 
-    for integration, devices in works_with_ha.items():
+    for integration, devices in ha_device_mappings.items():
         with open(TARGET / f"{integration}.json", "w") as fp:
             json.dump(
                 {
