@@ -1,0 +1,7 @@
+has_configuration_url: false
+has_suggested_area: false
+integrations:
+- integration: tuya
+  manufacturer: Tuya
+  model_id: ixar3nxaes57uv6n
+is_works_with_ha: null

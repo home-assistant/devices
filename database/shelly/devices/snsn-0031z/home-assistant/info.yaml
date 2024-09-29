@@ -1,0 +1,7 @@
+has_configuration_url: true
+has_suggested_area: false
+integrations:
+- integration: shelly
+  manufacturer: Shelly
+  model_id: SNSN-0031Z
+is_works_with_ha: null
