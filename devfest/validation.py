@@ -23,7 +23,10 @@ def has_at_least_one_key(*keys: Any) -> Callable[[dict], dict]:
 
 
 def str_or_none(value):
-    if value == "None":
+    if isinstance(value, str):
+        value = value.strip()
+
+    if value in ("", "None"):
         return None
     return value
 
