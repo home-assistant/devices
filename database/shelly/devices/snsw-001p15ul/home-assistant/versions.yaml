@@ -1,3 +1,5 @@
 versions:
 - hardware: gen2
   software: 20240819-074343/1.4.2-gc2639da
+- hardware: gen2
+  software: 20241011-114445/1.4.4-g6d2a586
