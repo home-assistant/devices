@@ -1,0 +1,7 @@
+has_configuration_url: false
+has_suggested_area: false
+integrations:
+- integration: matter
+  manufacturer: Midea
+  model_id: '8226'
+is_works_with_ha: null
