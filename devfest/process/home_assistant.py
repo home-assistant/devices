@@ -69,7 +69,6 @@ def process_file(path: pathlib.Path):
 
     # Ensure all companies and devices created
     for device_info in data["devices"]:
-        pprint(device_info)
         if device_info["integration"] in IGNORED_INTEGRATIONS:
             total.devices_ignored = 1
             continue
@@ -145,8 +144,19 @@ def create_device(company: HACompany, device_info: dict) -> HADevice:
     # TODO do we always just create a new one or should we ask
     # the user for an ID? Especially Matter can have duplicates.
 
+    model_id = device_info["model_id"]
+
+    if device_info["integration"] == "matter":
+        print()
+        print(
+            f"Detected Matter device for {device_info['manufacturer']} with model id {device_info['model_id']}."
+        )
+        print("We don't like the number as model ID and need you to define a new one.")
+        print("Please find the Matter model name @ https://webui.dcl.csa-iot.org/")
+        model_id = slugify(input("New, human readable, model ID: ").strip())
+
     device = create_device_entry(
-        company.company, device_info["model_id"], device_info["model"] or None
+        company.company, model_id, device_info["model"] or None
     )
 
     # Set Home Assistant specific data
@@ -157,7 +167,7 @@ def create_device(company: HACompany, device_info: dict) -> HADevice:
         {
             "integration": device_info["integration"],
             "manufacturer": device_info["manufacturer"],
-            "model_id": device_info["model_id"],
+            "model_id": model_id,
         }
     )
     info_path.write_text(yaml.dump(info))
