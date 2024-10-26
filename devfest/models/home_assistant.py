@@ -91,7 +91,7 @@ class HACompany:
 
 class HADeviceIndex:
     def __init__(self) -> None:
-        self.no_ha_data: list[Company] = []
+        self.no_ha_data: dict[str, Company] = {}
         self.companies: dict[tuple[str, str], HACompany] = {}
 
     def load(self) -> None:
@@ -99,11 +99,11 @@ class HADeviceIndex:
         companies = load_companies()
 
         for company in companies:
-            if DataSource.HOME_ASSISTANT not in company.subdirs:
-                self.no_ha_data.append(company)
-                continue
-
             ha_company = HACompany(company)
+
+            if not ha_company.ha_info["integrations"]:
+                self.no_ha_data[company.id] = company
+                continue
 
             # Index the company
             for integration in ha_company.ha_info["integrations"]:
