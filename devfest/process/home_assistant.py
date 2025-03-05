@@ -4,6 +4,7 @@ import json
 import pathlib
 from pprint import pprint
 
+from slugify import slugify
 import voluptuous as vol
 import yaml
 
@@ -18,42 +19,23 @@ IGNORED_INTEGRATIONS = {
     "wled",  # hardcoded to single value
 }
 
-
-VIA_DEVICE_SCHEMA = vol.Schema(
+VERSION_1_SCHEMA = vol.Schema(
     {
-        vol.Required("integration"): str,
-        vol.Required("manufacturer"): str,
-        vol.Required("model_id"): str_or_none,
-        vol.Required("sw_version"): str_or_none,
-        vol.Required("hw_version"): str_or_none,
-    }
-)
-
-
-def via_device_schema(value):
-    if value == "bnVsbA==":
-        return None
-    data = json.loads(base64.b64decode(value).decode())
-    data = VIA_DEVICE_SCHEMA(data)
-    # If the via device has no model ID, we ignore that via device.
-    if data["model_id"] is None:
-        return None
-    return data
-
-
-DEVICE_SCHEMA = vol.Schema(
-    {
-        vol.Required("integration"): str,
-        vol.Required("manufacturer"): str,
-        vol.Required("model_id"): str,
-        vol.Required("model_name"): str,
-        vol.Required("sw_version"): str_or_none,
-        vol.Required("hw_version"): str_or_none,
-        vol.Required("via_device"): via_device_schema,
-        vol.Required("has_suggested_area"): bool,
-        vol.Required("has_configuration_url"): bool,
-        vol.Required("entry_type"): str_or_none,
-        vol.Required("is_via_device"): bool,
+        vol.Required("version"): "home-assistant:1",
+        vol.Required("no_model_id"): [str],
+        vol.Required("devices"): [
+            {
+                vol.Required("integration"): str,
+                vol.Required("manufacturer"): str,
+                vol.Required("model_id"): str,
+                vol.Required("model"): str,
+                vol.Required("sw_version"): str_or_none,
+                vol.Required("hw_version"): str_or_none,
+                vol.Required("has_suggested_area"): bool,
+                vol.Required("has_configuration_url"): bool,
+                vol.Required("via_device"): vol.Any(None, int),
+            }
+        ],
     }
 )
 
@@ -62,7 +44,7 @@ def process():
     """Process Home Assistant generated files."""
     total = UpdateRecord()
 
-    for path in PROCESS_DIR.glob("*.csv"):
+    for path in PROCESS_DIR.glob("*.json"):
         print(f"{path}: ", end="")
         try:
             total += process_file(path)
@@ -79,59 +61,64 @@ def process():
 def process_file(path: pathlib.Path):
     """Process a single file."""
     total = UpdateRecord()
-
-    rows = []
-
-    with path.open("r") as file:
-        reader = csv.DictReader(file)
-        for row in reader:
-            try:
-                rows.append(DEVICE_SCHEMA(row))
-            except vol.Invalid as err:
-                print(f"Invalid row: {err}")
-                pprint(row)
-                raise
+    data = VERSION_1_SCHEMA(json.loads(path.read_text()))
 
     index = HADeviceIndex()
     index.load()
     to_process = []
 
     # Ensure all companies and devices created
-    for row in rows:
-        if row["integration"] in IGNORED_INTEGRATIONS:
+    for device_info in data["devices"]:
+        if device_info["integration"] in IGNORED_INTEGRATIONS:
             total.devices_ignored = 1
             continue
 
-        to_process.append(row)
+        to_process.append(device_info)
 
-        company_key = row["integration"], row["manufacturer"]
+        company_key = device_info["integration"], device_info["manufacturer"]
         company = index.companies.get(company_key)
 
         if company is None:
-            company = create_company(index, row)
+            company = create_company(index, device_info)
             total.company_created += 1
 
-        device_key = (row["integration"], row["manufacturer"], row["model_id"])
+        device_key = (
+            device_info["integration"],
+            device_info["manufacturer"],
+            device_info["model_id"],
+        )
 
         if device_key not in company.devices:
-            create_device(company, row)
+            create_device(company, device_info)
             total.device_created += 1
 
-    # Process via devices first
-    for row in sorted(to_process, key=lambda row: not row["is_via_device"]):
-        company_key = row["integration"], row["manufacturer"]
-        device_key = (row["integration"], row["manufacturer"], row["model_id"])
-        total += update_device(index.companies[company_key].devices[device_key], row)
+    # Process via devices last
+    for device_info in sorted(
+        to_process, key=lambda info: info["via_device"] is not None
+    ):
+        company_key = device_info["integration"], device_info["manufacturer"]
+        device_key = (
+            device_info["integration"],
+            device_info["manufacturer"],
+            device_info["model_id"],
+        )
+        total += update_device(
+            index.companies[company_key].devices[device_key], device_info
+        )
 
     return total
 
 
-def create_company(index: HADeviceIndex, row: dict) -> HACompany:
+def create_company(index: HADeviceIndex, device_info: dict) -> HACompany:
     """Create a company and index it."""
     # TODO do we always just create a new one or should we ask
     # the user for an ID? Especially Matter can have duplicates.
 
-    company = create_company_entry(name=row["manufacturer"])
+    # Company can already exist without HA link.
+    company_id = slugify(device_info["manufacturer"])
+    company = index.no_ha_data.pop(company_id, None)
+    if company is None:
+        company = create_company_entry(name=device_info["manufacturer"])
 
     # Set Home Assistant specific data
     ha_path = company.path / DataSource.HOME_ASSISTANT
@@ -139,26 +126,37 @@ def create_company(index: HADeviceIndex, row: dict) -> HACompany:
     info = yaml.safe_load(info_path.read_text())
     info["integrations"].append(
         {
-            "integration": row["integration"],
-            "manufacturer": row["manufacturer"],
+            "integration": device_info["integration"],
+            "manufacturer": device_info["manufacturer"],
         }
     )
     info_path.write_text(yaml.dump(info))
 
     # Update index
-    company_key = row["integration"], row["manufacturer"]
+    company_key = device_info["integration"], device_info["manufacturer"]
     ha_company = HACompany(company)
     index.companies[company_key] = ha_company
     return ha_company
 
 
-def create_device(company: HACompany, row: dict) -> HADevice:
+def create_device(company: HACompany, device_info: dict) -> HADevice:
     """Create a device and index it."""
     # TODO do we always just create a new one or should we ask
     # the user for an ID? Especially Matter can have duplicates.
 
+    model_id = device_info["model_id"]
+
+    if device_info["integration"] == "matter":
+        print()
+        print(
+            f"Detected Matter device for {device_info['manufacturer']} with model id {device_info['model_id']}."
+        )
+        print("We don't like the number as model ID and need you to define a new one.")
+        print("Please find the Matter model name @ https://webui.dcl.csa-iot.org/")
+        model_id = slugify(input("New, human readable, model ID: ").strip())
+
     device = create_device_entry(
-        company.company, row["model_id"], row["model_name"] or None
+        company.company, model_id, device_info["model"] or None
     )
 
     # Set Home Assistant specific data
@@ -167,35 +165,38 @@ def create_device(company: HACompany, row: dict) -> HADevice:
     info = yaml.safe_load(info_path.read_text())
     info["integrations"].append(
         {
-            "integration": row["integration"],
-            "manufacturer": row["manufacturer"],
-            "model_id": row["model_id"],
+            "integration": device_info["integration"],
+            "manufacturer": device_info["manufacturer"],
+            "model_id": model_id,
         }
     )
     info_path.write_text(yaml.dump(info))
 
     # Update index
-    device_key = row["integration"], row["manufacturer"], row["model_id"]
+    device_key = (
+        device_info["integration"],
+        device_info["manufacturer"],
+        device_info["model_id"],
+    )
     ha_device = HADevice(device)
     company.devices[device_key] = ha_device
     return ha_device
 
 
-def update_device(device: HADevice, row: dict) -> UpdateRecord:
-    """Record the device data from a row."""
+def update_device(device: HADevice, device_info: dict) -> UpdateRecord:
+    """Record the device data from a device_info."""
     update_record = UpdateRecord()
 
     info_changed = False
 
-    row.setdefault("entry_type", "device")
+    device_info.setdefault("entry_type", "device")
 
     for row_key, info_key in (
         ("has_suggested_area", "has_suggested_area"),
         ("has_configuration_url", "has_configuration_url"),
-        ("entry_type", "entry_type"),
     ):
-        if not device.ha_info.get(info_key) and row[row_key]:
-            device.ha_info[info_key] = row[row_key]
+        if not device.ha_info.get(info_key) and device_info[row_key]:
+            device.ha_info[info_key] = device_info[row_key]
             info_changed = True
 
     if info_changed:
@@ -203,10 +204,10 @@ def update_device(device: HADevice, row: dict) -> UpdateRecord:
 
     version_changed = False
     version = {}
-    if row["sw_version"]:
-        version["software"] = row["sw_version"]
-    if row["hw_version"]:
-        version["hardware"] = row["hw_version"]
+    if device_info["sw_version"]:
+        version["software"] = device_info["sw_version"]
+    if device_info["hw_version"]:
+        version["hardware"] = device_info["hw_version"]
 
     if version and version not in device.ha_versions["versions"]:
         device.ha_versions["versions"].append(version)
